@@ -1,0 +1,10 @@
+1. Choose a specific dataset 
+2. Change the embedder file
+3. Replace the original code with LangChain function
+4. Finetune the model 
+5. Build evaluation pipeline  (utilize the dataset chose in step 1)
+
+1. Construction of online RAG
+2. What should be the local corpus and what should be retrieved online?
+3. Comparison with the offline RAG
+
