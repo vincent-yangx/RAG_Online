@@ -87,11 +87,9 @@ def main():
     index = build_faiss_index(EMB_PATH)
 
     # 4. load the query from question
-    # with open(QUESTIONS_PATH, "r", encoding="utf-8") as f:
-    #     questions = [line.strip() for line in f if line.strip()]
+
     questions = load_questions(QUESTIONS_PATH)
     # 5. Embed the query
-    # model = SentenceTransformer(MODEL_NAME)
     model = BGEM3FlagModel(MODEL, use_fp16=True)
     query_embs = embed_queries(model, questions)
 
@@ -105,15 +103,10 @@ def main():
     # Record the retrived information
 
         for qi, (q, res) in enumerate(zip(questions, results), 1):
-            # print("="*80)
-            # print(f"[Q{qi}] {q}")
             f.write("=" * 80 + "\n")
             f.write(f"[Q{qi}] {q}\n\n")
 
             for r in res:
-                # print(f"  Rank {r['rank']}: score={r['score']:.4f}")
-                # print(f"  chunk_id={r['chunk_id']} | source={r['source']}")
-                # print(f"  text: {r['text']}\n")
                 f.write(f"  Rank {r['rank']}: score={r['score']:.4f}\n")
                 f.write(f"  chunk_id={r['chunk_id']} | source={r['source']}\n")
                 f.write(f"  text: {r['text']}\n\n") 
