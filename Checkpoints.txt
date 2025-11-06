@@ -1,6 +1,5 @@
 1. Choose a specific dataset 
-2. Change the embedder file
-3. Replace the original code with LangChain function
+adaptive alpha and MMR
 4. Finetune the model 
 5. Build evaluation pipeline  (utilize the dataset chose in step 1)
 

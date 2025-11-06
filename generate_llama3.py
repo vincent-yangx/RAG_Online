@@ -1,210 +1,84 @@
-from ctypes.wintypes import LANGID
 import json
-from typing import Required
-from numpy import require
-import torch
-import transformers
-# from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-from sentence_transformers import SentenceTransformer
-from dense_retrieve import build_faiss_index, load_chunks, embed_queries, dense_search, load_questions  # import utility function as needed
-from sparse_retrieve import build_bm25_index, search_bm25
-from hybrid_retrieve import weighted_average_fusion, reciprocal_rank_fusion
-import json
+from huggingface_hub import InferenceClient
+from tqdm import tqdm
+import os
 import argparse
-from FlagEmbedding import BGEM3FlagModel
 
-
-# ================= Get the argument =============================
-parser = argparse.ArgumentParser(description="Please enter the retrieve mode to use and dataset to test")
-parser.add_argument("--mode", type=str, required=True,help="Specify retrieve mode: spare, dense, weighted, rrf")
-parser.add_argument("--dataset", type=str, required=True,help="Please enter the dataset to test")
-parser.add_argument("--topk", type=int, required=True, help="Please enter Top K you want to use")
-parser.add_argument("--embed", type=str, required=True,help="Specify the embedding model")
+# ------------------ Argparse ------------------
+parser = argparse.ArgumentParser(description="Generate answers using LLaMA 3 8B Instruct")
+parser.add_argument("--chunk", type=str, required=True, help="dataset name, e.g., about_cmu_refined_hybrid")
+parser.add_argument("--model", type=str, default="meta-llama/Meta-Llama-3-8B-Instruct",
+                    help="generator model name (default: LLaMA3 8B Instruct)")
+parser.add_argument("--top_k", type=int, default=5, help="number of passages to include in context")
+parser.add_argument("--temperature", type=float, default=0.3, help="generation temperature")
+parser.add_argument("--max_tokens", type=int, default=300, help="maximum tokens for generation")
 args = parser.parse_args()
 
-print(f"We will be using {args.mode} for retrieving!\n")
-print(f"We will be testing {args.dataset}!\n")
-print(f"We will be using {args.embed} for embedding\n")
+# ------------------ Paths ------------------
+INPUT_PATH = f"result_query_expansion_cross_encoding/retrieval_{args.chunk}.jsonl"
+OUT_DIR = "Llama_output"
+os.makedirs(OUT_DIR, exist_ok=True)
 
+OUTPUT_JSON = os.path.join(OUT_DIR, f"{args.chunk}.jsonl")
+OUTPUT_TXT = os.path.join(OUT_DIR, f"{args.chunk}.txt")
 
+# ------------------ Model ------------------
+hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+client = InferenceClient(model=args.model, token=hf_token)
 
-#  ================== Configuration ==================================
-# MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"   # Choose the model
-MODEL_ID = "meta-llama/Meta-Llama-3.1-8B-Instruct"
-MAX_CONTEXT_CHARS = 3000                        # Control the length of context
-TOP_K = args.topk                                      # Many top answers will be used
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-CHUNK_PATH = f"data/chunks/chunks_{args.dataset}.jsonl"
-IDX_PATH = f"index/ids_{args.dataset}_{args.embed}.npy"
-EMB_PATH = f"index/embeddings_{args.dataset}_{args.embed}.npy"
-QUESTION_PATH = f"data/test/question_{args.dataset}.txt"
-ALPHA = 0.6 # Weight coefficient for weighted averaging
-REFERENCE_PATH = f"data/reference/reference_{args.dataset}.json"
-
-if args.embed == "sentence-transformers":
-    EMBED_MODEL_ID = "sentence-transformers/all-MiniLM-L6-v2"
-elif args.embed == "BAAI":
-    EMBED_MODEL_ID = "BAAI/bge-m3"
-else:
-    raise ValueError("Invalid Embedding Model!")
-
-if args.datset ==  "test":
-    CHUNK_PATH = f"data/chunks/chunks_all28.jsonl"
-    QUESTION_PATH = f"data/test/question_test_set_day3.txt"
-
-
-# ===================================================================
-
-# Construct Template Prompt
-# PROMPT_TEMPLATE = """
-# Answer the question based only on the CONTEXT below. If the answer cannot be found in the context, say "N/A".
-# Keep your answer short (within 30 words).
-# QUESTION:{question}
-# CONTEXT: {context}
-# """
-
-PROMPT_TEMPLATE = """
-Your task:
-1. Carefully read the question and the retrieved information below.
-2. Determine whether the retrieved information contains relevant or correct answers.
-3. If it does, use it to support your answer and cite it briefly.
-4. If it does not, rely on your own knowledge to answer accurately.
-5. Do not mix irrelevant facts from the retrieved text.
-Question:
-{question}
-Retrieved Information:
-{context}
-Answer (clearly indicate if your answer is based on retrieval or your own knowledge):
-"""
-
-# role_message = "You are a concise and factual assistant."
-role_message = "You are an expert assistant with access to external retrieved documents."
-
-
-def load_reference_answers(path):
-    """Load reference answers from JSON"""
-    with open(path, "r", encoding="utf-8") as f:
-        refs = json.load(f)
-    ref_map = {}
-    for d in refs:
-        ref_map.update(d)
-    return ref_map
-
-
-def build_llm_pipeline(model_id=MODEL_ID, device=DEVICE):
-    pipeline = transformers.pipeline(
-        "text-generation",
-        model=model_id,
-        model_kwargs={"torch_dtype": torch.bfloat16},
-        device_map="auto",
+def build_prompt(question, passages, top_k=5):
+    """Construct the retrieval-augmented prompt."""
+    context = "\n\n".join(
+        [f"[Passage {i+1}]\n{p['text']}" for i, p in enumerate(passages[:top_k])]
     )
-    return pipeline
+    return f"""
+You are a helpful assistant. Use the given passages to answer the user's question.
+If the answer cannot be found in the passages, say "I don't know".
 
+Question: {question}
 
-def generate_answer(llm_pipe, question, retrieved_chunks):
-    # Concatenate context
-    ctxs, total_len = [], 0
-    for item in retrieved_chunks:
-        t = item["text"].strip()
-        if total_len + len(t) > MAX_CONTEXT_CHARS:
-            break
-        ctxs.append(t)
-        total_len += len(t)
-    context = "\n\n".join(ctxs)
+Passages:
+{context}
 
-    prompt = PROMPT_TEMPLATE.format(question=question, context=context)
+Answer:
+""".strip()
 
-    message = [
-        {"role": "system", "content": role_message },
-        {"role":"user", "content":prompt}
-    ]
+# ------------------ Main ------------------
+with open(INPUT_PATH, "r", encoding="utf-8") as fin, \
+     open(OUTPUT_JSON, "w", encoding="utf-8") as fout_json, \
+     open(OUTPUT_TXT, "w", encoding="utf-8") as fout_txt:
 
-    outputs = llm_pipe(message, max_new_tokens=1280, do_sample=False) # Call the model to generate output
-    answer = outputs[0]["generated_text"][-1]['content']
+    for line in tqdm(fin, desc="Generating answers"):
+        data = json.loads(line)
+        qid = data.get("qid")
+        q = data["question"]
+        retrieved = data["retrieved"]
 
-    return answer
+        prompt = build_prompt(q, retrieved, top_k=args.top_k)
 
-def main():
-    # ===============  1. Load necessary components ====================
-    chunk_map = load_chunks(CHUNK_PATH)
-    ids = np.load(IDX_PATH, allow_pickle=True)
-    questions = load_questions(QUESTION_PATH)
-    llm = build_llm_pipeline(MODEL_ID, DEVICE)
-    results = {}
-    if args.dataset != "test":
-        reference_answers = load_reference_answers(REFERENCE_PATH)
+        try:
+            resp = client.chat_completion(
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=args.max_tokens,
+                temperature=args.temperature
+            )
+            answer = resp.choices[0].message["content"].strip()
+        except Exception as e:
+            answer = f"[ERROR] {e}"
 
+        # --- 写入 JSON ---
+        output_entry = {
+            "qid": qid,
+            "question": q,
+            "answer_llama3_8b": answer
+        }
+        fout_json.write(json.dumps(output_entry, ensure_ascii=False) + "\n")
 
-    
-    # ===============  2. Initialzie retrieval models ====================
-    if args.mode in ["dense", "weighted", "rrf"]:
-        print("→ Loading dense embeddings...")
-        index = build_faiss_index(EMB_PATH)
-        ids = np.load(IDX_PATH, allow_pickle=True)
+        # --- 写入简洁 TXT ---
+        q_label = f"[Q{qid}]" if qid is not None else "[Q]"
+        fout_txt.write(f"{q_label} {q}\n")
+        fout_txt.write(f"Answer: {answer}\n\n")
 
-        # Instantiate the embedding model
-        if args.embed == "sentence-transformers":
-            embed_model = SentenceTransformer(EMBED_MODEL_ID) 
-        elif args.embed == "BAAI":
-            embed_model = BGEM3FlagModel(EMBED_MODEL_ID, use_fp16=True)
-        else: 
-            raise ValueError("Invalid Embedding Model!")
-
-    if args.mode in ["sparse", "weighted", "rrf"]:
-        print("→ Building BM25 index...")
-        bm25, bm25_index = build_bm25_index(chunk_map)
-
-    # ===============  3. retrieval loops ====================
-    for qi, q in enumerate(questions, 1):
-        print("="*80)
-        print(f"[Q{qi}] {q}")
-
-
-        # =======  dense ============
-        if args.mode == "dense":
-            query_embs = embed_queries(embed_model, [q])
-            retrieved = dense_search(index, query_embs, ids, chunk_map, top_k=TOP_K)[0]
-
-        # ======= sparse ============
-        elif args.mode == "sparse":
-            retrieved = search_bm25(bm25, chunk_map, bm25_index, [q],top_k=TOP_K)[0]
-
-        # === weighted average fusion ===
-        elif args.mode == "weighted":
-            query_embs = embed_queries(embed_model, [q])
-            dense_res = dense_search(index, query_embs, ids, chunk_map, top_k=TOP_K)
-            sparse_res = search_bm25(bm25, chunk_map, bm25_index, [q],top_k=TOP_K)
-            retrieved = weighted_average_fusion(dense_res, sparse_res, chunk_map, alpha=ALPHA, top_k=TOP_K)[0]
-
-        # === reciprocal rank fusion ===
-        elif args.mode == "rrf":
-            query_embs = embed_queries(embed_model, [q])
-            dense_res = dense_search(index, query_embs, ids, chunk_map, top_k=TOP_K)
-            sparse_res = search_bm25(bm25, chunk_map, bm25_index, [q],top_k=TOP_K)
-            retrieved = reciprocal_rank_fusion(dense_res, sparse_res, chunk_map, top_k=TOP_K)[0]
-
-        else:
-            raise ValueError(f"Unsupported mode: {args.mode}")
-        print(f"retrieved information is: {retrieved}")
-  
-        # get the answers
-        ans = generate_answer(llm, q, retrieved)
-        results[str(qi)] = ans
-
-        print(f"→ LLM Answer: {ans}\n")
-        
-        if args.datset != "test":
-            ref_ans = reference_answers.get(str(qi), "(No reference found)")
-            print(f"→ Reference Answer: {ref_ans}\n")
-        print("=" * 80)
-        
-
-    # 5. save the results
-    output_file = f"system_outputs/system_output_{args.embed}_{args.mode}_{args.dataset}_{args.topk}_llama3.json"
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-    print(f"Saved {output_file}")
-
-if __name__ == "__main__":
-    import numpy as np
-    main()
+print("✅ Answers saved to:")
+print(f"   - JSONL: {OUTPUT_JSON}")
+print(f"   - TXT:   {OUTPUT_TXT}")

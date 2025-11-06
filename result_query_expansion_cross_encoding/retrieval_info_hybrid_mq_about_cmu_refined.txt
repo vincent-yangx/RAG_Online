@@ -1,0 +1,978 @@
+================================================================================
+[Q1] When did Andrew Carnegie emigrate to Pittsburgh?
+Pittsburgh immigration Andrew Carnegie date
+When did Andrew Carnegie move to Pittsburgh?
+Andrew Carnegie migration to Pittsburgh timeline
+Andrew Carnegie relocation to Pittsburgh history
+
+  Rank 1: ce_score=5.7031 | pre_score=0.0820
+  chunk_id=0008 | source=https://www.cmu.edu/about/history
+  text: History
+Founder Spotlight
+A self-educated "working boy," Andrew Carnegie emigrated from Scotland in 1848 and settled in Pittsburgh, Pa. Attending night school and borrowing books, Carnegie went from factory worker in a textile mill to successful entrepreneur and industrialist.
+
+  Rank 2: ce_score=1.9268 | pre_score=0.0331
+  chunk_id=0092 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Timothy Verstynen, Dietrich College of Humanities and Social Sciences and Neuroscience Institute Faculty
+2025
+Katherine Hubbard, College of Fine Arts Faculty
+2024
+Carrie Schneider, College of Fine Arts, 2001
+2024
+Jian Ma, School of Computer Science
+2020
+Edmund Russell, Dietrich College Faculty
+Ariel Procaccia, School of Computer Science Faculty
+Dawn Song, School of Computer Science 1999, School of Computer Science Former Faculty
+Mariana Achugar, Dietrich College Faculty
+2009
+Terrance Hayes, Dietrich College Former Faculty
+2009
+Alyosha (Alexei) Efros, School of Computer Science Faculty
+Peter Stone, School of Computer Science 1995, 1998
+Hebert Vazquez, College of Fine Arts 1991
+Michael Tarr, Dietrich College Faculty
+Alan Frieze, School of Computer Science Faculty
+1997
+Wendy Goldman, Dietrich College Faculty
+1996
+Jon Klancher, Dietrich College Faculty
+1989
+Paul Hopper, Dietrich College Former Faculty
+1985
+Stephen Fienberg, Dietrich College Former Faculty
+1984
+John Nagle, Mellon College of Science Faculty
+1979
+John Modell, Dietrich College Faculty
+1978
+Raj Reddy, School of Computer Science Faculty
+1975
+Lowry Burgess, College of Fine Arts Faculty
+1973
+Morton Gurtin, Mellon College of Science Faculty
+1973
+Lincoln Wolfenstein, Mellon College of Science Former Faculty
+1973
+Robert Griffiths, Mellon College of Science Faculty
+1972
+Honda Prize
+Established in 1977 by the late Soichiro Honda, founder of Honda Motor Co. , Ltd. , the Honda Foundation annually recognizes an individual or group whose contributions may lead to the next generation in the field of eco-technology. Learn more about the Honda Prize.
+
+  Rank 3: ce_score=1.7344 | pre_score=0.0348
+  chunk_id=0071 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Anirudh Devgan, College of Engineering 1991, 1993
+William H. Sanders, Dean, College of Engineering
+Stefan Savage, Dietrich College of Humanities and Social Sciences 1991
+Elias Towe, College of Engineering Faculty
+Zoltan J. Cendes, College of Engineering Adjunct Faculty
+Sebastian Ceria, Tepper School of Business 1993
+Erroll B. Davis Jr. , College of Engineering 1965
+Marija Illic, College of Engineering Faculty Emeritus
+Kathryn Jackson, College of Engineering 1987, 1990
+William D. Magwood IV, Mellon College of Science 1982, Dietrich College of Humanities and Social Sciences 1983
+Sara Kiesler, School of Computer Science Faculty
+Edward Frank, School of Computer Science 1985
+Jennifer Hartt Elisseeff, Mellon College of Science 1994
+Oliver C. Mullins, Mellon College of Science 1980, 1981
+Harry Shum, School of Computer Science 1996
+2017
+Sridhar Tayur, Tepper School of Business Faculty
+2017
+Gérard P. Cornuéjols, Tepper School of Business Faculty
+2016
+Jonathan Caulkins, Heinz College Faculty
+2015
+Alan Cramb, Former College of Engineering Faculty
+2014
+Lorenz T. Biegler, College of Engineering Faculty
+2013
+Donna G. Blackmond, College of Engineering 1984
+2013
+Craig T. Bowman, College of Engineering 1961
+2013
+David Dill, School of Computer Science 1983, 1987
+2013
+Jose M. F. Moura, College of Engineering Faculty
+2013
+Pradeep Sindhu, School of Computer Science 1983, 1984
+2013
+Jared L. Cohon, President Emeritus, College of Engineering Faculty
+2012
+Nadine N. Aubry, College of Engineering Faculty
+2011
+Chris T. Hendrickson, College of Engineering Faculty
+2011
+Jacobo Bielak, College of Engineering Faculty
+Tom Mitchell, School of Computer Science Faculty
+Paul Nielsen, Software Engineering Institute Staff
+William "Red" Whittaker, School of Computer Science Faculty, College of Engineering 1975
+2009
+David Dzombak, College of Engineering Faculty, College of Engineering 1980, 1981
+Stuart Card, Dietrich College 1970, School of Computer Science 1978
+Cristina H. Amon, College of Engineering Adjunct Faculty
+2006
+Egon Balas, Tepper School of Business Faculty
+2006
+Manuel Blum, School of Computer Science Faculty
+2006
+Pradeep K. Khosla, College of Engineering Former Faculty
+2006
+Krzysztof A. Matyjaszewski, Mellon College of Science Faculty
+2006
+Subhash Mahajan, Former College of Engineering Faculty
+Edmund M.
+
+  Rank 4: ce_score=1.2764 | pre_score=0.0311
+  chunk_id=0083 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Kass, Dietrich College of Humanities and Social Sciences Faculty
+2002
+Lynne Reder, Dietrich College of Humanities and Social Sciences Faculty
+2001
+Jared Cohon, President Emeritus, College of Engineering Faculty
+2000
+Joel Greenhouse, Dietrich College of Humanities and Social Sciences Faculty
+1996
+Roberta L Klatzky, Dietrich College of Humanities and Social Sciences Faculty
+1996
+M. Granger Morgan, College of Engineering Faculty
+1995
+Robert Swendsen, Mellon College of Science Faculty
+1994
+Mary Shaw, School of Computer Science Faculty
+1992
+William Eddy, Dietrich College of Humanities and Social Sciences/Mellon College of Science Faculty
+1987
+Angel Jordan, College of Engineering Faculty Emeritus
+1987
+Manuel Blum, School of Computer Science Faculty
+1982
+Stephen E. Fienberg, Dietrich College of Humanities and Social Sciences/Heinz College/School of Computer Science Faculty*
+1980
+Lenore Blum, School of Computer Science Faculty
+1980
+Alfred Blumstein, Heinz College Faculty
+1971
+American Academy of Arts and Sciences
+This honorary society and independent policy research center conducts multidisciplinary studies of complex and emerging problems.
+
+  Rank 5: ce_score=0.9712 | pre_score=0.0382
+  chunk_id=0074 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Moura, College of Engineering Faculty
+2013
+Pradeep Sindhu, School of Computer Science 1983, 1984
+2013
+Jared L. Cohon, President Emeritus, College of Engineering Faculty
+2012
+Nadine N. Aubry, College of Engineering Faculty
+2011
+Chris T. Hendrickson, College of Engineering Faculty
+2011
+Jacobo Bielak, College of Engineering Faculty
+Tom Mitchell, School of Computer Science Faculty
+Paul Nielsen, Software Engineering Institute Staff
+William "Red" Whittaker, School of Computer Science Faculty, College of Engineering 1975
+2009
+David Dzombak, College of Engineering Faculty, College of Engineering 1980, 1981
+Stuart Card, Dietrich College 1970, School of Computer Science 1978
+Cristina H. Amon, College of Engineering Adjunct Faculty
+2006
+Egon Balas, Tepper School of Business Faculty
+2006
+Manuel Blum, School of Computer Science Faculty
+2006
+Pradeep K. Khosla, College of Engineering Former Faculty
+2006
+Krzysztof A. Matyjaszewski, Mellon College of Science Faculty
+2006
+Subhash Mahajan, Former College of Engineering Faculty
+Edmund M. Clarke, College of Engineering/School of Computer Science Faculty
+Jonathan Rothberg, College of Engineering 1985
+2004
+Randal E. Bryant, School of Computer Science Faculty
+2003
+Subra Suresh, Former College of Engineering Faculty and CMU President
+2002
+Stephanie Kwolek, Margaret Morrison Carnegie College 1946*
+2001
+Robert F. Davis, Former College of Engineering Faculty
+2001
+Daniel P. Siewiorek, School of Computer Science Faculty
+2000
+Ignacio E. Grossmann, College of Engineering Faculty
+2000
+Richard J. Fruehan, College of Engineering Faculty
+1999
+Alfred Blumstein, Heinz College Faculty
+1998
+Takeo Kanade, School of Computer Science Faculty
+1998
+Hubert Aaronson, Former College of Engineering Faculty, College of Engineering 1948, 1954*
+1997
+Charles M. Geschke, Former School of Computer Science Faculty, School of Computer Science 1973
+1995
+Mark Kryder, College of Engineering Faculty
+1994
+William Wulf, Former School of Computer Science Faculty
+1993
+John L. Anderson, College of Engineering Faculty
+1992
+Herbert L. Toor, Former College of Engineering Faculty*
+1990
+Robert M. White, College of Engineering Faculty Emeritus
+1989
+Julia Weertman, Former Mellon College of Science Faculty, Mellon College of Science 1946, 1947, 1951
+1988
+William D. Strecker, College of Engineering 1966, 1967, 1971
+1987
+Arthur W. Westerberg, College of Engineering Faculty Emeritus
+1987
+Angel G.
+
+================================================================================
+[Q2] When did women begin attending classes alongside men at Carnegie Tech?
+Carnegie Tech men and women class attendance start date
+When did co-education start at Carnegie Tech
+Carnegie Tech women's entry into men's classes timeline
+When did women start attending classes with men at Carnegie Tech
+
+  Rank 1: ce_score=1.6260 | pre_score=0.0803
+  chunk_id=0015 | source=https://www.cmu.edu/about/history
+  text: In 1956, the arrival of the first IBM computer to campus was revolutionary, initiating a university culture where information technology pervaded virtually all areas of study. University culture also changed in 1973, when Margaret Morrison closed and women joined their male peers in classrooms and dorms.
+
+  Rank 2: ce_score=-2.7129 | pre_score=0.0449
+  chunk_id=0071 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Anirudh Devgan, College of Engineering 1991, 1993
+William H. Sanders, Dean, College of Engineering
+Stefan Savage, Dietrich College of Humanities and Social Sciences 1991
+Elias Towe, College of Engineering Faculty
+Zoltan J. Cendes, College of Engineering Adjunct Faculty
+Sebastian Ceria, Tepper School of Business 1993
+Erroll B. Davis Jr. , College of Engineering 1965
+Marija Illic, College of Engineering Faculty Emeritus
+Kathryn Jackson, College of Engineering 1987, 1990
+William D. Magwood IV, Mellon College of Science 1982, Dietrich College of Humanities and Social Sciences 1983
+Sara Kiesler, School of Computer Science Faculty
+Edward Frank, School of Computer Science 1985
+Jennifer Hartt Elisseeff, Mellon College of Science 1994
+Oliver C. Mullins, Mellon College of Science 1980, 1981
+Harry Shum, School of Computer Science 1996
+2017
+Sridhar Tayur, Tepper School of Business Faculty
+2017
+Gérard P. Cornuéjols, Tepper School of Business Faculty
+2016
+Jonathan Caulkins, Heinz College Faculty
+2015
+Alan Cramb, Former College of Engineering Faculty
+2014
+Lorenz T. Biegler, College of Engineering Faculty
+2013
+Donna G. Blackmond, College of Engineering 1984
+2013
+Craig T. Bowman, College of Engineering 1961
+2013
+David Dill, School of Computer Science 1983, 1987
+2013
+Jose M. F. Moura, College of Engineering Faculty
+2013
+Pradeep Sindhu, School of Computer Science 1983, 1984
+2013
+Jared L. Cohon, President Emeritus, College of Engineering Faculty
+2012
+Nadine N. Aubry, College of Engineering Faculty
+2011
+Chris T. Hendrickson, College of Engineering Faculty
+2011
+Jacobo Bielak, College of Engineering Faculty
+Tom Mitchell, School of Computer Science Faculty
+Paul Nielsen, Software Engineering Institute Staff
+William "Red" Whittaker, School of Computer Science Faculty, College of Engineering 1975
+2009
+David Dzombak, College of Engineering Faculty, College of Engineering 1980, 1981
+Stuart Card, Dietrich College 1970, School of Computer Science 1978
+Cristina H. Amon, College of Engineering Adjunct Faculty
+2006
+Egon Balas, Tepper School of Business Faculty
+2006
+Manuel Blum, School of Computer Science Faculty
+2006
+Pradeep K. Khosla, College of Engineering Former Faculty
+2006
+Krzysztof A. Matyjaszewski, Mellon College of Science Faculty
+2006
+Subhash Mahajan, Former College of Engineering Faculty
+Edmund M.
+
+  Rank 3: ce_score=-2.7520 | pre_score=0.0770
+  chunk_id=0016 | source=https://www.cmu.edu/about/history
+  text: University culture also changed in 1973, when Margaret Morrison closed and women joined their male peers in classrooms and dorms. 1948
+The Graduate School of Industrial Administration, later renamed the David A. Tepper School of Business, focused on quantitative analysis and pioneering the field of management science.
+
+  Rank 4: ce_score=-4.5508 | pre_score=0.0284
+  chunk_id=0128 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Alana Billingsley, College of Fine Arts 2004
+Outstanding Production Design for a Variety Special, 2025
+"The Oscars"
+Awarded jointly with: John Zuiker
+Outstanding Production Design for a Variety Special, 2021
+"The Oscars"
+Awarded jointly with: David Rockwell, Joe Celli and Jason Howard
+Outstanding Production Design for a Variety Special, 2020
+"The Oscars"
+Outstanding Art Direction for Variety or Nonfiction Programming, 2012
+"The 54th Annual Grammy Awards"
+Awarded jointly with: Brian Stonestreet** and Matt Steinbrenner
+Nanrose Buchman, College of Fine Arts 1976
+Outstanding Period Costume
+"The Queen's Gambit"
+Awarded jointly with Gabriele Binder, Gina Krauss, Katrin Hoffman and Sparka Lee Hall
+Habib Azar, College of Fine Arts 2002
+Outstanding Drama Series Directing Team, 2014 (Daytime Emmy)
+Awarded jointly with: Gary Donatelli, Christopher Goutman** and Jill Mitwell
+Outstanding Drama Series Directing Team, 2007 (Daytime Emmy)
+"As The World Turns"
+Awarded jointly with: Maria Wagner, Michael Eilbaum,Christopher Goutman**, John O'Connell, Sonia Blangiardo, Jennifer Pepperman, Michael Kerner, Carol Sedwick, Janet Andrews, James Kowal, Brian Lydell, Jennifer Blood, Nancy Barron, Alexandra Ralsvig and Bett Hellman
+Michael Berger, College of Fine Arts 2012
+Outstanding Lighting Design/Lighting Direction for a Variety Series, 2024
+“Dancing with the Stars”
+Steven Bochco, College of Fine Arts 1966
+Outstanding Drama Series, 1995
+"NYPD Blue"
+Awarded jointly with: David Milch, Gregory Hoblit, Mark Tinker, Michael E. Robin, Walon Green, Charles H. Eglee, Channing Gibson, Ted Mann, Burton Armus, Gardner Stern, Steven Paul, Robert J. Doherty and Bill Clark
+Outstanding Drama Series, 1989
+"L. A. Law"
+Awarded jointly with: William M. Finkelstein, Michele Gallery, Phillip M. Goldfarb, Scott Goldstein, David E. Kelley, Judith Parker, Rick Wallace and Alice West
+Outstanding Writing in a Drama Series, 1987
+"L. A. Law"
+Awarded jointly with: Terry Louise Fisher
+Outstanding Drama Series, 1987
+"L. A.
+
+  Rank 5: ce_score=-4.6797 | pre_score=0.0440
+  chunk_id=0074 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Moura, College of Engineering Faculty
+2013
+Pradeep Sindhu, School of Computer Science 1983, 1984
+2013
+Jared L. Cohon, President Emeritus, College of Engineering Faculty
+2012
+Nadine N. Aubry, College of Engineering Faculty
+2011
+Chris T. Hendrickson, College of Engineering Faculty
+2011
+Jacobo Bielak, College of Engineering Faculty
+Tom Mitchell, School of Computer Science Faculty
+Paul Nielsen, Software Engineering Institute Staff
+William "Red" Whittaker, School of Computer Science Faculty, College of Engineering 1975
+2009
+David Dzombak, College of Engineering Faculty, College of Engineering 1980, 1981
+Stuart Card, Dietrich College 1970, School of Computer Science 1978
+Cristina H. Amon, College of Engineering Adjunct Faculty
+2006
+Egon Balas, Tepper School of Business Faculty
+2006
+Manuel Blum, School of Computer Science Faculty
+2006
+Pradeep K. Khosla, College of Engineering Former Faculty
+2006
+Krzysztof A. Matyjaszewski, Mellon College of Science Faculty
+2006
+Subhash Mahajan, Former College of Engineering Faculty
+Edmund M. Clarke, College of Engineering/School of Computer Science Faculty
+Jonathan Rothberg, College of Engineering 1985
+2004
+Randal E. Bryant, School of Computer Science Faculty
+2003
+Subra Suresh, Former College of Engineering Faculty and CMU President
+2002
+Stephanie Kwolek, Margaret Morrison Carnegie College 1946*
+2001
+Robert F. Davis, Former College of Engineering Faculty
+2001
+Daniel P. Siewiorek, School of Computer Science Faculty
+2000
+Ignacio E. Grossmann, College of Engineering Faculty
+2000
+Richard J. Fruehan, College of Engineering Faculty
+1999
+Alfred Blumstein, Heinz College Faculty
+1998
+Takeo Kanade, School of Computer Science Faculty
+1998
+Hubert Aaronson, Former College of Engineering Faculty, College of Engineering 1948, 1954*
+1997
+Charles M. Geschke, Former School of Computer Science Faculty, School of Computer Science 1973
+1995
+Mark Kryder, College of Engineering Faculty
+1994
+William Wulf, Former School of Computer Science Faculty
+1993
+John L. Anderson, College of Engineering Faculty
+1992
+Herbert L. Toor, Former College of Engineering Faculty*
+1990
+Robert M. White, College of Engineering Faculty Emeritus
+1989
+Julia Weertman, Former Mellon College of Science Faculty, Mellon College of Science 1946, 1947, 1951
+1988
+William D. Strecker, College of Engineering 1966, 1967, 1971
+1987
+Arthur W. Westerberg, College of Engineering Faculty Emeritus
+1987
+Angel G.
+
+================================================================================
+[Q3] When did Carnegie Tech merge with the Mellon Institute to become Carnegie Mellon University?
+Carnegie Tech merger date with Mellon Institute
+When did Carnegie Mellon University form?
+Carnegie Mellon University founding event
+Mellon Institute merger with Carnegie Tech
+
+  Rank 1: ce_score=-1.8359 | pre_score=0.0704
+  chunk_id=0176 | source=https://www.cmu.edu/sites/default/files/documents/UCM-26-911%20CMU_Fact_Sheet_02_MECH-Access.pdf
+  text: Carnegie Mellon University has been a birthplace
+of innovation since its founding in 1900. Today, CMU is a global leader bringing groundbreaking “ My Heart is in the Work. ”
+ideas to market and creating successful startup
+businesses.
+
+  Rank 2: ce_score=-2.1230 | pre_score=0.0524
+  chunk_id=0024 | source=https://www.cmu.edu/about/history
+  text: Today its global presence includes campuses in Qatar and Silicon Valley, Calif. , more than a dozen degree-granting locations, and more than 20 research partnerships in cities and countries such as Los Angeles, New York City, Washington, D. C. , China, Portugal and Rwanda. 2002
+Carnegie Mellon established a branch campus in Silicon Valley, the epicenter of the modern technological revolution.
+
+  Rank 3: ce_score=-2.3867 | pre_score=0.0403
+  chunk_id=0071 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Anirudh Devgan, College of Engineering 1991, 1993
+William H. Sanders, Dean, College of Engineering
+Stefan Savage, Dietrich College of Humanities and Social Sciences 1991
+Elias Towe, College of Engineering Faculty
+Zoltan J. Cendes, College of Engineering Adjunct Faculty
+Sebastian Ceria, Tepper School of Business 1993
+Erroll B. Davis Jr. , College of Engineering 1965
+Marija Illic, College of Engineering Faculty Emeritus
+Kathryn Jackson, College of Engineering 1987, 1990
+William D. Magwood IV, Mellon College of Science 1982, Dietrich College of Humanities and Social Sciences 1983
+Sara Kiesler, School of Computer Science Faculty
+Edward Frank, School of Computer Science 1985
+Jennifer Hartt Elisseeff, Mellon College of Science 1994
+Oliver C. Mullins, Mellon College of Science 1980, 1981
+Harry Shum, School of Computer Science 1996
+2017
+Sridhar Tayur, Tepper School of Business Faculty
+2017
+Gérard P. Cornuéjols, Tepper School of Business Faculty
+2016
+Jonathan Caulkins, Heinz College Faculty
+2015
+Alan Cramb, Former College of Engineering Faculty
+2014
+Lorenz T. Biegler, College of Engineering Faculty
+2013
+Donna G. Blackmond, College of Engineering 1984
+2013
+Craig T. Bowman, College of Engineering 1961
+2013
+David Dill, School of Computer Science 1983, 1987
+2013
+Jose M. F. Moura, College of Engineering Faculty
+2013
+Pradeep Sindhu, School of Computer Science 1983, 1984
+2013
+Jared L. Cohon, President Emeritus, College of Engineering Faculty
+2012
+Nadine N. Aubry, College of Engineering Faculty
+2011
+Chris T. Hendrickson, College of Engineering Faculty
+2011
+Jacobo Bielak, College of Engineering Faculty
+Tom Mitchell, School of Computer Science Faculty
+Paul Nielsen, Software Engineering Institute Staff
+William "Red" Whittaker, School of Computer Science Faculty, College of Engineering 1975
+2009
+David Dzombak, College of Engineering Faculty, College of Engineering 1980, 1981
+Stuart Card, Dietrich College 1970, School of Computer Science 1978
+Cristina H. Amon, College of Engineering Adjunct Faculty
+2006
+Egon Balas, Tepper School of Business Faculty
+2006
+Manuel Blum, School of Computer Science Faculty
+2006
+Pradeep K. Khosla, College of Engineering Former Faculty
+2006
+Krzysztof A. Matyjaszewski, Mellon College of Science Faculty
+2006
+Subhash Mahajan, Former College of Engineering Faculty
+Edmund M.
+
+  Rank 4: ce_score=-2.5898 | pre_score=0.0406
+  chunk_id=0182 | source=https://www.cmu.edu/sites/default/files/documents/UCM-26-911%20CMU_Fact_Sheet_02_MECH-Access.pdf
+  text: 16,582 Graduate 40% U. S. 60% International 8,962
+GLOBAL COMMUNITY
+STUDENTS Undergraduate 78% U. S. 22% International 7,620
+Students representing
+132 countries
+1,615
+84% U. S. 16% International
+FACULTY Faculty representing
+63 countries
+127,691 84% U. S. 16% International Alumni representing
+150 countries
+ALUMNI (ACTIVE)
+#20 in NATIONAL #24 UNIVERSITY
+UNIVERSITIES IN THE WORLD
+U. S. News & World Report, 2025 Times Higher Education
+World University Ranking, 2024
+#1 ANALYTICS #1 ARTIFICIAL #1 CYBERSECURITY
+INTELLIGENCE
+#1 MANAGEMENT #1 MOBILE/WEB </> #1 PROGRAMMING
+INFORMATION APPLICATIONS LANGUAGES
+SYSTEMS
+#1 SOFTWARE
+ENGINEERING
+#1 Rankings determined by
+U. S. News & World Report, 2025
+71 22 6 60
+MEMBERS MEMBERS MEMBERS TONY
+OF NAE1 OF NAS2 OF NAM3 AWARDS
+13 142+ 13 21
+ACADEMY EMMY TURING NOBEL
+AWARDS AWARDS AWARDS LAUREATES
+Won by alumni and current/former faculty 1 National Academy of Engineering 2National Academy of Sciences 3 National Academy of Medicine
+BIG IDEAS THAT SHAPE YOUR WORLD START HERE
+1,000+ companies greenlighted :-) The first smile in an email, created The leading university center
+across the U. S. and internationally in 1982 by Professor Scott Fahlman for cybersecurity, providing
+support to more than 110
+Invented Cognitive tutors, Kevlar fiber, invented by alumna centers around the world
+which improve the math skills of Stephanie Kwolek (MM 1946)
+500,000+ students each year The world’s first university
+The Last Lecture, written robotics department,
+The first U. S. school to award by alumni Randy Pausch (SCS 1988) founded in 1979
+a degree in drama in 1914 and Jeffrey Zaslow (DC 1980)
+Alumnus Andy Warhol
+Java computer programming CMU’S first Ph. D.
+
+  Rank 5: ce_score=-2.7012 | pre_score=0.0510
+  chunk_id=0023 | source=https://www.cmu.edu/about/history
+  text: In the 2000s, in response to demand for expanded international educational opportunities, Carnegie Mellon began offering degree programs outside of Pittsburgh. Today its global presence includes campuses in Qatar and Silicon Valley, Calif. , more than a dozen degree-granting locations, and more than 20 research partnerships in cities and countries such as Los Angeles, New York City, Washington, D. C. , China, Portugal and Rwanda.
+
+================================================================================
+[Q4] In which locations does Carnegie Mellon University have campuses?
+Carnegie Mellon University campus locations
+Where are Carnegie Mellon University campuses situated
+List of Carnegie Mellon University campus sites
+Locations of Carnegie Mellon University campuses worldwide
+
+  Rank 1: ce_score=6.3398 | pre_score=0.0758
+  chunk_id=0023 | source=https://www.cmu.edu/about/history
+  text: In the 2000s, in response to demand for expanded international educational opportunities, Carnegie Mellon began offering degree programs outside of Pittsburgh. Today its global presence includes campuses in Qatar and Silicon Valley, Calif. , more than a dozen degree-granting locations, and more than 20 research partnerships in cities and countries such as Los Angeles, New York City, Washington, D. C. , China, Portugal and Rwanda.
+
+  Rank 2: ce_score=6.0078 | pre_score=0.0797
+  chunk_id=0024 | source=https://www.cmu.edu/about/history
+  text: Today its global presence includes campuses in Qatar and Silicon Valley, Calif. , more than a dozen degree-granting locations, and more than 20 research partnerships in cities and countries such as Los Angeles, New York City, Washington, D. C. , China, Portugal and Rwanda. 2002
+Carnegie Mellon established a branch campus in Silicon Valley, the epicenter of the modern technological revolution.
+
+  Rank 3: ce_score=5.9023 | pre_score=0.0805
+  chunk_id=0007 | source=https://www.cmu.edu/about
+  text: Our Regional Impact
+Explore our partnerships with Pittsburgh and the Commonwealth of Pennsylvania to create lasting economic and community change. CMU Locations
+Carnegie Mellon is a university without borders, with campuses in Pittsburgh, Silicon Valley, Qatar and Africa.
+
+  Rank 4: ce_score=4.5898 | pre_score=0.0624
+  chunk_id=0022 | source=https://www.cmu.edu/about/history
+  text: Its alumni can be found across the globe — from Tony Award winners to Nobel Prize and Turing Award winners, from CEOs to entrepreneurs, from professors to artists. In the 2000s, in response to demand for expanded international educational opportunities, Carnegie Mellon began offering degree programs outside of Pittsburgh.
+
+  Rank 5: ce_score=2.0977 | pre_score=0.0748
+  chunk_id=0030 | source=https://www.cmu.edu/about/history
+  text: In the coming years, the university will see the largest expansion to the Pittsburgh campus since 1900. At the intersection of technology and humanity, CMU will focus on advancing the individual student experience, the broader Carnegie Mellon community experience, and the social impact of Carnegie Mellon throughout the world.
+
+================================================================================
+[Q5] What types of notable achievements do Carnegie Mellon alumni have?
+Carnegie Mellon notable alumni achievements
+Awards won by Carnegie Mellon graduates
+Notable accomplishments of CMU alumni
+Carnegie Mellon famous graduate achievements
+
+  Rank 1: ce_score=4.0508 | pre_score=0.0537
+  chunk_id=0057 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Carnegie Mellon has been home to 21 Nobel Laureates in five of the six categories. Geoffrey E. Hinton, School of Computer Science Former Faculty
+Awarded jointly with John J. Hopfield
+Physics, 2024
+Lars Peter Hansen, Tepper School Former Faculty
+Awarded jointly with Eugene F. Fama and Robert J. Shiller
+Economic Sciences, 2013
+Dale T. Mortensen, Tepper School 1967*
+Awarded jointly with Peter A. Diamond and Christopher A. Pissarides
+Economic Sciences, 2010
+Oliver E. Williamson, Tepper School 1962, 1963
+Awarded jointly with Elinor Ostrom
+Economic Sciences, 200
+Ada E. Yonath, Mellon College of Science Post-Doctoral Fellow 1969
+Awarded jointly with Venkatraman Ramakrishnan and Thomas A. Steitz
+Chemistry, 2009
+Edward Rubin, College of Engineering Faculty
+Awarded as a member of the Intergovernmental Panel on Climate Change
+Peace, 2007
+John L. Hall, College of Engineering 1956, 1961
+Awarded jointly with one half to Roy J. Glauber and one half to Hall and Theodor W. Hänsch
+Physics, 2005
+Finn E. Kydland, Tepper School Faculty, Tepper School 1972, 1973
+Awarded jointly with Edward C. Prescott, Tepper School Former Faculty, Tepper School 1967
+Economic Sciences, 2004
+Edward C. Prescott, Tepper School Former Faculty, Tepper School 1967
+Awarded jointly with Finn E. Kydland, Tepper School Faculty, Tepper School 1972, 1973
+Economic Sciences, 2004
+Paul Lauterbur, Mellon Institute Former Researcher*
+Awarded jointly with Sir Peter Mansfield
+Physiology or Medicine, 2003
+Walter Kohn, Mellon College of Science Former Faculty*
+Awarded jointly with John A. Pople, Faculty
+Chemistry, 1998
+John A. Pople, Mellon College of Science Former Faculty*
+Awarded jointly with Walter Kohn, Faculty
+Chemistry, 1998
+Robert E. Lucas Jr. , Tepper School Former Faculty
+Economic Sciences, 1995
+Clifford G. Shull, Mellon College of Science 1937*
+Awarded jointly with Bertram N. Brockhouse
+Physics, 1994
+John F. Nash Jr. , Mellon College of Science 1948*
+Awarded jointly with John C. Harsanyi and Reinhard Selten
+Economic Sciences, 1994
+Merton H. Miller, Tepper School Former Faculty*
+Awarded jointly with Harry M. Markowitz and William F.
+
+  Rank 2: ce_score=4.0039 | pre_score=0.0688
+  chunk_id=0022 | source=https://www.cmu.edu/about/history
+  text: Its alumni can be found across the globe — from Tony Award winners to Nobel Prize and Turing Award winners, from CEOs to entrepreneurs, from professors to artists. In the 2000s, in response to demand for expanded international educational opportunities, Carnegie Mellon began offering degree programs outside of Pittsburgh.
+
+  Rank 3: ce_score=3.2559 | pre_score=0.0810
+  chunk_id=0051 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: 13
+Turing Awards
+Honors individuals for major contributions of lasting importance to computing and computer science. More Professional and Student Achievements at CMU
+Awards won by CMU Faculty and Alumni
+Carnegie Mellon University's faculty and alumni have been recognized with some of the highest awards and honors in their respective fields, a testament to their pioneering work. Student Awards
+At Carnegie Mellon University, we take great pride in our students' remarkable achievements, which highlight their unwavering commitment, brilliance and the rigorous, interdisciplinary education they receive. Visit our complete archive of major scholarship and fellowship award winners at Carnegie Mellon.
+
+  Rank 4: ce_score=2.8457 | pre_score=0.0688
+  chunk_id=0105 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Raj Reddy, School of Computer Science Faculty
+2006
+*Denotes faculty/alumni who are deceased
+Carnegie Mellon students across all disciplines have received recognition for academic achievement, leadership and service. This page lists Churchill, Fulbright, Gates Cambridge, Goldwater, Marshall, Rhodes, Truman and Udall scholars.
+
+  Rank 5: ce_score=2.5547 | pre_score=0.0691
+  chunk_id=0121 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Dyanna Becker, College of Engineering 2011
+2009
+Ken Lau, College of Fine Arts 2007
+Isabella Cederquist, Dietrich College 2006
+*Denotes faculty/alumni who are deceased
+Performing Arts Awards
+From composers and actors to engineers and lighting designers, Carnegie Mellon faculty and alumni have been recognized with prestigious awards in the performing arts. The Academy of Motion Picture Arts & Sciences honors motion picture artists and craftsmen at its annual awards ceremony, also known as the Oscars.
+
+================================================================================
+[Q6] How many students does Carnegie Mellon have and how many countries do they represent?
+Carnegie Mellon student enrollment by country
+Carnegie Mellon diversity statistics
+Number of international students at Carnegie Mellon
+Countries represented at Carnegie Mellon university
+
+  Rank 1: ce_score=3.1973 | pre_score=0.0703
+  chunk_id=0182 | source=https://www.cmu.edu/sites/default/files/documents/UCM-26-911%20CMU_Fact_Sheet_02_MECH-Access.pdf
+  text: 16,582 Graduate 40% U. S. 60% International 8,962
+GLOBAL COMMUNITY
+STUDENTS Undergraduate 78% U. S. 22% International 7,620
+Students representing
+132 countries
+1,615
+84% U. S. 16% International
+FACULTY Faculty representing
+63 countries
+127,691 84% U. S. 16% International Alumni representing
+150 countries
+ALUMNI (ACTIVE)
+#20 in NATIONAL #24 UNIVERSITY
+UNIVERSITIES IN THE WORLD
+U. S. News & World Report, 2025 Times Higher Education
+World University Ranking, 2024
+#1 ANALYTICS #1 ARTIFICIAL #1 CYBERSECURITY
+INTELLIGENCE
+#1 MANAGEMENT #1 MOBILE/WEB </> #1 PROGRAMMING
+INFORMATION APPLICATIONS LANGUAGES
+SYSTEMS
+#1 SOFTWARE
+ENGINEERING
+#1 Rankings determined by
+U. S. News & World Report, 2025
+71 22 6 60
+MEMBERS MEMBERS MEMBERS TONY
+OF NAE1 OF NAS2 OF NAM3 AWARDS
+13 142+ 13 21
+ACADEMY EMMY TURING NOBEL
+AWARDS AWARDS AWARDS LAUREATES
+Won by alumni and current/former faculty 1 National Academy of Engineering 2National Academy of Sciences 3 National Academy of Medicine
+BIG IDEAS THAT SHAPE YOUR WORLD START HERE
+1,000+ companies greenlighted :-) The first smile in an email, created The leading university center
+across the U. S. and internationally in 1982 by Professor Scott Fahlman for cybersecurity, providing
+support to more than 110
+Invented Cognitive tutors, Kevlar fiber, invented by alumna centers around the world
+which improve the math skills of Stephanie Kwolek (MM 1946)
+500,000+ students each year The world’s first university
+The Last Lecture, written robotics department,
+The first U. S. school to award by alumni Randy Pausch (SCS 1988) founded in 1979
+a degree in drama in 1914 and Jeffrey Zaslow (DC 1980)
+Alumnus Andy Warhol
+Java computer programming CMU’S first Ph. D.
+
+  Rank 2: ce_score=2.7051 | pre_score=0.0665
+  chunk_id=0181 | source=https://www.cmu.edu/sites/default/files/documents/UCM-26-911%20CMU_Fact_Sheet_02_MECH-Access.pdf
+  text: Our students are recruited by some
+of the world’s most innovative companies. 16,582 Graduate 40% U. S. 60% International 8,962
+GLOBAL COMMUNITY
+STUDENTS Undergraduate 78% U. S. 22% International 7,620
+Students representing
+132 countries
+1,615
+84% U. S. 16% International
+FACULTY Faculty representing
+63 countries
+127,691 84% U. S. 16% International Alumni representing
+150 countries
+ALUMNI (ACTIVE)
+#20 in NATIONAL #24 UNIVERSITY
+UNIVERSITIES IN THE WORLD
+U. S. News & World Report, 2025 Times Higher Education
+World University Ranking, 2024
+#1 ANALYTICS #1 ARTIFICIAL #1 CYBERSECURITY
+INTELLIGENCE
+#1 MANAGEMENT #1 MOBILE/WEB </> #1 PROGRAMMING
+INFORMATION APPLICATIONS LANGUAGES
+SYSTEMS
+#1 SOFTWARE
+ENGINEERING
+#1 Rankings determined by
+U. S. News & World Report, 2025
+71 22 6 60
+MEMBERS MEMBERS MEMBERS TONY
+OF NAE1 OF NAS2 OF NAM3 AWARDS
+13 142+ 13 21
+ACADEMY EMMY TURING NOBEL
+AWARDS AWARDS AWARDS LAUREATES
+Won by alumni and current/former faculty 1 National Academy of Engineering 2National Academy of Sciences 3 National Academy of Medicine
+BIG IDEAS THAT SHAPE YOUR WORLD START HERE
+1,000+ companies greenlighted :-) The first smile in an email, created The leading university center
+across the U. S. and internationally in 1982 by Professor Scott Fahlman for cybersecurity, providing
+support to more than 110
+Invented Cognitive tutors, Kevlar fiber, invented by alumna centers around the world
+which improve the math skills of Stephanie Kwolek (MM 1946)
+500,000+ students each year The world’s first university
+The Last Lecture, written robotics department,
+The first U. S. school to award by alumni Randy Pausch (SCS 1988) founded in 1979
+a degree in drama in 1914 and Jeffrey Zaslow (DC 1980)
+Alumnus Andy Warhol
+Java computer programming CMU’S first Ph. D.
+
+  Rank 3: ce_score=-1.7412 | pre_score=0.0527
+  chunk_id=0057 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Carnegie Mellon has been home to 21 Nobel Laureates in five of the six categories. Geoffrey E. Hinton, School of Computer Science Former Faculty
+Awarded jointly with John J. Hopfield
+Physics, 2024
+Lars Peter Hansen, Tepper School Former Faculty
+Awarded jointly with Eugene F. Fama and Robert J. Shiller
+Economic Sciences, 2013
+Dale T. Mortensen, Tepper School 1967*
+Awarded jointly with Peter A. Diamond and Christopher A. Pissarides
+Economic Sciences, 2010
+Oliver E. Williamson, Tepper School 1962, 1963
+Awarded jointly with Elinor Ostrom
+Economic Sciences, 200
+Ada E. Yonath, Mellon College of Science Post-Doctoral Fellow 1969
+Awarded jointly with Venkatraman Ramakrishnan and Thomas A. Steitz
+Chemistry, 2009
+Edward Rubin, College of Engineering Faculty
+Awarded as a member of the Intergovernmental Panel on Climate Change
+Peace, 2007
+John L. Hall, College of Engineering 1956, 1961
+Awarded jointly with one half to Roy J. Glauber and one half to Hall and Theodor W. Hänsch
+Physics, 2005
+Finn E. Kydland, Tepper School Faculty, Tepper School 1972, 1973
+Awarded jointly with Edward C. Prescott, Tepper School Former Faculty, Tepper School 1967
+Economic Sciences, 2004
+Edward C. Prescott, Tepper School Former Faculty, Tepper School 1967
+Awarded jointly with Finn E. Kydland, Tepper School Faculty, Tepper School 1972, 1973
+Economic Sciences, 2004
+Paul Lauterbur, Mellon Institute Former Researcher*
+Awarded jointly with Sir Peter Mansfield
+Physiology or Medicine, 2003
+Walter Kohn, Mellon College of Science Former Faculty*
+Awarded jointly with John A. Pople, Faculty
+Chemistry, 1998
+John A. Pople, Mellon College of Science Former Faculty*
+Awarded jointly with Walter Kohn, Faculty
+Chemistry, 1998
+Robert E. Lucas Jr. , Tepper School Former Faculty
+Economic Sciences, 1995
+Clifford G. Shull, Mellon College of Science 1937*
+Awarded jointly with Bertram N. Brockhouse
+Physics, 1994
+John F. Nash Jr. , Mellon College of Science 1948*
+Awarded jointly with John C. Harsanyi and Reinhard Selten
+Economic Sciences, 1994
+Merton H. Miller, Tepper School Former Faculty*
+Awarded jointly with Harry M. Markowitz and William F.
+
+  Rank 4: ce_score=-1.9775 | pre_score=0.0725
+  chunk_id=0114 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Less than 50 scholars from the United States are selected each year to complete graduate-level studies at an institution in the United Kingdom. Carnegie Mellon has been home to five Marshall Scholars.
+
+  Rank 5: ce_score=-2.2520 | pre_score=0.0714
+  chunk_id=0023 | source=https://www.cmu.edu/about/history
+  text: In the 2000s, in response to demand for expanded international educational opportunities, Carnegie Mellon began offering degree programs outside of Pittsburgh. Today its global presence includes campuses in Qatar and Silicon Valley, Calif. , more than a dozen degree-granting locations, and more than 20 research partnerships in cities and countries such as Los Angeles, New York City, Washington, D. C. , China, Portugal and Rwanda.
+
+================================================================================
+[Q7] How many faculty members does Carnegie Mellon have?
+Carnegie Mellon faculty count
+Number of faculty at Carnegie Mellon
+Carnegie Mellon staff faculty size
+Faculty population at Carnegie Mellon University
+
+  Rank 1: ce_score=7.6367 | pre_score=0.0540
+  chunk_id=0182 | source=https://www.cmu.edu/sites/default/files/documents/UCM-26-911%20CMU_Fact_Sheet_02_MECH-Access.pdf
+  text: 16,582 Graduate 40% U. S. 60% International 8,962
+GLOBAL COMMUNITY
+STUDENTS Undergraduate 78% U. S. 22% International 7,620
+Students representing
+132 countries
+1,615
+84% U. S. 16% International
+FACULTY Faculty representing
+63 countries
+127,691 84% U. S. 16% International Alumni representing
+150 countries
+ALUMNI (ACTIVE)
+#20 in NATIONAL #24 UNIVERSITY
+UNIVERSITIES IN THE WORLD
+U. S. News & World Report, 2025 Times Higher Education
+World University Ranking, 2024
+#1 ANALYTICS #1 ARTIFICIAL #1 CYBERSECURITY
+INTELLIGENCE
+#1 MANAGEMENT #1 MOBILE/WEB </> #1 PROGRAMMING
+INFORMATION APPLICATIONS LANGUAGES
+SYSTEMS
+#1 SOFTWARE
+ENGINEERING
+#1 Rankings determined by
+U. S. News & World Report, 2025
+71 22 6 60
+MEMBERS MEMBERS MEMBERS TONY
+OF NAE1 OF NAS2 OF NAM3 AWARDS
+13 142+ 13 21
+ACADEMY EMMY TURING NOBEL
+AWARDS AWARDS AWARDS LAUREATES
+Won by alumni and current/former faculty 1 National Academy of Engineering 2National Academy of Sciences 3 National Academy of Medicine
+BIG IDEAS THAT SHAPE YOUR WORLD START HERE
+1,000+ companies greenlighted :-) The first smile in an email, created The leading university center
+across the U. S. and internationally in 1982 by Professor Scott Fahlman for cybersecurity, providing
+support to more than 110
+Invented Cognitive tutors, Kevlar fiber, invented by alumna centers around the world
+which improve the math skills of Stephanie Kwolek (MM 1946)
+500,000+ students each year The world’s first university
+The Last Lecture, written robotics department,
+The first U. S. school to award by alumni Randy Pausch (SCS 1988) founded in 1979
+a degree in drama in 1914 and Jeffrey Zaslow (DC 1980)
+Alumnus Andy Warhol
+Java computer programming CMU’S first Ph. D.
+
+  Rank 2: ce_score=7.5820 | pre_score=0.0484
+  chunk_id=0181 | source=https://www.cmu.edu/sites/default/files/documents/UCM-26-911%20CMU_Fact_Sheet_02_MECH-Access.pdf
+  text: Our students are recruited by some
+of the world’s most innovative companies. 16,582 Graduate 40% U. S. 60% International 8,962
+GLOBAL COMMUNITY
+STUDENTS Undergraduate 78% U. S. 22% International 7,620
+Students representing
+132 countries
+1,615
+84% U. S. 16% International
+FACULTY Faculty representing
+63 countries
+127,691 84% U. S. 16% International Alumni representing
+150 countries
+ALUMNI (ACTIVE)
+#20 in NATIONAL #24 UNIVERSITY
+UNIVERSITIES IN THE WORLD
+U. S. News & World Report, 2025 Times Higher Education
+World University Ranking, 2024
+#1 ANALYTICS #1 ARTIFICIAL #1 CYBERSECURITY
+INTELLIGENCE
+#1 MANAGEMENT #1 MOBILE/WEB </> #1 PROGRAMMING
+INFORMATION APPLICATIONS LANGUAGES
+SYSTEMS
+#1 SOFTWARE
+ENGINEERING
+#1 Rankings determined by
+U. S. News & World Report, 2025
+71 22 6 60
+MEMBERS MEMBERS MEMBERS TONY
+OF NAE1 OF NAS2 OF NAM3 AWARDS
+13 142+ 13 21
+ACADEMY EMMY TURING NOBEL
+AWARDS AWARDS AWARDS LAUREATES
+Won by alumni and current/former faculty 1 National Academy of Engineering 2National Academy of Sciences 3 National Academy of Medicine
+BIG IDEAS THAT SHAPE YOUR WORLD START HERE
+1,000+ companies greenlighted :-) The first smile in an email, created The leading university center
+across the U. S. and internationally in 1982 by Professor Scott Fahlman for cybersecurity, providing
+support to more than 110
+Invented Cognitive tutors, Kevlar fiber, invented by alumna centers around the world
+which improve the math skills of Stephanie Kwolek (MM 1946)
+500,000+ students each year The world’s first university
+The Last Lecture, written robotics department,
+The first U. S. school to award by alumni Randy Pausch (SCS 1988) founded in 1979
+a degree in drama in 1914 and Jeffrey Zaslow (DC 1980)
+Alumnus Andy Warhol
+Java computer programming CMU’S first Ph. D.
+
+  Rank 3: ce_score=0.3767 | pre_score=0.0239
+  chunk_id=0132 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Baffico, Barbara M. Simmons, Shirley Simmons, Robin Maizes and Sybil Weinberger
+Brian Grego, College of Fine Arts
+Outstanding Production Design for a Narrative Program (Half-Hour), 2025
+"The Studio"
+Javier Grillo-Marxuach, Dietrich College of Humanities and Social Sciences 1991
+Outstanding children's programming, 2020
+"The Dark Crystal"
+Awarded jointly with Lisa Henson, Halle Stanford, Louis Leterrier, Jeffrey Addiss, Will Matthews, Blanca Lista, Ritamarie Peruggi
+(Tied for the win with "We Are The Dream: The Kids Of The Oakland MLK Oratorical Fest. ")
+
+  Rank 4: ce_score=-0.7935 | pre_score=0.0273
+  chunk_id=0021 | source=https://www.cmu.edu/about/history
+  text: A birthplace of innovation since its founding, it continues to be known for innovation, for solving real-world problems and for interdisciplinary collaboration. Its alumni can be found across the globe — from Tony Award winners to Nobel Prize and Turing Award winners, from CEOs to entrepreneurs, from professors to artists.
+
+  Rank 5: ce_score=-0.8120 | pre_score=0.0388
+  chunk_id=0109 | source=https://www.cmu.edu/about/rankings-and-awards
+  text: Jillian Jaycox, Mellon College of Science 2016
+2016
+Catherine Groschner, College of Engineering 2015
+2015
+Judy Savitskaya, CMU 2012
+2012
+Rebecca Krall, Mellon College of Science 2011
+2011
+Swati Varshney, CMU 2010
+Courtney Ondeck, Mellon College of Science 2008
+J. Jason West, College of Engineering 1994, 1998
+1994
+Peter N. Blossey, College of Engineering 1992
+1992
+Lawrence A. Riddle, Mellon College of Science 1976
+1976
+Kenneth E. Notary, College of Engineering 1973, Tepper School 1976*
+1973
+Keith J. Meyer, College of Engineering 1972, 1976, 1978
+1972
+Norman B. McEachron, College of Engineering 1964
+1964
+Fulbright Scholarship
+The U. S. Student Fulbright Program provides an unparalleled opportunity to teach, study and conduct research in 150 countries worldwide in order to increase mutual understanding among nations through educational and cultural exchange. The Bureau of Educational and Cultural Affairs of the United States Department of State sponsors the Fulbright Program.
+
