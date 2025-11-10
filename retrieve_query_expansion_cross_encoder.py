@@ -8,6 +8,7 @@ import faiss
 import torch
 from tqdm import tqdm
 from collections import defaultdict
+import requests
 from FlagEmbedding import BGEM3FlagModel
 from FlagEmbedding import FlagReranker
 from rank_bm25 import BM25Okapi
@@ -19,7 +20,7 @@ parser.add_argument("--chunk", type=str, required=True, help="dataset name, e.g.
 parser.add_argument("--model", type=str, default="BAAI/bge-m3", help="embedding model, e.g., BAAI/bge-m3")
 parser.add_argument("--questions", type=str, default=None, help="questions file (one per line). If None, infer from chunk")
 parser.add_argument("--top_k", type=int, default=5, help="top-k to retrieve")
-parser.add_argument("--retriever", type=str, default="hybrid", choices=["dense", "sparse", "hybrid"], help="retrieval mode")
+parser.add_argument("--retriever", type=str, default="hybrid", choices=["dense", "sparse", "hybrid", "online", "hybrid_online"], help="retrieval mode")
 parser.add_argument("--alpha", type=float, default=0.5, help="hybrid weight: final = alpha*dense + (1-alpha)*sparse (after per-query min-max)")
 parser.add_argument("--index_type", type=str, default="flat", choices=["flat", "hnsw"], help="FAISS index type for dense")
 parser.add_argument("--truncate", type=int, default=0, help="truncate retrieved text to N chars (0 = no truncation)")
@@ -57,6 +58,8 @@ FAISS_PATH  = f"index/faiss_index_{args.chunk}_{model_name_simple}.faiss"
 BM25_PATH   = f"index/bm25_{args.chunk}.pkl"  # 仅与数据集相关，模型无关
 QUESTIONS_PATH = args.questions or f"data/test/question_{args.chunk}.txt"
 TOP_K = args.top_k
+
+TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "")
 
 # ------------------ IO helpers ------------------
 def load_chunks(path):
@@ -150,6 +153,67 @@ def sparse_scores_one(bm25, query_text, ids):
     q_tok = tokenize(query_text)
     scores = bm25.get_scores(q_tok)  # np.array, shape=(N_docs,)
     return {id_str[i]: float(scores[i]) for i in range(len(id_str))}
+
+
+# ------------------- Online Search --------------------------
+
+def online_search_raw(query: str, top_k: int = 10):
+    """
+    调用 Tavily 搜索 API，返回一个 list[dict]，每个元素包含 title, url, snippet。
+    Tavily 文档: https://docs.tavily.com
+    """
+    if not TAVILY_API_KEY:
+        print("[WARN] TAVILY_API_KEY not set. Skip online search.")
+        return []
+
+    try:
+        resp = requests.post(
+            "https://api.tavily.com/search",
+            headers={"Content-Type": "application/json"},
+            json={
+                "api_key": TAVILY_API_KEY,
+                "query": query,
+                "num_results": top_k,
+                "include_domains": None,     # 可选：指定域名范围，如 ["nytimes.com"]
+                "include_answer": False,     # 是否生成答案（我们只要原始文档）
+                "include_images": False,     # 不要图片结果
+                "search_depth": "advanced"   # 可选: "basic" 或 "advanced"
+            },
+            timeout=20
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        # Tavily 返回字段: "results" -> list of {title, url, content}
+        docs = []
+        for i, item in enumerate(data.get("results", [])[:top_k]):
+            docs.append({
+                "title": item.get("title", ""),
+                "url": item.get("url", ""),
+                "snippet": item.get("content", "")
+            })
+        return docs
+    except Exception as e:
+        print(f"[WARN] Tavily search failed: {e}")
+        return []
+
+def online_scores_one(query_text: str, chunk_map: dict, top_k: int = 50, source_tag: str = "tavily"):
+    """
+    将 Tavily 搜索结果封装为 score_dict（chunk_id -> score），
+    并写入 chunk_map，方便后续统一 rerank / 输出。
+    """
+    raw_docs = online_search_raw(query_text, top_k=top_k)
+    scores = {}
+    for rank, d in enumerate(raw_docs):
+        cid = f"web_{rank}"
+        text = d.get("snippet", "") or d.get("title", "")
+        chunk_map[cid] = {
+            "chunk_id": cid,
+            "source": d.get("url", source_tag),
+            "text": text,
+        }
+        # 简单 rank-based score，后面会在 RRF / rerank 阶段被平滑
+        scores[cid] = 1.0 / (rank + 1)
+    return scores
 
 # ------------------ Normalization & Fusion ------------------
 def min_max_norm(score_dict):
@@ -325,9 +389,9 @@ def main():
 
     # 2) prepare retrievers
     index = bm25 = None
-    if args.retriever in ("dense", "hybrid"):
+    if args.retriever in ("dense", "hybrid", "hybrid_online"):
         index = load_or_build_faiss(EMB_PATH, FAISS_PATH, index_type=args.index_type)
-    if args.retriever in ("sparse", "hybrid"):
+    if args.retriever in ("sparse", "hybrid", "hybrid_online"):
         bm25 = load_or_build_bm25(ids, chunk_map, BM25_PATH)
 
     # 3) load questions
@@ -355,12 +419,27 @@ def main():
                     sdict = dense_scores_one(index, cq, ids)
                 elif args.retriever == "sparse":
                     sdict = sparse_scores_one(bm25, cq, ids)
-                else:
+                elif args.retriever == "hybrid":
                     dd = dense_scores_one(index, cq, ids)
                     sd = sparse_scores_one(bm25, cq, ids)
                     sdict = hybrid_fuse_dense_sparse(dd, sd, alpha=args.alpha)
-                rank_lists.append(ranking_from_scores(sdict)[:200])
+                elif args.retriever == "online":
+                    sdict = online_scores_one(cq, chunk_map, top_k=200)
+                elif args.retriever == "hybrid_online":
+                    # Step 1: 本地 hybrid
+                    dd = dense_scores_one(index, cq, ids)
+                    sd = sparse_scores_one(bm25, cq, ids)
+                    local_scores = hybrid_fuse_dense_sparse(dd, sd, alpha=args.alpha)
+                    # Step 2: 在线搜索
+                    online_scores = online_scores_one(cq, chunk_map, top_k=100)
+                    # Step 3: RRF 融合
+                    local_rank = ranking_from_scores(local_scores)[:200]
+                    online_rank = ranking_from_scores(online_scores)[:200]
+                    sdict = rrf_fuse([local_rank, online_rank], k=args.rrf_k)
+                else:
+                    raise ValueError(f"Unknown retriever type: {args.retriever}")
 
+                rank_lists.append(ranking_from_scores(sdict)[:200])
             fused_scores = rrf_fuse(rank_lists, k=args.rrf_k)
 
             # --- Rerank 阶段 ---
