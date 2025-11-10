@@ -32,9 +32,13 @@ def build_prompt(question, passages, top_k=5):
         [f"[Passage {i+1}]\n{p['text']}" for i, p in enumerate(passages[:top_k])]
     )
     return f"""
-You are a helpful assistant. Use the given passages to answer the user's question.
-Make sure that the answer is precise and conceise. Don't include repeated information.
-If the answer cannot be found in the passages, say "I don't know".
+You are a precise, fact-based QA assistant.
+
+Your goal is to answer the user's question **only** using the information found in the passages below.
+If a passage directly or partially contains the answer, **extract or paraphrase** it concisely.
+If the answer requires listing multiple names, times, or locations, **list them clearly and completely**.
+Do NOT say "I don't know" if relevant facts or hints exist — even partial clues should be combined into a clear answer.
+Only reply "I don't know" if absolutely no passage provides any information related to the question.
 
 Question: {question}
 
