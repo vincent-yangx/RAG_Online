@@ -21,7 +21,7 @@ parser.add_argument("--model", type=str, default="BAAI/bge-m3", help="embedding 
 parser.add_argument("--questions", type=str, default=None, help="questions file (one per line). If None, infer from chunk")
 parser.add_argument("--top_k", type=int, default=5, help="top-k to retrieve")
 parser.add_argument("--retriever", type=str, default="hybrid", choices=["dense", "sparse", "hybrid", "online", "hybrid_online"], help="retrieval mode")
-parser.add_argument("--alpha", type=float, default=0.5, help="hybrid weight: final = alpha*dense + (1-alpha)*sparse (after per-query min-max)")
+parser.add_argument("--alpha", type=float, default=0.8, help="hybrid weight: final = alpha*dense + (1-alpha)*sparse (after per-query min-max)")
 parser.add_argument("--index_type", type=str, default="flat", choices=["flat", "hnsw"], help="FAISS index type for dense")
 parser.add_argument("--truncate", type=int, default=0, help="truncate retrieved text to N chars (0 = no truncation)")
 
@@ -120,14 +120,17 @@ def embed_queries_bge(model_name, questions):
     return q
 
 def dense_scores_one(index, query_text, ids):
-    q_emb = embed_queries_bge(MODEL, [query_text])
-    D, I = index.search(q_emb, min(TOP_K*50, max(50, len(ids))))
+    """Compute dense retrieval scores (cosine-based)."""
+    q_emb = embed_queries_bge(MODEL, [query_text])  # already L2-normalized inside embed_queries_bge
+    D, I = index.search(q_emb, min(TOP_K * 50, max(50, len(ids))))
     id_str = np.array([str(x) for x in ids])
-    d = {}
-    for s, i in zip(D[0], I[0]):
-        if 0 <= i < len(id_str):
-            d[id_str[i]] = float(s)
-    return d
+
+    # === Optional: apply nonlinear amplification to emphasize strong matches ===
+    D = np.clip(D, 0, 1)  # 防止超出 [0,1]
+    D = np.power(D, 1.5)  # 放大高相似度差异 (1.5~2.0 均可试)
+
+    return {id_str[i]: float(s) for s, i in zip(D[0], I[0]) if 0 <= i < len(id_str)}
+
 
 # ------------------ BM25 (sparse) ------------------
 def load_or_build_bm25(ids, chunk_map, bm25_path):
@@ -225,16 +228,21 @@ def min_max_norm(score_dict):
         return {k: 0.0 for k in score_dict}
     return {k: (v - vmin) / (vmax - vmin) for k, v in score_dict.items()}
 
-def hybrid_fuse_dense_sparse(dense_dict, sparse_dict, alpha=0.5):
+def hybrid_fuse_dense_sparse(dense_dict, sparse_dict, alpha=0.8):
+    """Fuse dense + sparse with adaptive alpha."""
     dn = min_max_norm(dense_dict)
     sn = min_max_norm(sparse_dict)
     keys = set(dn.keys()) | set(sn.keys())
+
+    # 统计 query 与 chunk 的关键词重叠率，重叠低 => 提升 dense 权重
     fused = {}
     for k in keys:
         dv = dn.get(k, 0.0)
         sv = sn.get(k, 0.0)
-        fused[k] = alpha * dv + (1 - alpha) * sv
+        # alpha 动态调整：若 dense 优势明显，则提升权重
+        fused[k] = (alpha + 0.2 * (dv - sv)) * dv + (1 - (alpha + 0.2 * (dv - sv))) * sv
     return fused
+
 
 def ranking_from_scores(score_dict):
     # 返回 doc_id 按分数降序的列表mat

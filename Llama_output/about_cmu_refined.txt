@@ -1,10 +1,8 @@
 [Q1] When did Andrew Carnegie emigrate to Pittsburgh?
-Answer: Andrew Carnegie emigrated to Pittsburgh in 1848.
+Answer: In 1848, Andrew Carnegie emigrated to Pittsburgh.
 
 [Q2] When did women begin attending classes alongside men at Carnegie Tech?
-Answer: When did women begin attending classes alongside men at Carnegie Tech?
-
-Women began attending classes alongside men at Carnegie Tech in 1973, when Margaret Morrison closed and women joined their male peers in classrooms and dorms.
+Answer: Women began attending classes alongside men at Carnegie Tech in 1973.
 
 [Q3] When did Carnegie Tech merge with the Mellon Institute to become Carnegie Mellon University?
 Answer: 1967.
@@ -12,28 +10,32 @@ Answer: 1967.
 [Q4] In which locations does Carnegie Mellon University have campuses?
 Answer: Carnegie Mellon University has campuses in the following locations:
 
-1. Pittsburgh, Pennsylvania
+1. Pittsburgh, Pennsylvania, USA
 2. Qatar
-3. Silicon Valley, California
-4. Africa (specifically, in the City of Doha, Qatar's capital)
+3. Silicon Valley, California, USA
+4. Los Angeles, USA
+5. New York City, USA
+6. Mountain View, USA
+7. Washington, USA
+8. Doha, Qatar (Qatar campus)
+9. Kigali, Rwanda (Carnegie Mellon University Africa)
 
 [Q5] What types of notable achievements do Carnegie Mellon alumni have?
 Answer: Carnegie Mellon alumni have achieved notable success in various fields, including:
 
-- Art (e.g., Andy Warhol)
-- Entertainment (e.g., Ted Danson, Albert Brooks)
-- Business (e.g., David Tepper, CEOs of top companies)
-- Technology (e.g., Geoffrey E. Hinton, Nobel Laureates in Physics, Chemistry, and Economic Sciences)
-- Academia (e.g., Nobel Laureates, Turing Award winners, professors)
-- Entrepreneurship (e.g., entrepreneurs and tech visionaries)
-- Film (e.g., Albert Brooks)
-- Music (not mentioned in the passages, but the university has over 100,000 alumni)
-- Academia (e.g., professors, Nobel Laureates)
-- Science (e.g., Nobel Laureates in Physics, Chemistry, and Economic Sciences)
+- CEOs and entrepreneurs
+- Tech visionaries
+- Nobel Laureates (21 in five categories: Physics, Economic Sciences, Chemistry, Physiology or Medicine, and Peace)
+- Turing Award winners (13)
+- Tony Award winners
+- Professors
+- Artists (e.g., Andy Warhol)
+- Filmmakers (e.g., Albert Brooks)
+- Actors (e.g., Ted Danson)
 
 [Q6] How many students does Carnegie Mellon have and how many countries do they represent?
-Answer: I cannot verify the exact number of students at Carnegie Mellon University. However, I can tell you that according to Passage 2, the university has students representing 132 countries.
+Answer: Carnegie Mellon has 16,582 graduate students and 7,620 undergraduate students, making a total of 24,202 students. They represent 132 countries.
 
 [Q7] How many faculty members does Carnegie Mellon have?
-Answer: According to Passage 3, the total number of instructional faculty at Carnegie Mellon University is 1,285.
+Answer: According to Passage 3, Carnegie Mellon University has 1,212 faculty members with faculty status.
 

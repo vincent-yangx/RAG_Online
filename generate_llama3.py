@@ -33,7 +33,7 @@ def build_prompt(question, passages, top_k=5):
     )
     return f"""
 You are a helpful assistant. Use the given passages to answer the user's question.
-Make sure that the answer is precise and conceise. 
+Make sure that the answer is precise and conceise. Don't include repeated information.
 If the answer cannot be found in the passages, say "I don't know".
 
 Question: {question}

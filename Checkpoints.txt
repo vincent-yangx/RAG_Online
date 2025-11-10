@@ -1,5 +1,5 @@
 1. Choose a specific dataset 
-adaptive alpha and MMR
+2. Numerical question not up-to-date
 4. Finetune the model 
 5. Build evaluation pipeline  (utilize the dataset chose in step 1)
 
