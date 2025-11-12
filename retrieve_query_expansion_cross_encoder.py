@@ -36,7 +36,7 @@ parser.add_argument("--rerank", type=str, default="bge",
                     choices=["none", "bge"], help="cross-encoder reranking")
 parser.add_argument("--rerank_model", type=str, default="BAAI/bge-reranker-large",
                     help="cross-encoder model id")
-parser.add_argument("--candidate_k", type=int, default=200,
+parser.add_argument("--candidate_k", type=int, default=100,
                     help="num of candidates before rerank")
 parser.add_argument("--rerank_batch_size", type=int, default=64,
                     help="batch size for reranker scoring")

@@ -1,0 +1,760 @@
+================================================================================
+[Q1] What is the population of Pittsburgh according to the 2020 census?
+Pittsburgh population count 2020 census
+Pittsburgh city population 2020 data
+2020 census population figures for Pittsburgh
+Pittsburgh population statistics 2020 census report
+
+  Rank 1: ce_score=9.5312 | pre_score=0.0633
+  chunk_id=00001492 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: The population of the Pittsburgh metropolitan area is holding steady at 2.4 million; 65% of its residents are of European descent and 35% are minorities. Native American era
+[edit]For thousands of years, Native Americans inhabited the region where the Allegheny and the Monongahela join to form the Ohio.
+
+  Rank 2: ce_score=8.8828 | pre_score=0.0741
+  chunk_id=00000002 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: The city is located in southwestern Pennsylvania at the confluence of the Allegheny River and Monongahela River, which combine to form the Ohio River. [8] It is the second-most populous city in Pennsylvania with a population of 302,971 at the 2020 census, while the Pittsburgh metropolitan area at over 2.43 million residents is the largest metropolitan area in both the Ohio Valley and Appalachia, the second-largest in Pennsylvania, and 28th-largest in the U.S.
+
+  Rank 3: ce_score=7.2500 | pre_score=0.0781
+  chunk_id=web_1 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: Pittsburgh (/ˈpɪtsbɜːrɡ/ PITS-burg) is a city in Allegheny County, Pennsylvania, United States, and its county seat. Located in southwestern Pennsylvania where the Allegheny and Monongahela Rivers meet to form the Ohio River, it had a population of 302,971 at the 2020 census, making it the second-most populous city in Pennsylvania. The Pittsburgh metropolitan area has over 2.43 million people, making it the largest in the Ohio Valley and Appalachia, the second-largest in Pennsylvania, and the [...] | Population (2020) |
+| • City "City (Pennsylvania)") | 302,971 |
+| • Estimate (2024) | 307,668 Increase |
+| • Rank | 67th in the United States 2nd in Pennsylvania |
+| • Density | 5,471.3/sq mi (2,112.5/km2) |
+| • Urban | 1,745,039 (US: 30th) |
+| • Urban density | 1,925/sq mi (743.1/km2) |
+| • Metro  | 2,429,917 (US: 28th) |
+| Demonym(s) | Pittsburgher, Yinzer |
+| GDP  |
+| • Pittsburgh (MSA) | $159.6 billion (2023) |
+| Time zone | UTC−5 (Eastern Standard Time) | [...] | 1970 | 520,117 | −13.9% |
+| 1980 | 423,938 | −18.5% |
+| 1990 | 369,879 | −12.8% |
+| 2000 | 334,563 | −9.5% |
+| 2010 | 305,704 | −8.6% |
+| 2020 | 302,971 | −0.9% |
+| 2024 (est.) | 307,668 | 1.6% |
+| U.S. Decennial Census |
+
+  Rank 4: ce_score=7.2227 | pre_score=0.0638
+  chunk_id=00001491 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: In 2007 the city lost its status as a major transportation hub. The population of the Pittsburgh metropolitan area is holding steady at 2.4 million; 65% of its residents are of European descent and 35% are minorities.
+
+  Rank 5: ce_score=6.7578 | pre_score=0.0751
+  chunk_id=00000003 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [8] It is the second-most populous city in Pennsylvania with a population of 302,971 at the 2020 census, while the Pittsburgh metropolitan area at over 2.43 million residents is the largest metropolitan area in both the Ohio Valley and Appalachia, the second-largest in Pennsylvania, and 28th-largest in the U.S. The greater Pittsburgh–Weirton–Steubenville combined statistical area includes parts of Ohio and West Virginia.
+
+================================================================================
+[Q2] Why is Pittsburgh known as "the Steel City"?
+What is Pittsburgh's nickname origin
+Why is Pittsburgh called the Steel City
+Pittsburgh Steel City origin story
+Steel City nickname meaning Pittsburgh
+
+  Rank 1: ce_score=7.5078 | pre_score=0.0797
+  chunk_id=00000005 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: Pittsburgh is known as "the Steel City" for its dominant role in the history of the U.S. steel industry. [9] It developed as a vital link of the Atlantic coast and Midwest, as the mineral-rich Allegheny Mountains led to the region being contested by the French and British empires, Virginians, Whiskey Rebels, and Civil War raiders.
+
+  Rank 2: ce_score=6.3242 | pre_score=0.0395
+  chunk_id=00000006 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [9] It developed as a vital link of the Atlantic coast and Midwest, as the mineral-rich Allegheny Mountains led to the region being contested by the French and British empires, Virginians, Whiskey Rebels, and Civil War raiders. [10] For part of the 20th century, Pittsburgh was behind only New York City and Chicago in corporate headquarters employment; it had the most U.S. stockholders per capita.
+
+  Rank 3: ce_score=5.8984 | pre_score=0.0806
+  chunk_id=web_0 | source=https://statesymbolsusa.org/place/pennsylvania/pittsburgh
+  text: Pittsburgh is called The Steel City because of the hundreds of steel-related businesses that have called this city home. Another nickname for Pittsburgh is The City of Bridges - there are 446 of them!
+
+### Geography and Population [...] The Golden Triangle: the compact hub of the city with 30 skyscrapers and a 14-block cultural district that is packed with theaters and arts venues. Locally called simply "Downtown" or "The Point." [...] The city of Pittsburgh is located in southwestern Pennsylvania midst the rolling hills of the Alleghenies (part of the vast Appalachian Mountain Range).
+
+The hub of the city sits where the Monongahela and Allegheny rivers converge to form the Ohio river (referred to locally as Downtown, The Point, or The Golden Triangle) .
+
+  Rank 4: ce_score=5.7422 | pre_score=0.0149
+  chunk_id=00001559 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: He also named the settlement between the rivers, "Pittsborough" (see Etymology of Pittsburgh). [11][15] The British garrison at Fort Pitt made substantial improvements to its fortification.
+
+  Rank 5: ce_score=5.1992 | pre_score=0.0708
+  chunk_id=00000004 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: The greater Pittsburgh–Weirton–Steubenville combined statistical area includes parts of Ohio and West Virginia. Pittsburgh is known as "the Steel City" for its dominant role in the history of the U.S. steel industry.
+
+================================================================================
+[Q3] What federal agency functions are headquartered in the Pittsburgh area?
+Federal agencies in Pittsburgh area headquarters
+Headquarters of federal agencies in Pittsburgh
+Pittsburgh area federal agency headquarters
+Federal agency headquarters near Pittsburgh
+
+  Rank 1: ce_score=5.9453 | pre_score=0.0534
+  chunk_id=00000011 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [15] The area has served as the federal agency headquarters for cyber defense, software engineering, robotics, energy research, and the nuclear navy. [16] The city is home to ten Fortune 500 companies and seven of the largest 300 U.S. law firms.
+
+  Rank 2: ce_score=4.7070 | pre_score=0.0679
+  chunk_id=00000010 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [13][14]
+Pittsburgh is home to large medical providers, including the University of Pittsburgh Medical Center and Allegheny Health Network, as well as 68 colleges and universities, including Carnegie Mellon University and the University of Pittsburgh. [15] The area has served as the federal agency headquarters for cyber defense, software engineering, robotics, energy research, and the nuclear navy.
+
+  Rank 3: ce_score=-0.9912 | pre_score=0.0499
+  chunk_id=00000392 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: Federally, Pittsburgh is part of Pennsylvania's 12th congressional district, represented by Democrat Summer Lee since 2023. Law enforcement
+[edit]The area's largest law enforcement agency is the Pittsburgh Bureau of Police, with close to 850 sworn officers.
+
+  Rank 4: ce_score=-1.3633 | pre_score=0.0171
+  chunk_id=00000002 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: The city is located in southwestern Pennsylvania at the confluence of the Allegheny River and Monongahela River, which combine to form the Ohio River. [8] It is the second-most populous city in Pennsylvania with a population of 302,971 at the 2020 census, while the Pittsburgh metropolitan area at over 2.43 million residents is the largest metropolitan area in both the Ohio Valley and Appalachia, the second-largest in Pennsylvania, and 28th-largest in the U.S.
+
+  Rank 5: ce_score=-2.0078 | pre_score=0.0781
+  chunk_id=web_1 | source=https://www.pittsburghpa.gov/Safety/Public-Safety/Emergency-Management-and-Homeland-Security
+  text: Following the 9/11 attacks came the establishment of the federal Department of Homeland Security (DHS). With the release of the DHS National Preparedness Goal initiative, it was recognized that Homeland Security begins with Hometown Security. As such, the Pittsburgh Emergency Management Agency expanded its mission area to include Homeland Security and altered the name of the organization to the Pittsburgh Office of Emergency Management & Homeland Security (OEMHS). [...] officially formed in 1988 with Director Cannon as Emergency Management Coordinator and Demichiei as Deputy Director. [...] The post 9/11 era also brought new federal preparedness and response funding for state and local agencies through the Homeland Security Grant Program (HSGP). Through this program, Pittsburgh OEMHS was able to purchase various vehicles and equipment to fill response gaps created from the newly evolving threat landscape. These pieces of equipment and vehicles helped enhance operational abilities and address capability gaps within the City and Region. Pittsburgh was a pioneer in many pieces of
+
+================================================================================
+[Q4] Who named Pittsburgh?
+Pittsburgh founder
+Person who named Pittsburgh
+Who is the Pittsburgh namesake
+Pittsburgh named by whom
+
+  Rank 1: ce_score=7.8086 | pre_score=0.0691
+  chunk_id=00000017 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: Etymology
+[edit]Pittsburgh was named in 1758, by Scottish General John Forbes, in honor of British statesman William Pitt, 1st Earl of Chatham. As Forbes was a Scotsman, he probably pronounced the name /ˈpɪtsbərə/ PITS-bər-ə (similar to Edinburgh).
+
+  Rank 2: ce_score=6.1992 | pre_score=0.0168
+  chunk_id=00001511 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [10] Europeans first began to settle in the region in 1748, when the first Ohio Company, a Virginian land speculation company, won a grant of 200,000 acres (800 km2) in the upper Ohio Valley. From a post at present-day Cumberland, Maryland, the company began to construct an 80-mile (130 km) wagon road to the Monongahela River[11] employing a Lenape Indian chief named Nemacolin and a party of settlers headed by Capt.
+
+  Rank 3: ce_score=6.0859 | pre_score=0.0806
+  chunk_id=web_0 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: ## Etymology
+
+[edit]
+
+Main article: Name of Pittsburgh
+
+Pittsburgh was named in 1758, by Scottish General John Forbes "John Forbes (British Army officer)"), in honor of British statesman William Pitt, 1st Earl of Chatham. As Forbes was a Scotsman, he probably pronounced the name /ˈpɪtsbərə/ PITS-bər-ə (similar to Edinburgh). [...] | Country | United States |
+| State | Pennsylvania |
+| County | Allegheny |
+| Founded | November 27, 1758; 266 years ago (1758-11-27) (fort) |
+| Municipal incorporation |  April 22, 1794; 231 years ago (1794-04-22) (borough)  March 18, 1816; 209 years ago (1816-03-18) (city) |
+| Founded by | John Forbes "John Forbes (British Army officer)") |
+| Named after | William Pitt, 1st Earl of Chatham |
+| Government |
+| • Type | Mayor-council | [...] Braddock was dispatched with Major George Washington as his aide to take Fort Duquesne. The British and colonial force were defeated at Braddock's Field. General John Forbes finally took the forks in 1758. He began construction on Fort Pitt "Fort Pitt (Pennsylvania)"), named after William Pitt the Elder, while the settlement was named "Pittsborough".
+
+  Rank 4: ce_score=5.5039 | pre_score=0.0337
+  chunk_id=00001590 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: In 1779, Colonel Daniel Brodhead led 600 men from Fort Pitt to destroy Seneca villages along the upper Allegheny. [4]
+With the war still ongoing, in 1780 Virginia and Pennsylvania came to an agreement on their mutual borders, creating the state lines known today and determining finally that the jurisdiction of Pittsburgh region was Pennsylvanian.
+
+  Rank 5: ce_score=5.2852 | pre_score=0.0820
+  chunk_id=00000016 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: Pittsburgh is additionally where Jehovah's Witnesses traces its earliest origins, and was the host of the 2009 G20 Pittsburgh summit. Etymology
+[edit]Pittsburgh was named in 1758, by Scottish General John Forbes, in honor of British statesman William Pitt, 1st Earl of Chatham.
+
+================================================================================
+[Q5] When was Pittsburgh incorporated as a borough?
+Pittsburgh borough incorporation date
+When was Pittsburgh a borough founded
+Pittsburgh borough establishment year
+Year Pittsburgh was incorporated as a borough
+
+  Rank 1: ce_score=9.5312 | pre_score=0.0147
+  chunk_id=00000059 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: On March 18, 1816, the 46-year-old local government became a city. It was served by numerous river steamboats that increased trading traffic on the rivers.
+
+  Rank 2: ce_score=9.5312 | pre_score=0.0558
+  chunk_id=00000044 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: On April 16, 1771, the city's first civilian local government was created as Pitt Township. [35][36] William Teagarden was the first constable, and William Troop was the first clerk.
+
+  Rank 3: ce_score=9.4688 | pre_score=0.0472
+  chunk_id=00001533 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [15]
+Governor Dinwiddie sent Captain William Trent to build a fort at the Forks of the Ohio. On February 17, 1754, Trent began construction of the fort, the first European habitation[17] at the site of present-day Pittsburgh.
+
+  Rank 4: ce_score=8.2812 | pre_score=0.0733
+  chunk_id=00000058 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: By 1815, Pittsburgh was producing significant quantities of iron, brass, tin, and glass. On March 18, 1816, the 46-year-old local government became a city.
+
+  Rank 5: ce_score=8.0156 | pre_score=0.0188
+  chunk_id=00001510 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: Michael Bezallion was the first to describe the forks of the Ohio in a manuscript in 1717, and later that year European traders established posts and settlements in the area. [10] Europeans first began to settle in the region in 1748, when the first Ohio Company, a Virginian land speculation company, won a grant of 200,000 acres (800 km2) in the upper Ohio Valley.
+
+================================================================================
+[Q6] During what years was the city's name federally recognized as "Pittsburg" without the final "h"?
+Years Pittsburgh was officially spelled Pittsburg
+When was Pittsburgh's name spelled without the 'h'?
+Pittsburgh name without 'h' years
+Pittsburgh name historically misspelled
+
+  Rank 1: ce_score=7.6602 | pre_score=0.0776
+  chunk_id=00000020 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: "[21]
+From 1891 to 1911, the city's name was federally recognized as "Pittsburg", though use of the final h was retained during this period by the city government and other local organizations. [22][18] After a public campaign, the federal decision to drop the h was reversed.
+
+  Rank 2: ce_score=6.6719 | pre_score=0.0784
+  chunk_id=00000019 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [18][19]
+Pittsburgh was incorporated as a borough on April 22, 1794, with the following Act:[20] "Be it enacted by the Pennsylvania State Senate and Pennsylvania House of Representatives of the Commonwealth of Pennsylvania ... by the authority of the same, that the said town of Pittsburgh shall be ... erected into a borough, which shall be called the borough of Pittsburgh for ever. "[21]
+From 1891 to 1911, the city's name was federally recognized as "Pittsburg", though use of the final h was retained during this period by the city government and other local organizations.
+
+  Rank 3: ce_score=4.7148 | pre_score=0.0728
+  chunk_id=00000021 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [22][18] After a public campaign, the federal decision to drop the h was reversed. [18] The Pittsburg Press continued spelling the city without an h until 1921.
+
+  Rank 4: ce_score=3.6543 | pre_score=0.0698
+  chunk_id=00000022 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [18] The Pittsburg Press continued spelling the city without an h until 1921. [23]
+History
+[edit]Kingdom of France 1690s–1763
+Great Britain 1681–1781
+United States 1776–present
+Native Americans
+[edit]The area of the Ohio headwaters was long inhabited by the Shawnee and several other settled groups of Native Americans.
+
+  Rank 5: ce_score=3.1133 | pre_score=0.0758
+  chunk_id=web_2 | source=https://positivelypittsburgh.com/whatsinanh/
+  text: When Pittsburgh was being incorporated as a city in 1816, a printer’s error dropped the ‘h’ from the end. While the ‘h’ was included in the original document, the “Pittsburg” spelling is found on all official copies. As a result of that error, the incorrect spelling turned up here and there in newspapers and other printed material throughout the rest of the 1800s. However, ‘Pittsburgh’ continued to be the most popular, and the official, spelling. [...] Eventually, a special meeting of the U.S. Board of Geographic Names (now known as the U.S. Geographical Board) was arranged.  The board met on July 19th, 1911.  A preponderance of evidence citing Pittsburgh spelled with the ‘h’ over the decades convinced the board to reinstate the final letter.  A message sent to Senator Oliver read:
+
+Sir: [...] At a special meeting of the United States Geographic Board Held on July 19, 1911, the previous decision with regard to the spelling of Pittsburgh without the final H was reconsidered and the form below was adopted:
+
+Pittsburgh, a city in Pennsylvania (not Pittsburg).
+
+Very respectfully,
+
+G.S. Sloan, Secretary
+
+## How to Spell Pittsburgh
+
+================================================================================
+[Q7] What was the name of the French fort built at the forks of the Ohio River during the French and Indian War?
+Name of French fort at Ohio River confluence during French and Indian War
+French fort at Ohio River forks during 18th century conflict
+French fort established at Ohio River fork during colonial era
+Name of fort built by French at Ohio River fork during French and Indian War
+
+  Rank 1: ce_score=6.5469 | pre_score=0.0781
+  chunk_id=web_1 | source=https://en.wikipedia.org/wiki/Fort_Duquesne
+  text: Fort Duquesne (/djuː.ˈkeɪn/ dew-KAYN, French: (/wiki/Help:IPA/French "Help:IPA/French"); originally called Fort Du Quesne) was a fort established by the French in 1754, at the confluence of the Allegheny and Monongahela rivers. It was later taken over by the British, and later the Americans, and developed as Pittsburgh in the U.S. state of Pennsylvania. Fort Duquesne was destroyed by the French before its British conquest during the Seven Years' War, known as the French and Indian War on the [...] Following Washington's return to Mount Vernon in January 1754, Dinwiddie sent Virginians to build Fort Prince George at the Forks of the Ohio. Work began on the fort on February 17. By April 18, a much larger French force of five hundred under the command of Claude-Pierre Pécaudy de Contrecœur arrived at the forks, forcing the small British garrison to surrender. The French knocked down the tiny British fort and built Fort Duquesne, named in honor of Marquis Duquesne, the governor-general of [...] Fort Duquesne, built at the confluence of the Allegheny and Monongahela rivers which form the Ohio River, was considered strategically important for controlling the Ohio Country, both for settlement and for trade. The English merchant William Trent had established a highly successful trading post at the forks as early as the 1740s, to do business with a number of nearby Native American villages. Both the French and the British were keen to gain advantage in the area.
+
+  Rank 2: ce_score=3.6426 | pre_score=0.0758
+  chunk_id=web_2 | source=https://www.theculturalexperience.com/news/turning-the-tide-the-british-capture-of-fort-duquesne/
+  text: Fort Duquesne is one of the most important sites associated with The French and Indian War (1754 - 1763). It’s construction by the French in 1754 was a catalyst for that war as the British and French competed for control of the Ohio Valley. It’s capture by the British in 1758 was a turning point, leading to the British invasion of Canada and the eventual removal of the French presence in North America. [...] Built on the confluence of the Allegheny and Monongahela Rivers where they become the Ohio River, Fort Duquesne was a point of immense strategic importance. It enabled the control of the Ohio Valley and the resources it yielded, as well as control over the new fur supply routes starting in Canada. The French built the fort to gain access to these supply routes, but the British, seeing the advantages it gave them, quickly claimed the territory as theirs, and assembled an army to enforce it. And [...] Faced with complete disaster if he were to fight back, the French commander of Fort Duquesne ordered a withdrawal on November 24th, the night before the British were due to attack. Under the cover of darkness, the French set Fort Duquesne on fire and escaped down the Ohio River. The next day, Forbes and the British claimed the burning husk and the land where the fort once stood.
+
+  Rank 3: ce_score=3.2715 | pre_score=0.0539
+  chunk_id=00000032 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: The French and Indian War, the North American front of the Seven Years' War, began with the future Pittsburgh as its center. British General Edward Braddock was dispatched with Major George Washington as his aide to take Fort Duquesne.
+
+  Rank 4: ce_score=3.1133 | pre_score=0.0806
+  chunk_id=web_0 | source=http://www.fortpittblockhouse.com/what-was-fort-pitt/
+  text: Fort Pitt was a key British fortification during the French and Indian War. The British had been trying for years to reclaim the Forks of the Ohio River from the French. As early as 1753 the French constructed three forts in the Western Pennsylvania area including Fort de la Presque Isle (present-day Erie) along the shore of Lake Erie, Fort LeBoeuf (present-day Waterford) near French Creek, and Fort Machault (present-day Franklin) at the confluence of French Creek and the Allegheny River. A [...] The French now had control of the Forks, and to solidify this control, they built Fort Duquesne, named after the governor of New France. The British made two initial attempts to regain control of the Point. The first of these attempts was led by George Washington under the auspices of Virginia in May 1754. He and his men encountered a small group of French soldiers led by Ensign Joseph Coulon de Villiers de Jumonville near modern-day Uniontown, Pennsylvania, and fired upon them, killing [...] The completion of the French fortifications led the governor of Virginia to send an emissary to Fort LeBoeuf to tell the French to stop their construction and leave the territory. This emissary, a young George Washington, left in the early winter of 1753, passing by the Forks of the Ohio (commonly called “the Point” due to the land pointing out toward the Ohio River) on his way up to Fort LeBoeuf. The mission ended in failure for the British as the French obviously refused to leave what they
+
+  Rank 5: ce_score=2.9043 | pre_score=0.0527
+  chunk_id=00001536 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: The French tore down the British fortification and constructed Fort Duquesne. [14][15]
+Governor Dinwiddie launched another expedition.
+
+================================================================================
+[Q8] Why did many former slaves leave Allegheny County for Canada after 1850?
+Allegheny County slave escape to Canada after 1850
+Reasons for slaves migrating from Allegheny County to Canada pre-1860
+Former slaves from Allegheny County who moved to Canada post-1850
+Mass migration of ex-slaves from Allegheny County to Canada during the 19th century
+
+  Rank 1: ce_score=7.5586 | pre_score=0.0820
+  chunk_id=00000072 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: Many slaves left the city and county for Canada after Congress passed the 1850 Fugitive Slave Act, as it required cooperation from law enforcement even in free states and increased penalties. From 1850 to 1860, the black population in Allegheny County dropped from 3,431 to 2,725 as people headed to more safety in Canada.
+
+  Rank 2: ce_score=5.5859 | pre_score=0.0205
+  chunk_id=00001565 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: In April 1761, a census ordered by Colonel Henry Bouquet and conducted by William Clapham counted 332 people and 104 houses. [21][22]: 148
+After Britain's victory in the French and Indian War, increasing dissatisfaction among Native Americans with the continuing encroachment of settlers on lands that had been agreed would be Indian-occupied (both in the 1758 Treaty of Easton and in the Royal Proclamation of 1763 the British authorities had decreed that there would be no British-American settlements west of the Alleghenies, but the authorities had been unable or unwilling to enforce these decrees) led to the outbreak of Pontiac's War.
+
+  Rank 3: ce_score=4.4141 | pre_score=0.0240
+  chunk_id=00000093 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: There were massive layoffs from mill and plant closures. [12]
+In the later 20th century, the area shifted its economic base to education, tourism, and services, largely based on healthcare/medicine, finance, and high technology such as robotics.
+
+  Rank 4: ce_score=4.3477 | pre_score=0.0208
+  chunk_id=00001761 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: The increased production output created a workforce shortage, which resulted in African Americans moving en masse during the Second Great Migration from the South to the city in order to find work. [11]
+Postwar
+[edit]David Lawrence, a Democrat, served as mayor of Pittsburgh from 1946 to 1959 and as Pennsylvania's governor from 1959 to 1963. [71] Lawrence used his political power to transform Pittsburgh's political machine into a modern governmental unit that could run the city well and honestly.
+
+  Rank 5: ce_score=4.2148 | pre_score=0.0163
+  chunk_id=00001511 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [10] Europeans first began to settle in the region in 1748, when the first Ohio Company, a Virginian land speculation company, won a grant of 200,000 acres (800 km2) in the upper Ohio Valley. From a post at present-day Cumberland, Maryland, the company began to construct an 80-mile (130 km) wagon road to the Monongahela River[11] employing a Lenape Indian chief named Nemacolin and a party of settlers headed by Capt.
+
+================================================================================
+[Q9] What is the tallest skyscraper in Downtown Pittsburgh?
+Tallest building in Pittsburgh Downtown area
+Downtown Pittsburgh's highest skyscraper
+Pittsburgh Downtown tallest skyscraper
+Skyscraper height in Pittsburgh Downtown
+
+  Rank 1: ce_score=8.6562 | pre_score=0.0714
+  chunk_id=web_4 | source=https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_Pittsburgh
+  text: The tallest building in Pittsburgh is the 64-story U.S. Steel Tower, which rises 841 feet (256 m) and was completed in 1970. It was built as the headquarters of
+
+  Rank 2: ce_score=7.3086 | pre_score=0.0781
+  chunk_id=web_1 | source=https://en.wikipedia.org/wiki/U.S._Steel_Tower
+  text: The U.S. Steel Tower, also known as the Steel Building, or USX Tower (1988–2001), is a 64-story skyscraper at 600 Grant Street in downtown Pittsburgh, Pennsylvania. The interior has 2,300,000 sq ft (210,000 m2) of leasable space. At 256.3 m (841 ft) tall, it is the tallest building in Pittsburgh. It held its opening dedication on September 30, 1971. [...] |  |  |  |
+ --- 
+| Preceded by BNY Mellon Center "BNY Mellon Center (Pittsburgh)") | Pittsburgh Skyscrapers by Height  256 m (840 ft) 64 floors | Succeeded by Record holder |
+| Preceded by Westinghouse Tower | Pittsburgh Skyscrapers by Year of Completion  1971 | Succeeded by Centre City Tower "Centre City Tower (Pittsburgh)") |
+
+#### Languages
+
+Wikipedia
+
+ Wikimedia Foundation
+ Powered by MediaWiki
+
+Wikimedia Foundation
+Powered by MediaWiki [...] Prior to 1970, the tallest building in Pittsburgh at 44 stories was the Gulf Building (now known as the Gulf Tower). In the planning stages, U.S. Steel executives considered making the building the world's tallest, but settled on 840 ft (260 m) making it the tallest building outside New York and Chicago. However, it eventually lost even that distinction to newer buildings erected across the United States.
+
+  Rank 3: ce_score=5.9453 | pre_score=0.0735
+  chunk_id=web_3 | source=https://www.cbsnews.com/pittsburgh/news/u-s-steel-tower-visitors-guide/
+  text: At 64 stories tall, the U.S. Steel Tower is 841 feet high, making it the tallest skyscraper in the city, the fourth tallest in Pennsylvania, the 41st tallest in the country, and the 220th tallest in the world. On a clear day, it can be seen from up to 50 miles away -- take a trip up to the nearby Laurel Highlands to see for yourself. Previously, Pittsburgh's tallest building was the 44-story Gulf Tower. Because the U.S. Steel Tower's roof does not taper like many skyscrapers, it has the largest [...] Pittsburgh's known for its skyline -- especially looking down on it from Mt. Washington. Though we have a few skyscrapers here, the tallest is the U.S. Steel Tower at 600 Grant St., at a height of 64 stories tall. With a nativity scene every Christmas and some screen time in movies shot in Pittsburgh, the U.S. Steel Tower certainly stands out. Here's everything you need to know about Pittsburgh's tallest skyscraper.
+
+Stats [...] roof in the world for its height at one acre. It was once used as a heliport.
+
+  Rank 4: ce_score=4.5938 | pre_score=0.0758
+  chunk_id=web_2 | source=https://kids.kiddle.co/List_of_tallest_buildings_in_Pittsburgh
+  text: Pittsburgh saw a big boom in building tall structures from the late 1960s to the late 1980s. During this time, 11 of the city's 20 tallest buildings were built. This includes the three tallest ones: the U.S. Steel Tower, BNY Mellon Center, and PPG Place. As of 2020, Pittsburgh had 10 completed skyscrapers that were at least 492 feet (150 m) tall. This makes Pittsburgh's skyline the 14th tallest in the United States and 90th in the world! Two of these skyscrapers are even taller than 700 feet [...] ## Future Skyscrapers: Approved or Under Construction
+
+Here are some skyscrapers that are approved or being built in Pittsburgh. They will be at least 300 feet (91 m) tall.
+
+| Name | Height  ft (m) | Floors | Year\  (est.) | Status | Notes |
+ ---  ---  --- |
+| FNB Financial Center | 418 (127) | 26 | 2024 | Topped Out | Building started on September 1, 2021. It reached its full height on May 18, 2023. |
+| 1501 Penn  Former Wholey Warehouse Building | 340 (104) | 23 | 2024 | Approved |  | [...] The very tallest building in Pittsburgh is the U.S. Steel Tower. It has 64 floors and stands 841 feet (256 m) high! It was finished in 1970. This tower is also the fifth tallest building in all of Pennsylvania. The second tallest skyscraper in Pittsburgh is the BNY Mellon Center "BNY Mellon Center (Pittsburgh)"), which reaches 725 feet (221 m) into the sky.
+
+  Rank 5: ce_score=4.3945 | pre_score=0.0820
+  chunk_id=00000115 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: These areas are further divided into 90 neighborhoods. [56]
+Downtown Pittsburgh has 30 skyscrapers, nine over 500 feet (150 m), with the U.S. Steel Tower being the tallest at 841 ft (256 m).
+
+================================================================================
+[Q10] What is the oldest continuously producing theater company in Pennsylvania?
+Oldest theater company in PA still operating
+Longest running theater company in Pennsylvania
+Pennsylvania's oldest continuously operating theater company
+The oldest continuously producing theater company in Pennsylvania
+
+  Rank 1: ce_score=9.5000 | pre_score=0.0814
+  chunk_id=00000270 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: The Duquesne University Red Masquers, founded in 1912, are the oldest, continuously producing theater company in Pennsylvania. [citation needed] The city's longest-running theater show, Friday Nite Improvs, is an improv jam that has been performed in the Cathedral of Learning and other locations for 20 years.
+
+  Rank 2: ce_score=6.6953 | pre_score=0.0799
+  chunk_id=00000269 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [27] Collegiate companies include the University of Pittsburgh's Repertory Theatre and Kuntu Repertory Theatre, Point Park University's resident companies at its Pittsburgh Playhouse, and Carnegie Mellon University's School of Drama productions and Scotch'n'Soda organization. The Duquesne University Red Masquers, founded in 1912, are the oldest, continuously producing theater company in Pennsylvania.
+
+  Rank 3: ce_score=4.1523 | pre_score=0.0758
+  chunk_id=web_2 | source=https://www.walnutstreettheatre.org/about/history.php
+  text: ## History
+
+The Walnut Street Theatre, founded in 1808, is America's Oldest Theatre. It is also the Official State Theatre of Pennsylvania, and a National Historic Landmark.
+
+#### History of the Theatre
+
+#### Theatre Timeline
+
+#### Historic Photo Gallery
+
+#### Walnut Fun Facts
+
+#### State Theatre
+
+#### Edwin Forrest Award
+
+#### Walnut Street Theatre Company Production History [...] America's Oldest · Founded 1808
+
+  Rank 4: ce_score=3.5723 | pre_score=0.0621
+  chunk_id=00000014 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [9] Its rich industrial history left the area with renowned cultural institutions, including the Carnegie Museums of Pittsburgh, Pittsburgh Zoo & Aquarium, Phipps Conservatory and Botanical Gardens, the National Aviary, and a diverse cultural district. [17] The city's major league professional sports teams include the Pittsburgh Steelers, Pittsburgh Penguins, and Pittsburgh Pirates.
+
+  Rank 5: ce_score=3.4316 | pre_score=0.0806
+  chunk_id=web_0 | source=https://www.worldatlas.com/articles/which-is-the-oldest-operating-theater-in-the-united-states.html
+  text: The oldest continuously operating theater in the US is the Walnut Street Theatre, located in the state of Pennsylvania at 825 Walnut Street in Philadelphia. In addition to being the oldest in the US, it is also the oldest English-speaking theater still in operation in the world today. The interior of the Walnut Street Theatre houses three stages and two studios. The studios are located on the 3rd and 5th floors and are used for both small and independent productions. The largest of the three [...] Today, the Walnut Street Theatre has celebrated more than 200 anniversaries and is run as a non-profit organization. Its mission is to keep the art of professional theater alive, which it accomplishes by offering training to performing artists and by producing and offering theater presentations. Additionally, this theater holds the distinction of having more subscribers than any other theater in the world, reaching more than 55,000 each production season. To achieve this goal, the Walnut Street
+
+================================================================================
+[Q11] What was the reported assault rate per 100,000 persons in Pittsburgh in 2012?
+Pittsburgh assault rate 2012 statistics
+Pittsburgh crime rate per capita 2012
+Pittsburgh reported assault incidents 2012
+Pittsburgh crime statistics per 100k 2012
+
+  Rank 1: ce_score=2.5391 | pre_score=0.0806
+  chunk_id=web_0 | source=https://www.alleghenycountyanalytics.us/wp-content/uploads/2016/08/Homicides-in-Allegheny-County-1997-Through-2012.pdf
+  text: Compared with 16 benchmark cities,2 the City of Pittsburgh’s average homicide rate of 16 per 100,000 people is slightly below the average homicide rate of 21 victims per 100,000 people. Pittsburgh’s rate is less than half that of Detroit, Baltimore and St. Louis; comparable to Indianapolis, Cleveland and Milwaukee; and twice that of Minneapolis and Denver. 4 6 8 10 1960 1970 1980 1990 2000 2010 Homicide Rate per 100,000 People Year 1  Pittsburgh’s total population decreased approximately nine [...] Pittsburgh, 2000 through 2012 n Homicide Distribution n High Homicide Concentration TABLE 2: City of Pittsburgh Neighborhoods with the Highest Numbers and Rates of Homicides, 2000 through 2012 CITY OF PITTSBURGH NEIGHBORHOOD NUMBER OF HOMICIDES CITY OF PITTSBURGH NEIGHBORHOOD AVERAGE HOMICIDES PER 100,000 PEOPLE Homewood South 47 Saint Clair 84 Bedford Dwellings 30 Bedford Dwellings 25 Terrace Village 29 Homewood South 19 Larimer 26 Strip District 19 Middle Hill 26 California-Kirkbride 18 Perry [...] Population at High Risk of Victimization When considering age, race and gender together, a stark picture emerges in which violence is a significant problem for young African American men, far out of proportion to their numbers. The average homicide rate in Pittsburgh is 16 per 100,000 people. For African American males in Pittsburgh, the rate is 107 per 100,000. For those African American males who are young, the homicide rate in Pittsburgh is 334 per 100,000. This is over 65 times the average
+
+  Rank 2: ce_score=2.2051 | pre_score=0.0764
+  chunk_id=00000400 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: The FBI recommends against using data for ranking. [219][220] Per 100,000 persons stats (2012):
+At the end of 2019, the Pittsburgh Bureau of Police reported 37 murders in the city that year. [221]
+In Pittsburgh, the homicide rate for African Americans is seven times the national average.
+
+  Rank 3: ce_score=1.9873 | pre_score=0.0781
+  chunk_id=web_1 | source=https://www.alleghenycountyanalytics.us/wp-content/uploads/2019/04/18-ACDHS-10_Arrest-Trends_032019.pdf
+  text: 2010 2011 2012 2013 2014 2015 0 2,000 4,000 6,000 8,000 10,000 2001 2002 2003 2004 2006 2005 2008 2007 2009 2010 2011 2012 2013 2014 2015 art I Arrest and Crime Rates e in Pittsburgh, 2001 to 2015 Annual Trends in Part II Arrest and Crime Rates per 100,000 People in Pittsburgh, 2001 to 2015 Part I Crimes, in order of UCR hierarchy: 1. Homicide 2. Rape 3. Robbery 4.  Aggravated Assault 5. Burglary 6. Theft 7. MV Theft 8. Arson Part II Crimes, in order of UCR hierarchy: 9. Forgery 10. Simple [...] FIGURE 4: Part I and Part II Crime and Arrest Rates per 100,000 People, 2001 to 2015 n Crime Rate n Arrest Rate Linear (Crime Rate) Linear (Arrest Rate) 0 1,000 2,000 3,000 4,000 5,000 6,000 7,000 8,000 2001 2002 2003 2004 2006 2005 2008 2007 2009 2010 2011 2012 2013 2014 2015 0 2,000 4,000 6,000 8,000 10,000 2001 2002 2003 2004 2006 2005 20 2007 Annual Trends in Part I Arrest and Crime Rates per 100,000 People in Pittsburgh, 2001 to 2015 Annual Trends in Part per 100,000 People i 2008 2009 [...] FIGURE 5: Violent and Property Crime and Arrest Rates per 100,000 People, 2001 to 2015 n Crime Rate n Arrest Rate Linear (Crime Rate) Linear (ArrestRate) 2008 2009 2010 2011 2012 2013 2014 2015 0 1000 2000 3000 4000 5000 6000 2001 2002 2003 2004 2006 2005 2008 2007 2009 2010 2011 2012 2013 2014 2015 st and Crime Rates Property Arrest and Crime Rates 0 300 600 900 1.200 1,500 2001 2002 2003 2004 2006 2005 2008 2007 2009 2010 2011 2012 2013 2014 2015 0 1000 2000 3000 4000 5000 6000 2001 2002 2003
+
+  Rank 4: ce_score=-2.8359 | pre_score=0.0758
+  chunk_id=web_2 | source=https://www.lycoming.edu/schemata/pdfs/bradford_cj447.pdf
+  text: 2006, and can be implemented again to further the reduction in crime in 2012. The PIRC focuses on community based policing and interactions, and has recently shown to decrease gang violence and violent crime rates in Pittsburgh (Pittsburgh Police Department, 2012). PIRC is proving to be a valuable resource in crime prevention and in reducing crime rates. Continuing this program is imperative in 2012 and the following years. 5 Schemata | 2013 References Federal Bureau of Investigation. Crime in [...] the United States. Retrieved February 15, 2012, from [...] take on an “employment based lifestyle” (Pittsburgh Police Department, 2012). A recent 2011 assessment showed a 20% reduction in homi­ cides from 2010 to 2011, a 16% reduction in gun assaults from 2010 to 2011, and 41 calls into the PIRC service hotline during 2011 (Pittsburgh Police Department, 2012). Recommendations stressing an increase the number of patrolmen, shortening response time, continuance of the PIRC program, community outreach, and community policing for the 2012 year and the
+
+  Rank 5: ce_score=-3.7559 | pre_score=0.0735
+  chunk_id=web_3 | source=https://en.wikipedia.org/wiki/List_of_United_States_cities_by_crime_rate
+  text: | Pennsylvania | Philadelphia | 1,549,259 | 5503.53 | 16.91 | 46.09 | 273.23 | 572.47 | 908.69 | 46.67 | 318.99 | 3223.61 | 1005.58 | 4548.17 |
+| Pennsylvania | Pittsburgh | 317,177 | 2730.02 | 11.35 | 51.71 | 124.22 | 239.93 | 427.21 | 22.70 | 232.68 | 1704.41 | 343.03 | 2280.11 |
+| Rhode Island | Providence | 193,679 | 1935.16 | 6.20 | 20.65 | 55.76 | 194.14 | 276.75 | 0.52 | 117.20 | 1330.04 | 210.66 | 1657.90 | [...] | Maryland | Baltimore | 566,632 | 5783.65 | 34.77 | 57.53 | 573.21 | 940.65 | 1606.16 | 20.47 | 523.80 | 2581.92 | 1051.30 | 4157.02 |
+| Massachusetts | Boston | 659,049 | 2652.61 | 3.64 | 25.64 | 126.39 | 472.20 | 627.87 | 3.03 | 177.68 | 1687.43 | 156.59 | 2021.70 |
+| Massachusetts | Springfield | 155,491 | 3755.84 | 10.93 | 46.95 | 209.02 | 624.47 | 891.37 | 28.94 | 313.84 | 1856.70 | 664.99 | 2835.53 | [...] | Ohio | Toledo | 263,668 | 3823.75 | 12.14 | 98.61 | 107.33 | 823.00 | 1041.08 | 50.44 | 483.18 | 1844.36 | 404.68 | 2732.22 |
+| Oklahoma | Oklahoma City | 709,456 | 3586.41 | 10.29 | 72.87 | 99.65 | 493.19 | 676.01 | 16.91 | 582.56 | 1950.79 | 360.14 | 2893.48 |
+| Oklahoma | Tulsa | 411,310 | 4582.43 | 9.48 | 105.76 | 98.71 | 727.92 | 941.87 | 13.13 | 747.13 | 2397.70 | 482.60 | 3627.43 |
+
+================================================================================
+[Q12] What was the Asian ethnic makeup of Pittsburgh according to the 2020 census?
+Asian population in Pittsburgh 2020 census
+Pittsburgh ethnic demographics Asian 2020
+Asian ethnicity in Pittsburgh census 2020 data
+Pittsburgh Asian ethnic breakdown 2020 statistics
+
+  Rank 1: ce_score=5.1719 | pre_score=0.0702
+  chunk_id=00000175 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: Pittsburgh has a sizable Black and African American population, concentrated in various neighborhoods especially in the East End. There is also a small Asian community consisting of Indian immigrants, and a small Hispanic community consisting of Mexicans and Puerto Ricans.
+
+  Rank 2: ce_score=5.1602 | pre_score=0.0538
+  chunk_id=00000084 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: By 1940, non-Hispanic whites were 90.6% of the city's population. [44] Pittsburgh also became a main destination of the African-American Great Migration from the rural South during the first half of the 20th century.
+
+  Rank 3: ce_score=4.5312 | pre_score=0.0689
+  chunk_id=00001492 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: The population of the Pittsburgh metropolitan area is holding steady at 2.4 million; 65% of its residents are of European descent and 35% are minorities. Native American era
+[edit]For thousands of years, Native Americans inhabited the region where the Allegheny and the Monongahela join to form the Ohio.
+
+  Rank 4: ce_score=4.1289 | pre_score=0.0641
+  chunk_id=00000186 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: Outside of the city limits, Dormont and Mount Oliver were Pittsburgh's most densely populated neighborhoods, with 11,167 and 9,902 people per square mile respectively. [121]
+Most of Pittsburgh's immigrants are from China, India, Korea and Italy.
+
+  Rank 5: ce_score=3.7793 | pre_score=0.0756
+  chunk_id=00000172 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [106] Its racial and ethnic makeup in 2020 was 64.7% non-Hispanic white, 23.0% Black or African American, 5.8% Asian, and 3.2% Hispanic or Latino American of any race. Since the beginning of the 21st century, the five largest European ethnic groups in Pittsburgh were German (19.7%), Irish (15.8%), Italian (11.8%), Polish (8.4%), and English (4.6%), while the metropolitan area is approximately 22% German-American, 15.4% Italian American and 11.6% Irish American. Pittsburgh has one of the largest Italian-American communities in the nation,[114] and the fifth-largest Ukrainian community per the 1990 census. [115] Pittsburgh has one of the most extensive Croatian communities in the United States.
+
+================================================================================
+[Q13] When did production of steel begin in Pittsburgh?
+Steel production start date in Pittsburgh
+History of steel production in Pittsburgh
+Pittsburgh steel production timeline
+When did steel production start in Pittsburgh PA
+
+  Rank 1: ce_score=7.6367 | pre_score=0.0085
+  chunk_id=00000047 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: One of its earliest industries was boat building for settlers of the Ohio Country. In 1784, Thomas Vickroy completed a town plan which was approved by the Penn family attorney.
+
+  Rank 2: ce_score=6.0547 | pre_score=0.0501
+  chunk_id=00000065 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: By 1857, Pittsburgh's 1,000 factories were consuming 22 million coal bushels yearly. Coal mining and iron manufacturing attracted waves of European immigrants to the area, with the most coming from Germany.
+
+  Rank 3: ce_score=5.3203 | pre_score=0.0820
+  chunk_id=00001479 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: By the 1840s, Pittsburgh had grown to be one of the largest cities west of the Allegheny Mountains. Production of steel began in 1875.
+
+  Rank 4: ce_score=5.2969 | pre_score=0.0650
+  chunk_id=00001639 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: Despite many challenges, Pittsburgh had grown into an industrial powerhouse. An 1857 article provided a snapshot of the Iron City:[31]
+- 939 factories in Pittsburgh and Allegheny City
+- employing more than 10K workers
+- producing almost $12M in goods
+- using 400 steam engines
+- Total coal consumed — 22M bushels
+- Total iron consumed — 127K tons
+- In steam tonnage, third busiest port in the nation, surpassed only by New York City and New Orleans. Steel City (1859–1946)
+[edit]The iron and steel industry developed rapidly after 1830 and became one of the dominant factors in industrial America by the 1860s.
+
+  Rank 5: ce_score=5.0898 | pre_score=0.0193
+  chunk_id=00001687 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [47]
+Germans
+[edit]During the mid-19th century, Pittsburgh witnessed a dramatic influx of German immigrants, including a brick mason whose son, Henry J. Heinz, founded the H.J. Heinz Company in 1869. Heinz was at the forefront of reform efforts to improve food purity, working conditions, hours, and wages,[48] but the company bitterly opposed the formation of an independent labor union.
+
+================================================================================
+[Q14] Who was the principal resident of Sawcunk, the Lenape settlement at the mouth of the Beaver River?
+Who was the main resident of Sawcunk, a Lenape settlement near the Beaver River mouth?
+Who lived in Sawcunk, a Lenape settlement at the mouth of the Beaver River?
+Who was the chief inhabitant of Sawcunk, a Lenape settlement by the Beaver River?
+Who was the principal resident of the Lenape settlement Sawcunk, located near the Beaver River mouth?
+
+  Rank 1: ce_score=7.5000 | pre_score=0.0781
+  chunk_id=web_1 | source=http://www.brooklineconnection.com/history/Facts/Indians.html
+  text: after the troops left to fight in the Northwest Indian War.  <><><><> <><><><> <><><><> <><><><> <><><><>  Chartier's Town, Kittanning, Sawcunk and Shannopin's Town.  Some of the other Native American settlements near present-day Pittsburgh were Chartiers Town, a Shawnee village, and Kittanning, a Lenape (Delaware) and Shawnee village with 300-400 residents. Sawcunk, on the mouth of the Beaver River, was a Lenape settlement, and the principal residence of Shingas, the King of the Lenapes. [...] remained depopulated for decades, as the Iroquois controlled it by right of conquest as a hunting ground. The Lenape settled along the Allegheny River beginning in the 1720s. It was not until the 1740s and 1750s that the Shawnee returned to the southern and central areas of the region.  As the Europeans began to migrate into the Ohio Country, the French claimed the region by first discovery, and the English claimed the region under a charter by a distant king, strengthened by a treaty with the [...] by the Kinzua Dam, to create the Allegheny Reservoir. ---    ---    --- Shingas the Terrible - Delaware (Lenape)  Shingas (1740–1763), was a tribal leader and noted war chief of the Delaware (Lenape) people in the Ohio Country. He was notorious for raiding white settlements and was called "Shingas the Terrible" by English colonialists.  In a treaty conference at Logstown in 1752 between the local tribes and the Virginian Ohio Company, Shingas was in attendance. Tanacharison, the Half-King of
+
+  Rank 2: ce_score=7.3945 | pre_score=0.0806
+  chunk_id=web_0 | source=https://www.facebook.com/groups/145768595507253/posts/8026938464056854/
+  text: Sawcunk, on the mouth of the Beaver River, was a Lenape (Delaware) settlement and the principal residence of Shingas, a chief of the Lenapes. Chartier's
+
+  Rank 3: ce_score=6.4961 | pre_score=0.0820
+  chunk_id=00001506 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [7]: 289
+Sawcunk, on the mouth of the Beaver River, was a Lenape settlement and the principal residence of Shingas, a chief of theirs. [8] Chartier's Town was a Shawnee town established in 1734 by Peter Chartier.
+
+  Rank 4: ce_score=5.9844 | pre_score=0.0794
+  chunk_id=00001505 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: According to George Croghan, the town was situated on the south bank of the Allegheny, nearly opposite what is now known as Herr's Island, in what is now the Lawrenceville neighborhood in the city of Pittsburgh. [7]: 289
+Sawcunk, on the mouth of the Beaver River, was a Lenape settlement and the principal residence of Shingas, a chief of theirs.
+
+  Rank 5: ce_score=5.9375 | pre_score=0.0758
+  chunk_id=web_2 | source=https://en.wikipedia.org/wiki/Saucunk
+  text: Saucunk or Sawcunk (also known as Soh-kon, Sacung, Sankonk,: 141 Sackum, or Shingas' Town) was a town established by the Lenape and Shawnees. It was the site of a Catholic mission and was visited by Conrad Weiser, Christian Frederick Post and George Croghan. The Lenape chiefs Tamaqua "Tamaqua (Lenape chief)"), Pisquetomen, Captain Jacobs and Shingas all lived there temporarily. Saucunk was abandoned after the Battle of Bushy Run in 1763.
+
+## Etymology [...] Saucunk was established at the mouth of the Beaver Creek "Beaver River (Pennsylvania)") by the Lenape and Shawnees, possibly as early as 1725, during their westward migration. The settlement extended to the bluff above the Ohio about a mile below the mouth of the Beaver. It was near the site of present-day Rochester, Pennsylvania. The town was for many years the main community of the Turtle Division of the Lenape.: 74
+
+## Visit by Conrad Weiser, 1748 [...] Hugh Gibson "Hugh Gibson (American pioneer)"), 14, was captured in July, 1756, by Lenape Indians, outside Robinson's Fort "Fort Robinson (Pennsylvania)"), near present-day Southwest Madison Township, Pennsylvania. His mother and a neighbor were killed by the Indians, and he was brought to Kittanning "Kittanning (village)"), where he was adopted by Shingas' brother Pisquetomen. In the spring of 1757 Gibson and Pisquetomen moved to "Soh’-koon, at the mouth of the Big Beaver," where they lived
+
+================================================================================
+[Q15] When was Chartier's Town established?
+Establishment date of Chartier's Town
+Chartier's Town founding date
+When was Chartier's Town founded?
+Chartier's Town creation year
+
+  Rank 1: ce_score=9.5391 | pre_score=0.0413
+  chunk_id=00001621 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: By 1815, Pittsburgh was producing $764K in iron; $249K in brass and tin, and $235K in glass products. [11] When, on March 18, 1816, Pittsburgh was incorporated as a city, it had already taken on some of its defining characteristics: commerce, manufacture, and a constant cloud of coal dust.
+
+  Rank 2: ce_score=9.2656 | pre_score=0.0606
+  chunk_id=00001533 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [15]
+Governor Dinwiddie sent Captain William Trent to build a fort at the Forks of the Ohio. On February 17, 1754, Trent began construction of the fort, the first European habitation[17] at the site of present-day Pittsburgh.
+
+  Rank 3: ce_score=8.8984 | pre_score=0.0637
+  chunk_id=00001534 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: On February 17, 1754, Trent began construction of the fort, the first European habitation[17] at the site of present-day Pittsburgh. The fort, named Fort Prince George, was only half-built by April 1754, when over 500 French forces arrived and ordered the 40-some colonials back to Virginia.
+
+  Rank 4: ce_score=8.8750 | pre_score=0.0316
+  chunk_id=00001511 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [10] Europeans first began to settle in the region in 1748, when the first Ohio Company, a Virginian land speculation company, won a grant of 200,000 acres (800 km2) in the upper Ohio Valley. From a post at present-day Cumberland, Maryland, the company began to construct an 80-mile (130 km) wagon road to the Monongahela River[11] employing a Lenape Indian chief named Nemacolin and a party of settlers headed by Capt.
+
+  Rank 5: ce_score=8.6562 | pre_score=0.0684
+  chunk_id=00000059 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: On March 18, 1816, the 46-year-old local government became a city. It was served by numerous river steamboats that increased trading traffic on the rivers.
+
+================================================================================
+[Q16] Who was the first to describe the forks of the Ohio?
+Who mapped the forks of the Ohio first?
+Who was the first to chart the forks of the Ohio?
+Who originally described the forks of the Ohio?
+Who first documented the forks of the Ohio?
+
+  Rank 1: ce_score=5.8828 | pre_score=0.0161
+  chunk_id=00001543 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [15][19]
+In 1755, the Braddock Expedition was launched, accompanied by Virginia militia officer George Washington. Two regiments marched from Fort Cumberland across the Allegheny Mountains and into western Pennsylvania.
+
+  Rank 2: ce_score=5.5430 | pre_score=0.0774
+  chunk_id=00000027 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [26][better source needed] European pioneers, primarily Dutch, followed in the early 18th century. Michael Bezallion was the first to describe the forks of the Ohio in a 1717 manuscript, and later that year European fur traders established area posts and settlements.
+
+  Rank 3: ce_score=5.4180 | pre_score=0.0175
+  chunk_id=00001565 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: In April 1761, a census ordered by Colonel Henry Bouquet and conducted by William Clapham counted 332 people and 104 houses. [21][22]: 148
+After Britain's victory in the French and Indian War, increasing dissatisfaction among Native Americans with the continuing encroachment of settlers on lands that had been agreed would be Indian-occupied (both in the 1758 Treaty of Easton and in the Royal Proclamation of 1763 the British authorities had decreed that there would be no British-American settlements west of the Alleghenies, but the authorities had been unable or unwilling to enforce these decrees) led to the outbreak of Pontiac's War.
+
+  Rank 4: ce_score=4.8203 | pre_score=0.0751
+  chunk_id=00001509 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [9]
+Early colonization (1747–1763)
+[edit]The first Europeans arrived in the 1710s as traders. Michael Bezallion was the first to describe the forks of the Ohio in a manuscript in 1717, and later that year European traders established posts and settlements in the area.
+
+  Rank 5: ce_score=4.7578 | pre_score=0.0794
+  chunk_id=00001510 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: Michael Bezallion was the first to describe the forks of the Ohio in a manuscript in 1717, and later that year European traders established posts and settlements in the area. [10] Europeans first began to settle in the region in 1748, when the first Ohio Company, a Virginian land speculation company, won a grant of 200,000 acres (800 km2) in the upper Ohio Valley.
+
+================================================================================
+[Q17] What was the purpose of the expedition led by Celeron de Bienville in 1749?
+Celeron de Bienville 1749 expedition objective
+Purpose of Celeron de Bienville expedition in 1749
+Celeron de Bienville 1749 expedition goals
+Objective of 1749 Celeron de Bienville expedition
+
+  Rank 1: ce_score=7.1602 | pre_score=0.0781
+  chunk_id=web_1 | source=https://earlymarietta.blogspot.com/2020/03/the-french-celeron-plates-expedition.html
+  text: British inroads jolted the French into action. The governor of Canada commissioned Pierre Joseph Celeron De Blainville (“Celeron”) to lead an expedition down the Ohio Valley in 1749. Its purpose was to reassert French claims in the area, renew friendship with Indians, and chase out British traders. [...] Pierre Joseph Celeron De Blainville\, a French military leader, led an expedition down the Ohio River Valley in 1749. The expedition buried lead plates at major tributaries, including the Muskingum River, to establish French claim to land in the Ohio River Valley. It was a curious enterprise built on the dubious premise that burying plates could establish a land claim. Who was this Celeron guy and why were they burying lead plates? First, some background. [...] In the year 1749, in the reign of Louis the XV, King of France, we Celoron, commander of the detachment sent by the Marquis de la Galissoniere, Governor-General of New France, to reestablish peace in some villages of these Cantons, have buried this plate at the confluence of the Ohio and the river Yenanguekouan (Muskingum), the 15th of August, for a monument of the renewal of possession which we have taken of the said river Ohio, and of all those which fall into it, and of all the territories
+
+  Rank 2: ce_score=7.1133 | pre_score=0.0714
+  chunk_id=web_4 | source=https://en.wikipedia.org/wiki/Pierre_Joseph_C%C3%A9loron_de_Blainville
+  text: Pierre-Joseph Céloron de Blainville (29 December 1693 – 14 April 1759), also known as Celeron de Bienville (or Céleron, or Céloron, etc.), was a French Canadian Officer of Marine. In 1739 and 1740 he led a detachment to Louisiana "Louisiana (New France)") to fight the Chickasaw in the abortive Chickasaw Campaign of 1739. In 1749 he led the "Lead Plate Expedition" to advance France's territorial claim on the Ohio Valley.
+
+## Biography [...] In 1748, Comte de la Galissoniere, the governor of Canada, ordered Céloron to strengthen the French claim on the Ohio Valley. Céloron carried out this mission in the summer of 1749 by means of an expedition through the contested territory. He set out from Montreal on June 15, 1749, in a flotilla consisting of large boats and canoes. The expedition included 216 French Canadians and 55 Native Americans. On the shore of Lake Erie, at the mouth of Chautauqua Creek in present-day Westfield, New [...] According to R. E. Banta, author of The Ohio [Rivers of America series], in May 1749, the Ohio Company of Virginia received a grant from King George, which included 200,000 acres on the south bank of the Ohio between the Monongahela and the Great Kanawha Rivers. One goal of establishing this grant was to test the willingness of the French to defend the Ohio. The grant in turn provoked the immediate dispatch of Céloron's expedition from Montreal (page 65).
+
+  Rank 3: ce_score=5.4062 | pre_score=0.0806
+  chunk_id=web_0 | source=https://www.mikeminder.com/ohio-valley-history-blog/august-13-1749-celoron-de-blainville-buries-lead-plate-at-kanououara-river
+  text: militia and Indian guides down the Allegheny and Ohio rivers. On August 13, 1749, the expedition reached the mouth of Wheeling Creek, marking the beginning of the recorded history of Wheeling, West Virginia.   The primary objective of Celoron's expedition was to reassert French claims to the Ohio Valley in the face of increasing British encroachment. To this end, Celoron and his men buried lead plates at various strategic locations along their route, including the mouth of Wheeling Creek. These [...] | August 13, 1749: Céloron de Blainville Buries Lead Plate at Kanououara River 8/12/2024  0 Comments    ​Today in Wheeling History: August 13--Celeron de Bienville buries a lead plate at the mouth of the Wheeling Creek, claiming the Ohio Valley for France (1749).   In 1749, the governor of Canada, Marquis de la Galissonnière, dispatched Pierre-Joseph Celoron de Blainville (1693–1759) on an expedition to strengthen France’s position in the Ohio Valley. Celoron led a contingent of 230 Canadian [...] with Native American tribes were crucial, as the French sought to counteract British influence and secure alliances with the local populations.   The Celoron expedition's landing at Wheeling Creek is a significant event in the history of Wheeling, as it marked the first recorded European presence in the area. This event set the stage for subsequent European exploration and settlement, ultimately shaping the development of Wheeling and the surrounding region. The legacy of Celoron's expedition
+
+  Rank 4: ce_score=4.7930 | pre_score=0.0820
+  chunk_id=00001521 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [6] Between June 15 and November 10, 1749, an expedition headed by Celeron de Bienville, a French officer, traveled down the Allegheny and Ohio to bolster the French claim to the region. [12] De Bienville warned away British traders and posted markers claiming the territory.
+
+  Rank 5: ce_score=3.8594 | pre_score=0.0794
+  chunk_id=00001520 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: The nearby Native American community of Logstown was an important trade and council center in the Ohio Valley. [6] Between June 15 and November 10, 1749, an expedition headed by Celeron de Bienville, a French officer, traveled down the Allegheny and Ohio to bolster the French claim to the region.
+
+================================================================================
+[Q18] What happened to Fort Prince George after the French arrived in April 1754?
+Fort Prince George events after French invasion in 1754
+French occupation of Fort Prince George in April 1754
+What happened to Fort Prince George in 1754 French attack
+Fort Prince George aftermath of 1754 French arrival
+
+  Rank 1: ce_score=6.1211 | pre_score=0.0126
+  chunk_id=00001781 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: All of the buildings, with the exception of the Old U.S. Post Office, the Carnegie Library, and Buhl Planetarium were destroyed and replaced with the "pedestrianized" Allegheny Center Mall and apartments. The city's industrial base continued to grow in the post-war era[77] partly assisted by the area's first agency entirely devoted to industrial development, the RIDC.
+
+  Rank 2: ce_score=6.0586 | pre_score=0.0399
+  chunk_id=00001570 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: He leveled the houses outside the ramparts and ordered all settlers into the fort: 330 men, 104 women, and 196 children sought refuge inside its ramparts. [11] Captain Ecuyer also gathered stores, which included hundreds of barrels of pork and beef.
+
+  Rank 3: ce_score=4.0547 | pre_score=0.0200
+  chunk_id=00001511 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [10] Europeans first began to settle in the region in 1748, when the first Ohio Company, a Virginian land speculation company, won a grant of 200,000 acres (800 km2) in the upper Ohio Valley. From a post at present-day Cumberland, Maryland, the company began to construct an 80-mile (130 km) wagon road to the Monongahela River[11] employing a Lenape Indian chief named Nemacolin and a party of settlers headed by Capt.
+
+  Rank 4: ce_score=3.9805 | pre_score=0.0593
+  chunk_id=00001536 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: The French tore down the British fortification and constructed Fort Duquesne. [14][15]
+Governor Dinwiddie launched another expedition.
+
+  Rank 5: ce_score=3.8457 | pre_score=0.0814
+  chunk_id=00001535 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: The fort, named Fort Prince George, was only half-built by April 1754, when over 500 French forces arrived and ordered the 40-some colonials back to Virginia. The French tore down the British fortification and constructed Fort Duquesne.
+
+================================================================================
+[Q19] Who commanded the regiment in Governor Dinwiddie’s expedition with George Washington as second-in-command?
+Who led the regiment with Washington as second-in-command in Dinwiddie's expedition
+Regiment commander in Dinwiddie's expedition alongside Washington
+Governor Dinwiddie's expedition regiment leader with Washington as deputy
+Who was the regimental commander in Dinwiddie's expedition with Washington
+
+  Rank 1: ce_score=8.8438 | pre_score=0.0820
+  chunk_id=00001537 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [14][15]
+Governor Dinwiddie launched another expedition. Colonel Joshua Fry commanded the regiment with his second-in-command, George Washington, leading an advance column.
+
+  Rank 2: ce_score=4.7383 | pre_score=0.0756
+  chunk_id=00001538 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: Colonel Joshua Fry commanded the regiment with his second-in-command, George Washington, leading an advance column. On May 28, 1754, Washington's unit clashed with the French in the Battle of Jumonville Glen, during which 13 French soldiers were killed and 21 were taken prisoner.
+
+  Rank 3: ce_score=4.2656 | pre_score=0.0806
+  chunk_id=web_0 | source=https://en.wikipedia.org/wiki/George_Washington_in_the_French_and_Indian_War
+  text: Governor Dinwiddie had designated Fort Cumberland the regimental headquarters, even though it was located in Maryland. Washington learned that it was commanded by Captain John Dagworthy, who led a company of Maryland militia but also held a royal commission and would thus outrank him. After a brief visit to Fort Cumberland in September 1755, Washington left, and chose to base himself at Winchester instead. He then embarked on recruiting expeditions to fill out the regiment, traveling often to [...] originated in a "want of proper Command". Dinwiddie assigned command of a follow-up expedition (that never actually reached the Ohio Country) to North Carolina militia colonel James Innes. In another step that may have been calculated to clip the young colonel's wings, Dinwiddie reorganized the Virginia Regiment into separate companies, with no ranks above captain; Washington resigned rather than accept a demotion. [...] Washington's party reached Fort LeBoeuf on December 11, in the middle of a raging snowstorm. The French commander, Captain Jacques Legardeur de Saint-Pierre, received them with hospitality; however, in response to Dinwiddie's demands, he pointed out that the letter was more properly addressed to his superior, New France's governor the Marquis Duquesne. The letter Legardeur drafted in response to Dinwiddie's was clear and to the point: "as to the summons you send me to retire, I do not think
+
+  Rank 4: ce_score=3.7676 | pre_score=0.0781
+  chunk_id=web_1 | source=https://en.wikipedia.org/wiki/Robert_Dinwiddie
+  text: Dinwiddie named Joshua Fry to the position of Commander-in-Chief of colonial forces. Fry was given command of the Virginia Regiment and was ordered to take Fort Duquesne, then held by the French. During the advance into the Ohio Country, Fry suddenly fell off his horse and died from his injuries on 31 May 1754 at Fort Cumberland "Fort Cumberland (Maryland)"), upon which the command of the regiment fell to Washington. [...] Dinwiddie sent an eight-man expedition under George Washington to warn the French to withdraw. Washington, then only 21 years old, made the journey in midwinter of 1753–54. Washington arrived at Fort Le Boeuf on 11 December 1753. Jacques Legardeur de Saint-Pierre, commandant at Fort Le Boeuf, a tough veteran of the west, received Washington politely, but rejected his ultimatum.
+
+  Rank 5: ce_score=3.2676 | pre_score=0.0714
+  chunk_id=web_4 | source=https://en.wikipedia.org/wiki/Virginia_Regiment
+  text: The Virginia Regiment was an infantry unit of the Virginia Provincial Forces raised in 1754 by the Virginia General Assembly and Governor Robert Dinwiddie for service in the French and Indian War. The sole provincial unit raised by the British colony of Virginia during the conflict, it initially consisted of 300 men under the command of Colonel George Washington and fought in the battles of Jumonville Glen and Fort Necessity. After the Virginia Regiment's defeat at Fort Necessity, the General [...] | Commander | Joshua Fry (1754)   George Washington (1754-58) | [...] suffered defeat at the Battle of the Monongahela were unregimented: at the behest of General Edward Braddock, they had been organized into two companies of carpenters, six companies of rangers, and one troop of mounted rangers, about 450 men in all. The remaining 350 men from the original ten companies of the Virginia Regiment had been allocated to the two regular regiments of the expedition.
+
+================================================================================
+[Q20] When did the siege of Fort Pitt by Pontiac's forces begin?
+Pontiac's Fort Pitt siege start date
+When did Pontiac's forces besiege Fort Pitt?
+Pontiac siege of Fort Pitt timeline
+Fort Pitt Pontiac's attack start time
+
+  Rank 1: ce_score=7.9922 | pre_score=0.0638
+  chunk_id=00001566 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [21][22]: 148
+After Britain's victory in the French and Indian War, increasing dissatisfaction among Native Americans with the continuing encroachment of settlers on lands that had been agreed would be Indian-occupied (both in the 1758 Treaty of Easton and in the Royal Proclamation of 1763 the British authorities had decreed that there would be no British-American settlements west of the Alleghenies, but the authorities had been unable or unwilling to enforce these decrees) led to the outbreak of Pontiac's War. The Odawa leader Pontiac launched an offensive against British forts in May 1763.
+
+  Rank 2: ce_score=6.2148 | pre_score=0.0256
+  chunk_id=00001542 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: These frontier actions contributed to the start of the French and Indian War (1754–1763), or, the Seven Years' War, a global confrontation between Britain and France fought in both hemispheres. [15][19]
+In 1755, the Braddock Expedition was launched, accompanied by Virginia militia officer George Washington.
+
+  Rank 3: ce_score=5.8164 | pre_score=0.0820
+  chunk_id=00001572 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: Pontiac's forces attacked the fort on June 22, 1763, and the siege of Fort Pitt lasted for two months. [15] Pontiac's warriors kept up a continuous, though ineffective, fire on it from July 27 through August 1, 1763.
+
+  Rank 4: ce_score=5.4688 | pre_score=0.0539
+  chunk_id=00001565 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: In April 1761, a census ordered by Colonel Henry Bouquet and conducted by William Clapham counted 332 people and 104 houses. [21][22]: 148
+After Britain's victory in the French and Indian War, increasing dissatisfaction among Native Americans with the continuing encroachment of settlers on lands that had been agreed would be Indian-occupied (both in the 1758 Treaty of Easton and in the Royal Proclamation of 1763 the British authorities had decreed that there would be no British-American settlements west of the Alleghenies, but the authorities had been unable or unwilling to enforce these decrees) led to the outbreak of Pontiac's War.
+
+  Rank 5: ce_score=5.1055 | pre_score=0.0236
+  chunk_id=00001551 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: This left the French and their Native American allies with dominion over the upper Ohio valley. [15]
+On September 8, 1756, an expedition of 300 militiamen destroyed the Shawnee and Lenape village of Kittanning, and in the summer of 1758, British Army officer John Forbes began a campaign to capture Fort Duquesne.
+
+================================================================================
+[Q21] What industry was one of Pittsburgh’s earliest after the Revolution?
+Pittsburgh industry before American Revolution
+Earliest Pittsburgh industry post Revolution
+Pittsburgh's first major industry after 1776
+Industry in Pittsburgh following the American Revolution
+
+  Rank 1: ce_score=7.7031 | pre_score=0.0795
+  chunk_id=00001594 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [4]
+After the Revolution, the village of Pittsburgh continued to grow. One of its earliest industries was boat building.
+
+  Rank 2: ce_score=6.9844 | pre_score=0.0777
+  chunk_id=00000046 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: [37]
+Following the American Revolution, the village of Pittsburgh continued to grow. One of its earliest industries was boat building for settlers of the Ohio Country.
+
+  Rank 3: ce_score=6.5898 | pre_score=0.0438
+  chunk_id=00001614 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: By 1800, the town, with a population of 1,565 persons, had over 60 shops, including general stores, bakeries, and hat and shoe shops. [11]
+The 1810s were a critical decade in Pittsburgh's growth.
+
+  Rank 4: ce_score=5.9062 | pre_score=0.0187
+  chunk_id=00001649 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: The American Civil War boosted the city's economy with increased production of iron and armaments, especially at the Allegheny Arsenal and the Fort Pitt Foundry. [33] Arms manufacture included iron-clad warships and the world's first 21" gun.
+
+  Rank 5: ce_score=5.8984 | pre_score=0.0585
+  chunk_id=00001709 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [27]
+Early 20th century
+[edit]By 1911, Pittsburgh had grown into an industrial and commercial powerhouse:[21]
+- Nexus of a vast railway system, with freight yards capable of handling 60K cars
+- 27.2 miles (43.8 km) of harbor
+- Yearly river traffic in excess of 9M tons
+- Value of factory products more than $211M (with Allegheny City)
+- Allegheny county produced, as percentage of national output, about:
+- 24% of the pig iron
+- 34% of the Bessemer steel
+- 44% of the open hearth steel
+- 53% of the crucible steel
+- 24% of the steel rails
+- 59% of the structural shapes
+Prohibition
+[edit]During the Prohibition era, 1920 to 1933, Pittsburgh was a hotbed of bootlegging and illicit alcohol consumption. [52][53] Several factors fed into resistance to Prohibition, including a large immigrant population, anti-establishment animosity dating to the Whiskey Rebellion, fragmented local government, and pervasive corruption.
+
+================================================================================
+[Q22] What replaced the Homestead Works after it was demolished?
+Homestead Works replacement after demolition
+What happened to Homestead Works site
+Homestead Works demolition aftermath
+New development on Homestead Works site
+
+  Rank 1: ce_score=6.7188 | pre_score=0.0517
+  chunk_id=00001781 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: All of the buildings, with the exception of the Old U.S. Post Office, the Carnegie Library, and Buhl Planetarium were destroyed and replaced with the "pedestrianized" Allegheny Center Mall and apartments. The city's industrial base continued to grow in the post-war era[77] partly assisted by the area's first agency entirely devoted to industrial development, the RIDC.
+
+  Rank 2: ce_score=4.3242 | pre_score=0.0814
+  chunk_id=00001805 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [88]
+In 1991 the Homestead Works was demolished, replaced in 1999 by The Waterfront shopping mall. As a direct result of the loss of mill employment, the number of people living in Homestead dwindled.
+
+  Rank 3: ce_score=4.2188 | pre_score=0.0774
+  chunk_id=00001804 | source=https://en.wikipedia.org/wiki/History_of_Pittsburgh
+  text: [87] Pittsburgh suffered as elsewhere in the Rust Belt with a declining population, and like many other U.S. cities, it also saw white flight to the suburbs. [88]
+In 1991 the Homestead Works was demolished, replaced in 1999 by The Waterfront shopping mall.
+
+  Rank 4: ce_score=0.5908 | pre_score=0.0323
+  chunk_id=00000093 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: There were massive layoffs from mill and plant closures. [12]
+In the later 20th century, the area shifted its economic base to education, tourism, and services, largely based on healthcare/medicine, finance, and high technology such as robotics.
+
+  Rank 5: ce_score=0.1129 | pre_score=0.0211
+  chunk_id=00000189 | source=https://en.wikipedia.org/wiki/Pittsburgh
+  text: In the 1950s, the Lower Hill District underwent significant upheaval when 1,551 mostly Black residents and 413 businesses were displaced for the construction of the Civic Arena, which opened in 1961. [14] This project, part of Pittsburgh's revitalization efforts, led to the neighborhood's population dropping to an estimated 12,000 today.
+
