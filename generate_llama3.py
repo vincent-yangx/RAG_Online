@@ -16,7 +16,7 @@ args = parser.parse_args()
 
 # ------------------ Paths ------------------
 INPUT_PATH = f"result_query_expansion_cross_encoding/retrieval_{args.chunk}.jsonl"
-OUT_DIR = "Llama_output"
+OUT_DIR = f"Llama_output_{args.chunk}"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 OUTPUT_JSON = os.path.join(OUT_DIR, f"{args.chunk}.jsonl")
