@@ -50,18 +50,17 @@ model_name_simple = MODEL.split("/")[-1].replace(":", "_").replace("/", "_")
 OUT_DIR = args.out_dir
 os.makedirs(OUT_DIR, exist_ok=True)
 
-# 路径与 embeder.py 保持一致
 CHUNKS_PATH = f"data/chunks/chunks_{args.chunk}.jsonl"
 EMB_PATH    = f"index/embeddings_{args.chunk}_{model_name_simple}.npy"
 IDS_PATH    = f"index/ids_{args.chunk}_{model_name_simple}.npy"
 FAISS_PATH  = f"index/faiss_index_{args.chunk}_{model_name_simple}.faiss"
-BM25_PATH   = f"index/bm25_{args.chunk}.pkl"  # 仅与数据集相关，模型无关
+BM25_PATH   = f"index/bm25_{args.chunk}.pkl"
 QUESTIONS_PATH = args.questions or f"data/test/question_{args.chunk}.txt"
 TOP_K = args.top_k
 
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "")
 
-# ------------------ IO helpers ------------------
+# ------------------ Load chunks and question ------------------
 def load_chunks(path):
     """Load chunk data, return a dict: str(chunk_id) -> chunk_dict"""
     chunk_map = {}
@@ -75,9 +74,12 @@ def load_questions(path):
     with open(path, "r", encoding="utf-8") as f:
         return [line.strip() for line in f if line.strip()]
 
-# ------------------ Text utils ------------------
-_word_re = re.compile(r"[A-Za-z0-9]+")  # 简单英文 tokenizer；如有中文可接入 jieba
+# ------------------ Lightly improved tokenizer ------------------
+_word_re = re.compile(r"[A-Za-z0-9']+", flags=re.UNICODE)
+
 def tokenize(text: str):
+    if not text:
+        return []
     return [w.lower() for w in _word_re.findall(text)]
 
 # ------------------ FAISS (dense) ------------------
@@ -89,7 +91,7 @@ def load_or_build_faiss(emb_path, faiss_path, index_type="flat"):
     print("Loading embeddings...")
     embs = np.load(emb_path, mmap_mode="r").astype("float32")
     print(f"Embeddings shape: {embs.shape}")
-    faiss.normalize_L2(embs)  # 用 IP 等价余弦
+    faiss.normalize_L2(embs) 
     dim = embs.shape[1]
     if index_type == "flat":
         index = faiss.IndexFlatIP(dim)
@@ -126,9 +128,9 @@ def dense_scores_one(index, query_text, ids):
     id_str = np.array([str(x) for x in ids])
 
     # === Optional: apply nonlinear amplification to emphasize strong matches ===
-    D = np.clip(D, 0, 1)  # 防止超出 [0,1]
-    D = np.power(D, 1.5)  # 放大高相似度差异 (1.5~2.0 均可试)
-
+    D = np.clip(D, 0, 1)
+    D = np.power(D, 1.5)
+    # map the id in index_search to chunk_id
     return {id_str[i]: float(s) for s, i in zip(D[0], I[0]) if 0 <= i < len(id_str)}
 
 
@@ -162,7 +164,7 @@ def sparse_scores_one(bm25, query_text, ids):
 
 def online_search_raw(query: str, top_k: int = 10):
     """
-    调用 Tavily 搜索 API，返回一个 list[dict]，每个元素包含 title, url, snippet。
+    调用 Tavily 搜索 API,返回一个 list[dict]，每个元素包含 title, url, snippet。
     Tavily 文档: https://docs.tavily.com
     """
     if not TAVILY_API_KEY:

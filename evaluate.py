@@ -11,7 +11,7 @@ HF_MODEL_NAME = "meta-llama/Meta-Llama-3-8B-Instruct"
 LLM_CORRECT_THRESHOLD = 0.7
 _hf_client = None  
 
-
+# need some revision in part 4
 JUDGE_PROMPT_TEMPLATE = """
 You are an impartial judge for a question answering task.
 
@@ -93,9 +93,11 @@ def get_hf_client():
 
 def _parse_json_from_text(text: str):
     try:
+        # exact json format
         return json.loads(text)
     except Exception:
         m = re.search(r'\{.*\}', text, flags=re.DOTALL)
+        # no json output
         if not m:
             return {"label": "invalid", "score": 0.0, "reason": "no JSON found"}
         try:
@@ -145,9 +147,7 @@ def llm_judge_one(question: str, gold: str, pred: str):
     return {"label": label, "score": score, "reason": reason}
 
 
-# -----------------------------
-# Utils
-# -----------------------------
+
 def normalize(text):
     """Lowercase, remove punctuation and extra spaces."""
     if not text:
@@ -156,7 +156,7 @@ def normalize(text):
     text = re.sub(r'[^\w\s]', ' ', text)
     text = re.sub(r'\s+', ' ', text).strip()
     return text
-
+ 
 def exact_match(pred, gold):
     return int(normalize(pred) == normalize(gold))
 
@@ -202,10 +202,6 @@ def list_f1(pred, gold):
     return 2 * precision * recall / (precision + recall)
 
 
-# -----------------------------
-# Load QA files
-# -----------------------------
-
 def load_reference_json(path):
     """
     {
@@ -245,9 +241,7 @@ def load_output_jsonl(path):
     return data
 
 
-# -----------------------------
 # Evaluation
-# -----------------------------
 def evaluate(reference_path, output_path, list_qids=None,
              use_llm_judge=False, llm_threshold=0.9,
              details_output_path=None):
@@ -364,7 +358,7 @@ if __name__ == "__main__":
     parser.add_argument("--use_llm_judge", action="store_true",
                         help="Use HF Llama-3-8B-Instruct as LLM judge.")
     parser.add_argument("--llm_threshold", type=float, default=LLM_CORRECT_THRESHOLD,
-                        help="Threshold of judge score to treat as correct (default 0.9).")
+                        help="Threshold of judge score to treat as correct (default 0.7).")
     parser.add_argument("--llm_model", type=str, default=HF_MODEL_NAME,
                         help="HuggingFace model id for judge (default meta-llama/Meta-Llama-3-8B-Instruct).")
 

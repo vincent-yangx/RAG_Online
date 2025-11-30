@@ -1,5 +1,9 @@
-faiss-cpu;
-rank-bm25;
+faiss-cpu
+rank-bm25
 FlagEmbedding
 huggingface_hub
 torch
+faiss-gpu
+pandas
+datasets
+sentencepiece
