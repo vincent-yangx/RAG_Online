@@ -215,17 +215,17 @@ with open(INPUT_PATH, "r", encoding="utf-8") as fin, \
             obj = clamp_normalized(obj)
         normalized = get_normalized_answer(obj)
 
-        # --- 写入 JSON ---
+        # --- write JSON ---
         output_entry = {
             "qid": qid,
             "question": q,
-            "answer_llama3_8b": normalized,          # 供你的 EM/F1 评测使用（短值、规范化）
-            "answer_json": obj if isinstance(obj, dict) else None,  # 审计/误差分析
-            "raw": raw_text                           # 原始响应，方便 debug
+            "answer_llama3_8b": normalized,          
+            "answer_json": obj if isinstance(obj, dict) else None,
+            "raw": raw_text
         }
         fout_json.write(json.dumps(output_entry, ensure_ascii=False) + "\n")
 
-        # --- 写入 TXT（评测兼容：只写规范化短值） ---
+        # --- write into txt file ---
         q_label = f"[Q{qid}]" if qid is not None else "[Q]"
         fout_txt.write(f"{q_label} {q}\n")
         fout_txt.write(f"Answer: {normalized}\n\n")

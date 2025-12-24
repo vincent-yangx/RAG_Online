@@ -1,3 +1,6 @@
+'''
+The script is useless  
+'''
 import json
 import os
 

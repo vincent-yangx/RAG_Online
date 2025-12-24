@@ -11,7 +11,6 @@ def load_queries(queries_path):
     qtext2qid = {}
     for qid, qtext in queries.items():
         key = normalize_question(qtext)
-        # 默认假设不会有两个完全相同的 question 文本
         qtext2qid[key] = qid
     return queries, qtext2qid
 
@@ -22,15 +21,7 @@ def load_qrels(qrels_path):
 
 def load_retrieval_results(retrieval_path):
     """
-    读取你的 retrieval_wikiqa.jsonl，每一行是：
-    {
-      "qid": 1,              # 行号，不再使用
-      "question": "....",
-      "retrieved": [
-          {"chunk_id": "d_5", "rank": 1, ...},
-          ...
-      ]
-    }
+    load the retrieved result into data ana wait for future use
     """
     data = []
     with open(retrieval_path, "r", encoding="utf-8") as f:
@@ -51,20 +42,19 @@ def evaluate(retrieval_data, qtext2qid, qrels, k=5):
         key = normalize_question(q_text)
 
         if key not in qtext2qid:
-            # 这个问题不在我们之前构建的 qrels 里（比如没有正例）
+            # question not in qrels
             skipped += 1
             continue
 
         qid = qtext2qid[key]
         gold_dict = qrels.get(qid, {})
         if not gold_dict:
-            # 没有 label=1 的答案，跳过
+            # no positive answer
             skipped += 1
             continue
 
         gold_docs = set(gold_dict.keys())
 
-        # 取检索到的 doc_id 列表
         retrieved_docs = [r["chunk_id"] for r in entry.get("retrieved", [])]
 
         total += 1

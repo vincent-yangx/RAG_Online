@@ -53,19 +53,17 @@ OUT_IDS = f"wikiqa_doc_ids_{model_name_simple}.npy"
 OUT_FAISS = f"wikiqa_faiss_index_{model_name_simple}.faiss"
 
 
-# ================= Load WikiQA corpus ======================
 def load_corpus(json_path):
     with open(json_path, "r", encoding="utf-8") as f:
         corpus = json.load(f)
     return corpus
 
 
-# ================= Build Embeddings ========================
 def build_wikiqa_embeddings():
 
     os.makedirs(OUT_DIR, exist_ok=True)
 
-    # Load corpus
+    # Load corpus, extract doc_id and text
     corpus = load_corpus(CORPUS_PATH)
     doc_ids = list(corpus.keys())
     texts = [corpus[doc_id]["text"] for doc_id in doc_ids]
@@ -76,7 +74,7 @@ def build_wikiqa_embeddings():
     print(f"[INFO] Loading embedding model: {MODEL_NAME}")
     model = BGEM3FlagModel(MODEL_NAME, use_fp16=True)
 
-    # Start embedding
+    # Start embedding, get dense vectors
     all_embs = []
     for i in tqdm(range(0, len(texts), BATCH_SIZE), desc="Encoding"):
         batch_texts = texts[i:i + BATCH_SIZE]
@@ -126,7 +124,5 @@ def build_wikiqa_embeddings():
 
     print("[DONE]")
 
-
-# ================= Execute ==============================
 if __name__ == "__main__":
     build_wikiqa_embeddings()

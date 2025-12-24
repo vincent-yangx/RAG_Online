@@ -335,19 +335,19 @@
   text: Righteousness (also called rectitude) is an important theological concept in Christianity , Judaism , Islam , Hinduism (dharma), and Zoroastrianism .
 
   Rank 2: ce_score=-5.0039 | pre_score=0.0143
-  chunk_id=d_5058 | source=Yamaha Motif
+  chunk_id=d_3154 | source=Smokey Bear
   text: right
 
   Rank 3: ce_score=-5.0039 | pre_score=0.0149
-  chunk_id=d_5015 | source=IÂ²C
+  chunk_id=d_1357 | source=American frontier
   text: right
 
   Rank 4: ce_score=-5.0039 | pre_score=0.0141
-  chunk_id=d_1360 | source=American frontier
+  chunk_id=d_2961 | source=Dell Inspiron
   text: right
 
   Rank 5: ce_score=-5.0039 | pre_score=0.0145
-  chunk_id=d_2961 | source=Dell Inspiron
+  chunk_id=d_1359 | source=American frontier
   text: right
 
 ================================================================================
@@ -489,11 +489,11 @@
   text: Saint Patrick's Day or the Feast of Saint Patrick (, "the Day of the Festival of Patrick") is a cultural and religious holiday celebrated on 17 March.
 
   Rank 2: ce_score=7.4219 | pre_score=0.0159
-  chunk_id=d_677 | source=Saint Patrick's Day
+  chunk_id=d_824 | source=Saint Patrick's Day
   text: Saint Patrick's Day or the Feast of Saint Patrick (, "the Day of the Festival of Patrick") is a cultural and religious holiday celebrated on 17 March.
 
   Rank 3: ce_score=7.4219 | pre_score=0.0161
-  chunk_id=d_824 | source=Saint Patrick's Day
+  chunk_id=d_677 | source=Saint Patrick's Day
   text: Saint Patrick's Day or the Feast of Saint Patrick (, "the Day of the Festival of Patrick") is a cultural and religious holiday celebrated on 17 March.
 
   Rank 4: ce_score=2.0117 | pre_score=0.0154
@@ -533,19 +533,19 @@
   text: Richard Wayne "Rich" Fields is an American broadcaster, spokesman, announcer and meteorologist , best known for being the announcer of the American version of The Price Is Right from 2004–2010.
 
   Rank 2: ce_score=-3.1055 | pre_score=0.0143
-  chunk_id=d_5058 | source=Yamaha Motif
+  chunk_id=d_3154 | source=Smokey Bear
   text: right
 
   Rank 3: ce_score=-3.1055 | pre_score=0.0149
-  chunk_id=d_5015 | source=IÂ²C
+  chunk_id=d_1357 | source=American frontier
   text: right
 
   Rank 4: ce_score=-3.1055 | pre_score=0.0141
-  chunk_id=d_1360 | source=American frontier
+  chunk_id=d_2961 | source=Dell Inspiron
   text: right
 
   Rank 5: ce_score=-3.1055 | pre_score=0.0145
-  chunk_id=d_2961 | source=Dell Inspiron
+  chunk_id=d_1359 | source=American frontier
   text: right
 
 ================================================================================
@@ -937,11 +937,11 @@
   text: 1,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000,­000.
 
   Rank 4: ce_score=-1.2705 | pre_score=0.0149
-  chunk_id=d_522 | source=Bank card number
+  chunk_id=d_1154 | source=Bank card number
   text: a variable length (up to 12 digits) individual account identifier,
 
   Rank 5: ce_score=-1.2705 | pre_score=0.0147
-  chunk_id=d_1154 | source=Bank card number
+  chunk_id=d_522 | source=Bank card number
   text: a variable length (up to 12 digits) individual account identifier,
 
 ================================================================================
@@ -973,7 +973,7 @@
   text: He died on June 3, 2009, apparently of auto-erotic asphyxiation .
 
   Rank 2: ce_score=5.4961 | pre_score=0.0145
-  chunk_id=d_5762 | source=John F. Kennedy
+  chunk_id=d_3306 | source=John F. Kennedy
   text: However, the United States House Select Committee on Assassinations (HSCA) concluded that those investigations were flawed and that Kennedy was probably assassinated as the result of a conspiracy .
 
   Rank 3: ce_score=5.4961 | pre_score=0.0149
@@ -981,7 +981,7 @@
   text: However, the United States House Select Committee on Assassinations (HSCA) concluded that those investigations were flawed and that Kennedy was probably assassinated as the result of a conspiracy .
 
   Rank 4: ce_score=5.4961 | pre_score=0.0147
-  chunk_id=d_3306 | source=John F. Kennedy
+  chunk_id=d_5762 | source=John F. Kennedy
   text: However, the United States House Select Committee on Assassinations (HSCA) concluded that those investigations were flawed and that Kennedy was probably assassinated as the result of a conspiracy .
 
   Rank 5: ce_score=4.7891 | pre_score=0.0120
@@ -1003,11 +1003,11 @@
   text: They number 313,798 (37.6%)
 
   Rank 4: ce_score=4.6719 | pre_score=0.0161
-  chunk_id=d_693 | source=United States House of Representatives
+  chunk_id=d_1212 | source=United States House of Representatives
   text: The total number of voting representatives is fixed by law at 435.
 
   Rank 5: ce_score=4.6719 | pre_score=0.0164
-  chunk_id=d_1212 | source=United States House of Representatives
+  chunk_id=d_693 | source=United States House of Representatives
   text: The total number of voting representatives is fixed by law at 435.
 
 ================================================================================
@@ -1563,19 +1563,19 @@
 ================================================================================
 [Q72] what is a notary for
   Rank 1: ce_score=5.8320 | pre_score=0.0161
-  chunk_id=d_2089 | source=Notary public
-  text: A notary public (or notary or public notary) in the common law world is a public officer constituted by law to serve the public in non-contentious matters usually concerned with estates, deeds, powers-of-attorney, and foreign and international business.
-
-  Rank 2: ce_score=5.8320 | pre_score=0.0164
   chunk_id=d_4560 | source=Notary public
   text: A notary public (or notary or public notary) in the common law world is a public officer constituted by law to serve the public in non-contentious matters usually concerned with estates, deeds, powers-of-attorney, and foreign and international business.
 
+  Rank 2: ce_score=5.8320 | pre_score=0.0164
+  chunk_id=d_2089 | source=Notary public
+  text: A notary public (or notary or public notary) in the common law world is a public officer constituted by law to serve the public in non-contentious matters usually concerned with estates, deeds, powers-of-attorney, and foreign and international business.
+
   Rank 3: ce_score=4.6602 | pre_score=0.0156
-  chunk_id=d_4561 | source=Notary public
+  chunk_id=d_2090 | source=Notary public
   text: A notary's main functions are to administer oaths and affirmations, take affidavits and statutory declarations , witness and authenticate the execution of certain classes of documents, take acknowledgments of deeds and other conveyances, protest notes and bills of exchange, provide notice of foreign drafts, prepare marine or ship's protests in cases of damage, provide exemplifications and notarial copies, and perform certain other official acts depending on the jurisdiction .
 
   Rank 4: ce_score=4.6602 | pre_score=0.0159
-  chunk_id=d_2090 | source=Notary public
+  chunk_id=d_4561 | source=Notary public
   text: A notary's main functions are to administer oaths and affirmations, take affidavits and statutory declarations , witness and authenticate the execution of certain classes of documents, take acknowledgments of deeds and other conveyances, protest notes and bills of exchange, provide notice of foreign drafts, prepare marine or ship's protests in cases of damage, provide exemplifications and notarial copies, and perform certain other official acts depending on the jurisdiction .
 
   Rank 5: ce_score=-0.2322 | pre_score=0.0149
@@ -1597,11 +1597,11 @@
   text: The movie consists of five segments, three directed by Henry Hathaway ("The Rivers", "The Plains" and "The Outlaws"), and one each by John Ford ("The Civil War") and George Marshall ("The Railroad"), with transitional sequences by the uncredited Richard Thorpe .
 
   Rank 4: ce_score=3.7930 | pre_score=0.0119
-  chunk_id=d_5371 | source=How the West Was Won (film)
+  chunk_id=d_1807 | source=How the West Was Won (film)
   text: The all-star cast includes (in alphabetical order) Carroll Baker , Walter Brennan , Lee J. Cobb , Andy Devine , Henry Fonda , Carolyn Jones , Karl Malden , Harry Morgan , Gregory Peck , George Peppard , Robert Preston , Debbie Reynolds , James Stewart , Eli Wallach , John Wayne , and Richard Widmark .
 
   Rank 5: ce_score=3.7930 | pre_score=0.0120
-  chunk_id=d_1807 | source=How the West Was Won (film)
+  chunk_id=d_5371 | source=How the West Was Won (film)
   text: The all-star cast includes (in alphabetical order) Carroll Baker , Walter Brennan , Lee J. Cobb , Andy Devine , Henry Fonda , Carolyn Jones , Karl Malden , Harry Morgan , Gregory Peck , George Peppard , Robert Preston , Debbie Reynolds , James Stewart , Eli Wallach , John Wayne , and Richard Widmark .
 
 ================================================================================
@@ -2003,19 +2003,19 @@
 ================================================================================
 [Q92] what part of the earth's structure is believed to consist of tectonic plates
   Rank 1: ce_score=3.4141 | pre_score=0.0161
-  chunk_id=d_2483 | source=Plate tectonics
-  text: The lithosphere is broken up into tectonic plates .
-
-  Rank 2: ce_score=3.4141 | pre_score=0.0164
   chunk_id=d_2146 | source=Plate tectonics
   text: The lithosphere is broken up into tectonic plates .
 
+  Rank 2: ce_score=3.4141 | pre_score=0.0164
+  chunk_id=d_2483 | source=Plate tectonics
+  text: The lithosphere is broken up into tectonic plates .
+
   Rank 3: ce_score=1.8018 | pre_score=0.0156
-  chunk_id=d_2488 | source=Plate tectonics
+  chunk_id=d_2151 | source=Plate tectonics
   text: Tectonic plates are composed of oceanic lithosphere and thicker continental lithosphere, each topped by its own kind of crust .
 
   Rank 4: ce_score=1.8018 | pre_score=0.0159
-  chunk_id=d_2151 | source=Plate tectonics
+  chunk_id=d_2488 | source=Plate tectonics
   text: Tectonic plates are composed of oceanic lithosphere and thicker continental lithosphere, each topped by its own kind of crust .
 
   Rank 5: ce_score=0.8281 | pre_score=0.0152
@@ -2165,11 +2165,11 @@
   text: Doctor of Osteopathic Medicine (D.O. or DO) is a professional doctoral degree for physicians offered by medical schools in the United States .
 
   Rank 3: ce_score=2.5352 | pre_score=0.0147
-  chunk_id=d_2863 | source=Doctor of Osteopathic Medicine
+  chunk_id=d_2675 | source=Doctor of Osteopathic Medicine
   text: Holders of the D.O. degree are known as osteopathic physicians and have the same rights, privileges, and responsibilities as physicians with a Doctor of Medicine degree (M.D.).
 
   Rank 4: ce_score=2.5352 | pre_score=0.0149
-  chunk_id=d_2675 | source=Doctor of Osteopathic Medicine
+  chunk_id=d_2863 | source=Doctor of Osteopathic Medicine
   text: Holders of the D.O. degree are known as osteopathic physicians and have the same rights, privileges, and responsibilities as physicians with a Doctor of Medicine degree (M.D.).
 
   Rank 5: ce_score=0.4827 | pre_score=0.0159
@@ -2355,11 +2355,11 @@
 ================================================================================
 [Q108] when did spongebob first air
   Rank 1: ce_score=6.5742 | pre_score=0.0109
-  chunk_id=d_4962 | source=SpongeBob SquarePants
+  chunk_id=d_2852 | source=SpongeBob SquarePants
   text: The "official" series premiere followed on July 17, 1999, with the second episode, "Bubblestand/Ripped Pants."
 
   Rank 2: ce_score=6.5742 | pre_score=0.0108
-  chunk_id=d_2852 | source=SpongeBob SquarePants
+  chunk_id=d_4962 | source=SpongeBob SquarePants
   text: The "official" series premiere followed on July 17, 1999, with the second episode, "Bubblestand/Ripped Pants."
 
   Rank 3: ce_score=6.4180 | pre_score=0.0159
@@ -2393,7 +2393,7 @@
   text: D.O. physicians are licensed to practice the full scope of medicine and surgery in all 50 states, and make up 7 percent of the total U.S. physician population.
 
   Rank 5: ce_score=1.7490 | pre_score=0.0149
-  chunk_id=d_2675 | source=Doctor of Osteopathic Medicine
+  chunk_id=d_2863 | source=Doctor of Osteopathic Medicine
   text: Holders of the D.O. degree are known as osteopathic physicians and have the same rights, privileges, and responsibilities as physicians with a Doctor of Medicine degree (M.D.).
 
 ================================================================================
@@ -2861,11 +2861,11 @@
 ================================================================================
 [Q131] what year was President kennedy president?
   Rank 1: ce_score=5.9141 | pre_score=0.0152
-  chunk_id=d_3293 | source=John F. Kennedy
+  chunk_id=d_5749 | source=John F. Kennedy
   text: John Fitzgerald "Jack" Kennedy (May 29, 1917 – November 22, 1963), often referred to by his initials JFK, was the 35th President of the United States , serving from 1961 until his death in 1963.
 
   Rank 2: ce_score=5.9141 | pre_score=0.0156
-  chunk_id=d_5749 | source=John F. Kennedy
+  chunk_id=d_3293 | source=John F. Kennedy
   text: John Fitzgerald "Jack" Kennedy (May 29, 1917 – November 22, 1963), often referred to by his initials JFK, was the 35th President of the United States , serving from 1961 until his death in 1963.
 
   Rank 3: ce_score=5.9141 | pre_score=0.0154
@@ -2873,7 +2873,7 @@
   text: John Fitzgerald "Jack" Kennedy (May 29, 1917 – November 22, 1963), often referred to by his initials JFK, was the 35th President of the United States , serving from 1961 until his death in 1963.
 
   Rank 4: ce_score=2.0605 | pre_score=0.0141
-  chunk_id=d_3296 | source=John F. Kennedy
+  chunk_id=d_1187 | source=John F. Kennedy
   text: Kennedy defeated Vice President and Republican candidate Richard Nixon in the 1960 U.S. presidential election .
 
   Rank 5: ce_score=2.0605 | pre_score=0.0143
@@ -3287,11 +3287,11 @@
   text: The film was directed by Renny Harlin and was released in the United States on July 28, 1999.
 
   Rank 3: ce_score=-0.3262 | pre_score=0.0106
-  chunk_id=d_2854 | source=SpongeBob SquarePants
+  chunk_id=d_4964 | source=SpongeBob SquarePants
   text: A feature film of the series was released in theaters on November 19, 2004, with a sequel in development and slated for release in late-2014.
 
   Rank 4: ce_score=-0.3262 | pre_score=0.0108
-  chunk_id=d_4964 | source=SpongeBob SquarePants
+  chunk_id=d_2854 | source=SpongeBob SquarePants
   text: A feature film of the series was released in theaters on November 19, 2004, with a sequel in development and slated for release in late-2014.
 
   Rank 5: ce_score=-1.0566 | pre_score=0.0088
@@ -3947,11 +3947,11 @@
   text: The Mississippi River Alluvial Plain is an alluvial plain created by the Mississippi River on which lies parts of seven U.S. states , from southern Louisiana to southern Illinois .
 
   Rank 3: ce_score=0.3318 | pre_score=0.0085
-  chunk_id=d_2142 | source=Plate tectonics
+  chunk_id=d_2479 | source=Plate tectonics
   text: It is thought that much of the plate initially went under North America (particularly the western United States and southwest Canada) at a very shallow angle, creating much of the mountainous terrain in the area (particularly the southern Rocky Mountains ).
 
   Rank 4: ce_score=0.3318 | pre_score=0.0085
-  chunk_id=d_2479 | source=Plate tectonics
+  chunk_id=d_2142 | source=Plate tectonics
   text: It is thought that much of the plate initially went under North America (particularly the western United States and southwest Canada) at a very shallow angle, creating much of the mountainous terrain in the area (particularly the southern Rocky Mountains ).
 
   Rank 5: ce_score=-1.3262 | pre_score=0.0068
@@ -3961,19 +3961,19 @@
 ================================================================================
 [Q181] what is the si unit of pressure
   Rank 1: ce_score=4.8672 | pre_score=0.0161
-  chunk_id=d_4531 | source=Pressure
-  text: While pressure may be measured in any unit of force divided by any unit of area, the SI unit of pressure (the newton per square metre ) is called the pascal (Pa) after the seventeenth-century philosopher and scientist Blaise Pascal .
-
-  Rank 2: ce_score=4.8672 | pre_score=0.0159
   chunk_id=d_4697 | source=Pressure
   text: While pressure may be measured in any unit of force divided by any unit of area, the SI unit of pressure (the newton per square metre ) is called the pascal (Pa) after the seventeenth-century philosopher and scientist Blaise Pascal .
 
+  Rank 2: ce_score=4.8672 | pre_score=0.0159
+  chunk_id=d_4531 | source=Pressure
+  text: While pressure may be measured in any unit of force divided by any unit of area, the SI unit of pressure (the newton per square metre ) is called the pascal (Pa) after the seventeenth-century philosopher and scientist Blaise Pascal .
+
   Rank 3: ce_score=-0.9829 | pre_score=0.0154
-  chunk_id=d_4529 | source=Pressure
+  chunk_id=d_4695 | source=Pressure
   text: Pressure is force per unit area applied in a direction perpendicular to the surface of an object.
 
   Rank 4: ce_score=-0.9829 | pre_score=0.0152
-  chunk_id=d_4695 | source=Pressure
+  chunk_id=d_4529 | source=Pressure
   text: Pressure is force per unit area applied in a direction perpendicular to the surface of an object.
 
   Rank 5: ce_score=-1.1494 | pre_score=0.0135
@@ -4101,7 +4101,7 @@
   text: The ritual is referred to as "sitting shiva."
 
   Rank 3: ce_score=-3.9922 | pre_score=0.0122
-  chunk_id=d_828 | source=Saint Patrick's Day
+  chunk_id=d_681 | source=Saint Patrick's Day
   text: Celebrations generally involve public parades and festivals, céilithe , and the wearing of green attire or shamrocks .
 
   Rank 4: ce_score=-3.9922 | pre_score=0.0125
@@ -4109,7 +4109,7 @@
   text: Celebrations generally involve public parades and festivals, céilithe , and the wearing of green attire or shamrocks .
 
   Rank 5: ce_score=-3.9922 | pre_score=0.0123
-  chunk_id=d_681 | source=Saint Patrick's Day
+  chunk_id=d_828 | source=Saint Patrick's Day
   text: Celebrations generally involve public parades and festivals, céilithe , and the wearing of green attire or shamrocks .
 
 ================================================================================
@@ -4269,11 +4269,11 @@
 ================================================================================
 [Q195] when was pokemon first started
   Rank 1: ce_score=2.0156 | pre_score=0.0063
-  chunk_id=d_2852 | source=SpongeBob SquarePants
+  chunk_id=d_4962 | source=SpongeBob SquarePants
   text: The "official" series premiere followed on July 17, 1999, with the second episode, "Bubblestand/Ripped Pants."
 
   Rank 2: ce_score=2.0156 | pre_score=0.0063
-  chunk_id=d_4962 | source=SpongeBob SquarePants
+  chunk_id=d_2852 | source=SpongeBob SquarePants
   text: The "official" series premiere followed on July 17, 1999, with the second episode, "Bubblestand/Ripped Pants."
 
   Rank 3: ce_score=1.1494 | pre_score=0.0082
@@ -4361,11 +4361,11 @@
   text: It is named after Saint Patrick ( AD 385–461), the most commonly recognised of the patron saints of Ireland .
 
   Rank 2: ce_score=1.2197 | pre_score=0.0159
-  chunk_id=d_825 | source=Saint Patrick's Day
+  chunk_id=d_678 | source=Saint Patrick's Day
   text: It is named after Saint Patrick ( AD 385–461), the most commonly recognised of the patron saints of Ireland .
 
   Rank 3: ce_score=1.2197 | pre_score=0.0161
-  chunk_id=d_678 | source=Saint Patrick's Day
+  chunk_id=d_825 | source=Saint Patrick's Day
   text: It is named after Saint Patrick ( AD 385–461), the most commonly recognised of the patron saints of Ireland .
 
   Rank 4: ce_score=0.5166 | pre_score=0.0154
@@ -4681,17 +4681,17 @@
   text: Bushnell told New York Magazine in 2004, "He was one of those New York guys with a big personality — you just notice him as soon as he walks in the room," and "I called him Mr. Big because he was like a big man on campus."
 
   Rank 5: ce_score=-0.1981 | pre_score=0.0082
-  chunk_id=d_1807 | source=How the West Was Won (film)
+  chunk_id=d_5371 | source=How the West Was Won (film)
   text: The all-star cast includes (in alphabetical order) Carroll Baker , Walter Brennan , Lee J. Cobb , Andy Devine , Henry Fonda , Carolyn Jones , Karl Malden , Harry Morgan , Gregory Peck , George Peppard , Robert Preston , Debbie Reynolds , James Stewart , Eli Wallach , John Wayne , and Richard Widmark .
 
 ================================================================================
 [Q214] what is the actresses name that played in walk that line?
   Rank 1: ce_score=0.6860 | pre_score=0.0122
-  chunk_id=d_5371 | source=How the West Was Won (film)
+  chunk_id=d_1807 | source=How the West Was Won (film)
   text: The all-star cast includes (in alphabetical order) Carroll Baker , Walter Brennan , Lee J. Cobb , Andy Devine , Henry Fonda , Carolyn Jones , Karl Malden , Harry Morgan , Gregory Peck , George Peppard , Robert Preston , Debbie Reynolds , James Stewart , Eli Wallach , John Wayne , and Richard Widmark .
 
   Rank 2: ce_score=0.6860 | pre_score=0.0123
-  chunk_id=d_1807 | source=How the West Was Won (film)
+  chunk_id=d_5371 | source=How the West Was Won (film)
   text: The all-star cast includes (in alphabetical order) Carroll Baker , Walter Brennan , Lee J. Cobb , Andy Devine , Henry Fonda , Carolyn Jones , Karl Malden , Harry Morgan , Gregory Peck , George Peppard , Robert Preston , Debbie Reynolds , James Stewart , Eli Wallach , John Wayne , and Richard Widmark .
 
   Rank 3: ce_score=0.6230 | pre_score=0.0073
@@ -4731,11 +4731,11 @@
 ================================================================================
 [Q216] when was How the west was won filmed?
   Rank 1: ce_score=4.2500 | pre_score=0.0161
-  chunk_id=d_5365 | source=How the West Was Won (film)
+  chunk_id=d_1801 | source=How the West Was Won (film)
   text: How the West Was Won is a 1962 American epic - Western film.
 
   Rank 2: ce_score=4.2500 | pre_score=0.0164
-  chunk_id=d_1801 | source=How the West Was Won (film)
+  chunk_id=d_5365 | source=How the West Was Won (film)
   text: How the West Was Won is a 1962 American epic - Western film.
 
   Rank 3: ce_score=2.0566 | pre_score=0.0147
@@ -5113,7 +5113,7 @@
   text: Kennedy was originally designated a CVA ( fixed wing attack carrier); however, the designation was changed to CV to denote that the ship was capable of anti-submarine warfare , making her an all-purpose carrier.
 
   Rank 3: ce_score=0.4473 | pre_score=0.0147
-  chunk_id=d_3293 | source=John F. Kennedy
+  chunk_id=d_5749 | source=John F. Kennedy
   text: John Fitzgerald "Jack" Kennedy (May 29, 1917 – November 22, 1963), often referred to by his initials JFK, was the 35th President of the United States , serving from 1961 until his death in 1963.
 
   Rank 4: ce_score=0.4473 | pre_score=0.0149
@@ -5121,7 +5121,7 @@
   text: John Fitzgerald "Jack" Kennedy (May 29, 1917 – November 22, 1963), often referred to by his initials JFK, was the 35th President of the United States , serving from 1961 until his death in 1963.
 
   Rank 5: ce_score=0.4473 | pre_score=0.0152
-  chunk_id=d_5749 | source=John F. Kennedy
+  chunk_id=d_3293 | source=John F. Kennedy
   text: John Fitzgerald "Jack" Kennedy (May 29, 1917 – November 22, 1963), often referred to by his initials JFK, was the 35th President of the United States , serving from 1961 until his death in 1963.
 
 ================================================================================

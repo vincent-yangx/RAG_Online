@@ -62,7 +62,7 @@ TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "")
 
 # ------------------ Load chunks and question ------------------
 def load_chunks(path):
-    """Load chunk data, return a dict: str(chunk_id) -> chunk_dict"""
+    """Load chunk data, return a dict: str(chunk_id) -> chunk_dict""" 
     chunk_map = {}
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
@@ -104,8 +104,8 @@ def load_or_build_faiss(emb_path, faiss_path, index_type="flat"):
     print(f"Built & saved FAISS index: {faiss_path} (ntotal={index.ntotal})")
     return index
 
+# Avoid multiple call here
 _EMBEDDER = None
-
 def get_embedder(model_name):
     global _EMBEDDER
     if _EMBEDDER is None:
@@ -122,15 +122,15 @@ def embed_queries_bge(model_name, questions):
     return q
 
 def dense_scores_one(index, query_text, ids):
-    """Compute dense retrieval scores (cosine-based)."""
-    q_emb = embed_queries_bge(MODEL, [query_text])  # already L2-normalized inside embed_queries_bge
+    # Compute dense retrieval scores (cosine-based). Only use for single query
+    q_emb = embed_queries_bge(MODEL, [query_text])
     D, I = index.search(q_emb, min(TOP_K * 50, max(50, len(ids))))
     id_str = np.array([str(x) for x in ids])
 
-    # === Optional: apply nonlinear amplification to emphasize strong matches ===
+    # apply nonlinear amplification to emphasize strong matches
     D = np.clip(D, 0, 1)
     D = np.power(D, 1.5)
-    # map the id in index_search to chunk_id
+    # map the id in index_search to chunk_id, be cautious to dirty data
     return {id_str[i]: float(s) for s, i in zip(D[0], I[0]) if 0 <= i < len(id_str)}
 
 
@@ -156,7 +156,7 @@ def load_or_build_bm25(ids, chunk_map, bm25_path):
 def sparse_scores_one(bm25, query_text, ids):
     id_str = np.array([str(x) for x in ids])
     q_tok = tokenize(query_text)
-    scores = bm25.get_scores(q_tok)  # np.array, shape=(N_docs,)
+    scores = bm25.get_scores(q_tok)
     return {id_str[i]: float(scores[i]) for i in range(len(id_str))}
 
 
@@ -164,8 +164,7 @@ def sparse_scores_one(bm25, query_text, ids):
 
 def online_search_raw(query: str, top_k: int = 10):
     """
-    调用 Tavily 搜索 API,返回一个 list[dict]，每个元素包含 title, url, snippet。
-    Tavily 文档: https://docs.tavily.com
+    Use Tavily API,return list[dict], each tuple contains title, url, snippet。
     """
     if not TAVILY_API_KEY:
         print("[WARN] TAVILY_API_KEY not set. Skip online search.")
@@ -179,22 +178,22 @@ def online_search_raw(query: str, top_k: int = 10):
                 "api_key": TAVILY_API_KEY,
                 "query": query,
                 "num_results": top_k,
-                "include_domains": None,     # 可选：指定域名范围，如 ["nytimes.com"]
-                "include_answer": False,     # 是否生成答案（我们只要原始文档）
-                "include_images": False,     # 不要图片结果
-                "search_depth": "advanced"   # 可选: "basic" 或 "advanced"
+                "include_domains": None,
+                "include_answer": False,
+                "include_images": False,
+                "search_depth": "advanced"
             },
             timeout=20
         )
         resp.raise_for_status()
         data = resp.json()
-        # Tavily 返回字段: "results" -> list of {title, url, content}
         docs = []
         for i, item in enumerate(data.get("results", [])[:top_k]):
             docs.append({
                 "title": item.get("title", ""),
                 "url": item.get("url", ""),
-                "snippet": item.get("content", "")
+                "snippet": item.get("content", ""),
+                "score": item.get("score", None)
             })
         return docs
     except Exception as e:
@@ -203,8 +202,7 @@ def online_search_raw(query: str, top_k: int = 10):
 
 def online_scores_one(query_text: str, chunk_map: dict, top_k: int = 50, source_tag: str = "tavily"):
     """
-    将 Tavily 搜索结果封装为 score_dict（chunk_id -> score），
-    并写入 chunk_map，方便后续统一 rerank / 输出。
+    covert the Tavily results into score
     """
     raw_docs = online_search_raw(query_text, top_k=top_k)
     scores = {}
@@ -216,8 +214,11 @@ def online_scores_one(query_text: str, chunk_map: dict, top_k: int = 50, source_
             "source": d.get("url", source_tag),
             "text": text,
         }
-        # 简单 rank-based score，后面会在 RRF / rerank 阶段被平滑
-        scores[cid] = 1.0 / (rank + 1)
+        api_score = d.get("score")
+        if api_score is not None:
+            scores[cid] = float(api_score)
+        else:
+            scores[cid] = 1.0 / (rank + 1)
     return scores
 
 # ------------------ Normalization & Fusion ------------------
@@ -236,18 +237,16 @@ def hybrid_fuse_dense_sparse(dense_dict, sparse_dict, alpha=0.8):
     sn = min_max_norm(sparse_dict)
     keys = set(dn.keys()) | set(sn.keys())
 
-    # 统计 query 与 chunk 的关键词重叠率，重叠低 => 提升 dense 权重
     fused = {}
     for k in keys:
         dv = dn.get(k, 0.0)
         sv = sn.get(k, 0.0)
-        # alpha 动态调整：若 dense 优势明显，则提升权重
+        # alpha dynamic weight adjust
         fused[k] = (alpha + 0.2 * (dv - sv)) * dv + (1 - (alpha + 0.2 * (dv - sv))) * sv
     return fused
 
 
 def ranking_from_scores(score_dict):
-    # 返回 doc_id 按分数降序的列表mat
     return [cid for cid, _ in sorted(score_dict.items(), key=lambda x: x[1], reverse=True)]
 
 def rrf_fuse(rank_lists, k=60):
@@ -255,7 +254,6 @@ def rrf_fuse(rank_lists, k=60):
     for rl in rank_lists:
         for r, doc in enumerate(rl):
             scores[doc] += 1.0 / (k + r + 1)
-    # 直接返回 dict，后续 materialize_topk 会排序
     return scores
 
 # ------------------ Query Rewriting (Multi-Query) ------------------
@@ -293,11 +291,9 @@ def multi_query_expand(
             top_p=0.9,
         )
 
-        # 取文本
         text = resp.choices[0].message["content"] if isinstance(resp.choices[0].message, dict) \
                else resp.choices[0].message.content
 
-        # 尝试 JSON 解析，失败则回退逐行
         try:
             l, r = text.rfind("["), text.rfind("]")
             payload = text[l:r+1] if (l != -1 and r != -1 and r > l) else text
@@ -306,7 +302,6 @@ def multi_query_expand(
             lines = [ln.strip("-• ").strip() for ln in text.splitlines() if ln.strip()]
             rewrites = [ln for ln in lines if ln]
 
-        # 清洗与去重
         seen = {query.lower()}
         out = [query]
         for r in rewrites:
@@ -343,7 +338,7 @@ def materialize_topk(score_dict, chunk_map, top_k=5, truncate=0):
         })
     return results
 
-# 从分数字典中取候选列表（不截断文本，避免影响打分）
+# before Reranker
 def candidates_from_scores(score_dict, chunk_map, candidate_k=200):
     items = sorted(score_dict.items(), key=lambda x: x[1], reverse=True)[:candidate_k]
     docs = []
@@ -353,13 +348,14 @@ def candidates_from_scores(score_dict, chunk_map, candidate_k=200):
             continue
         docs.append({
             "chunk_id": str(cid),
-            "pre_score": float(s),          # 融合前的分数（用于对照）
+            "pre_score": float(s), 
             "source": ch.get("source", ""),
             "text": ch.get("text", "")
         })
     return docs
 
-# 懒加载一个全局 reranker，避免每条 query 都重复载入模型
+
+# ------------------ Reranker ------------------
 _RERANKER = None
 def get_reranker(model_name: str = "BAAI/bge-reranker-large", use_fp16: bool = True):
     global _RERANKER
@@ -377,7 +373,7 @@ def bge_cross_encoder_rerank(query: str,
     import numpy as np
     reranker = get_reranker(model_name)
     pairs = [[query, d["text"][:max_chars] if d["text"] else ""] for d in docs]
-    scores = reranker.compute_score(pairs, batch_size=batch_size)  # list/np.array
+    scores = reranker.compute_score(pairs, batch_size=batch_size)
     scores = np.array(scores, dtype="float32")
     order = np.argsort(scores)[::-1][:top_k]
 
@@ -390,25 +386,25 @@ def bge_cross_encoder_rerank(query: str,
 
 # ------------------ Main ------------------
 def main():
-    # 1) load chunks / ids
+    # load chunks / ids
     chunk_map = load_chunks(CHUNKS_PATH)
     print(f"Loaded {len(chunk_map)} chunks from {CHUNKS_PATH}")
 
     ids = np.load(IDS_PATH, allow_pickle=True)
     ids = np.array([str(x) for x in ids])  # 保持为 str
 
-    # 2) prepare retrievers
+    # prepare retrievers
     index = bm25 = None
     if args.retriever in ("dense", "hybrid", "hybrid_online"):
         index = load_or_build_faiss(EMB_PATH, FAISS_PATH, index_type=args.index_type)
     if args.retriever in ("sparse", "hybrid", "hybrid_online"):
         bm25 = load_or_build_bm25(ids, chunk_map, BM25_PATH)
 
-    # 3) load questions
+    # load questions
     questions = load_questions(QUESTIONS_PATH)
     print(f"Loaded {len(questions)} questions from {QUESTIONS_PATH}")
 
-    # 4) iterate queries
+    # iterate queries
     out_txt = os.path.join(
     OUT_DIR,
     f"retrieval_info_{args.retriever}_{args.rewrite}_{args.chunk}.txt"
@@ -417,7 +413,6 @@ def main():
 
     with open(out_txt, "w", encoding="utf-8") as f, open(out_json, "w", encoding="utf-8") as jf:
         for qi, q in enumerate(questions, 1):
-            # --- 多路查询改写 ---
             if args.rewrite == "mq":
                 q_variants = multi_query_expand(q, n=args.rewrite_n)  # [q, q1, q2, ...]
             else:
@@ -436,13 +431,13 @@ def main():
                 elif args.retriever == "online":
                     sdict = online_scores_one(cq, chunk_map, top_k=200)
                 elif args.retriever == "hybrid_online":
-                    # Step 1: 本地 hybrid
+                    # Step 1: local hybrid
                     dd = dense_scores_one(index, cq, ids)
                     sd = sparse_scores_one(bm25, cq, ids)
                     local_scores = hybrid_fuse_dense_sparse(dd, sd, alpha=args.alpha)
-                    # Step 2: 在线搜索
+                    # Step 2: online
                     online_scores = online_scores_one(cq, chunk_map, top_k=100)
-                    # Step 3: RRF 融合
+                    # Step 3: RRF fusion
                     local_rank = ranking_from_scores(local_scores)[:200]
                     online_rank = ranking_from_scores(online_scores)[:200]
                     sdict = rrf_fuse([local_rank, online_rank], k=args.rrf_k)
@@ -452,7 +447,6 @@ def main():
                 rank_lists.append(ranking_from_scores(sdict)[:200])
             fused_scores = rrf_fuse(rank_lists, k=args.rrf_k)
 
-            # --- Rerank 阶段 ---
             if args.rerank == "bge":
                 doc_candidates = candidates_from_scores(
                     fused_scores, chunk_map, candidate_k=min(args.candidate_k, len(fused_scores))
@@ -478,10 +472,10 @@ def main():
                         "source": d["source"],
                         "text": text
                     })
-            else:
+            else: 
                 results = materialize_topk(fused_scores, chunk_map, top_k=TOP_K, truncate=args.truncate)
 
-            # --- 写入 TXT 文件 ---
+            # write the result into txt file
             f.write("=" * 80 + "\n")
             f.write(f"[Q{qi}] {q}\n")
             if args.rewrite == "mq":
@@ -496,7 +490,7 @@ def main():
                 f.write(f"  chunk_id={r['chunk_id']} | source={r['source']}\n")
                 f.write(f"  text: {r['text']}\n\n")
 
-            # --- 写入 JSON 文件（移到循环内部）---
+            # write into json file
             entry = {
                 "qid": qi,
                 "question": q,

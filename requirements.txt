@@ -3,7 +3,7 @@ rank-bm25
 FlagEmbedding
 huggingface_hub
 torch
-faiss-gpu
+# faiss-gpu
 pandas
 datasets
 sentencepiece

@@ -16,6 +16,7 @@ def convert_wikiqa_split_grouped(jsonl_path, corpus, queries, qrels, start_doc_i
     doc_idx = start_doc_idx
     q_idx = start_q_idx
 
+
     for item in data:
         question = item["question"]
         answer   = item["answer"]
@@ -54,7 +55,7 @@ def build_wikiqa_rag_format(base_path="./wikiqa"):
     doc_idx = 0
     q_idx = 0
 
-    # 目前只用 test 集做评测
+    # only use test to evaluate
     for split in ["test"]:
         jsonl_path = os.path.join(base_path, f"{split}.jsonl")
         doc_idx, q_idx = convert_wikiqa_split_grouped(
@@ -70,7 +71,7 @@ if __name__ == "__main__":
     print("Queries size:", len(queries))
     print("Qrels size:", len(qrels))
 
-    # 看看某个 qid 对应多少个候选答案
+    # check one sample
     some_qid = list(queries.keys())[0]
     print("Example qid:", some_qid)
     print("Question:", queries[some_qid])
@@ -79,16 +80,16 @@ if __name__ == "__main__":
     output_dir = "./wikiqa_test"
     os.makedirs(output_dir, exist_ok=True)
 
-    # 保存 corpus
+    # save corpus
     with open(os.path.join(output_dir, "wikiqa_corpus.json"), "w", encoding="utf-8") as f:
         json.dump(corpus, f, ensure_ascii=False, indent=2)
 
-    # 保存 queries
+    # save queries
     with open(os.path.join(output_dir, "wikiqa_queries.json"), "w", encoding="utf-8") as f:
         json.dump(queries, f, ensure_ascii=False, indent=2)
 
-    # 保存 qrels
+    # save qrels
     with open(os.path.join(output_dir, "wikiqa_qrels.json"), "w", encoding="utf-8") as f:
         json.dump(qrels, f, ensure_ascii=False, indent=2)
     
-    print("Saved output the folder wikiqa_test")
+    print("Saved output the folder wikiqa_test ")
