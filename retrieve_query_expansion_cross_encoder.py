@@ -392,7 +392,7 @@ def main():
 
     ids = np.load(IDS_PATH, allow_pickle=True)
     ids = np.array([str(x) for x in ids])  # 保持为 str
-
+ 
     # prepare retrievers
     index = bm25 = None
     if args.retriever in ("dense", "hybrid", "hybrid_online"):
