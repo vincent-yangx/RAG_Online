@@ -38,7 +38,6 @@ This repo is designed for experimenting with retrieval strategies (local + web) 
 - **Multi-Query Fusion**:
   - RRF (rank-based fusion)
   - normalized score fusion (score-based fusion)
-  - optional mixing of rank- and score-level signals
 
 ### Precision Improvement
 - **Cross-Encoder Reranking**: BGE reranker to reorder candidate documents
@@ -61,15 +60,13 @@ Recommended layout (matches default paths in the script):
 │   ├── ids_<dataset>_<model>.npy
 │   ├── faiss_index_<dataset>_<model>.faiss
 │   └── bm25_<dataset>.pkl
-├── retrieve_query_expansion_cross_encoder.py
+├── rag_pipeline.py
 └── requirements.txt
 ```
 
 - `chunks_<dataset>.jsonl`: pre-built chunk collection
 - `question_<dataset>.txt`: one query per line
 - `index/`: saved embeddings, ids, and indexes for fast retrieval
-
-> If you use a different naming convention, update paths in the script accordingly.
 
 ---
 
@@ -79,12 +76,12 @@ Recommended layout (matches default paths in the script):
 Each line is a JSON object with at least:
 
 ```json
-{"chunk_id":"123", "text":"...", "source":"..."}
+{"chunk_id":"123", "source":"...", "text":"..."}
 ```
 
 - `chunk_id`: unique identifier (string or int)
+- `source`: URL / file / title, used for logging and debugging
 - `text`: chunk text content (string)
-- `source`: optional (URL / file / title), used for logging and debugging
 
 ### 2) Questions file (`data/test/question_<dataset>.txt`)
 One query per line:
@@ -148,7 +145,7 @@ If no token is set, the script will fall back to using only the original query.
 
 ### 1) Hybrid + Multi-Query + Rerank (recommended default)
 ```bash
-python retrieve_query_expansion_cross_encoder.py \
+python rag_pipeline.py \
   --chunk <dataset> \
   --retriever hybrid \
   --rewrite mq --rewrite_n 4 \
@@ -158,7 +155,7 @@ python retrieve_query_expansion_cross_encoder.py \
 
 ### 2) Dense only
 ```bash
-python retrieve_query_expansion_cross_encoder.py \
+python rag_pipeline.py \
   --chunk <dataset> \
   --retriever dense \
   --rewrite none \
@@ -169,7 +166,7 @@ python retrieve_query_expansion_cross_encoder.py \
 
 ### 3) Sparse (BM25) only
 ```bash
-python retrieve_query_expansion_cross_encoder.py \
+python rag_pipeline.py \
   --chunk <dataset> \
   --retriever sparse \
   --rewrite none \
@@ -180,7 +177,7 @@ python retrieve_query_expansion_cross_encoder.py \
 
 ### 4) Hybrid + Online (Tavily)
 ```bash
-python retrieve_query_expansion_cross_encoder.py \
+python rag_pipeline.py \
   --chunk <dataset> \
   --retriever hybrid_online \
   --rewrite mq --rewrite_n 4 \
@@ -299,7 +296,7 @@ Updates and experiments will be added in future commits.
 ---
 
 ## License
-MIT (or your choice)
+MIT
 
 ---
 
