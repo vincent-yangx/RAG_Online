@@ -1,0 +1,5 @@
+
+# generated artifacts
+index/hotpotqa.npy
+index/hotpotqa.faiss
+results/hotpotqa.jsonl

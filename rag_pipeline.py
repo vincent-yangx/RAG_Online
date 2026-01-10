@@ -258,6 +258,7 @@ def hybrid_fuse_dense_sparse(dense_dict, sparse_dict, alpha=0.8):
     for k in keys:
         dv = dn.get(k, 0.0)
         sv = sn.get(k, 0.0)
+        # ！！！ need to check if the weight is suitable under common circumstances
         w = alpha + 0.2 * (dv - sv)
         w = max(0.0, min(1.0, w))
         fused[k] = w * dv + (1.0 - w) * sv
